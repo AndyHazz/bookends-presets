@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-19T22:32:02.857Z",
+  "updated": "2026-04-19T22:35:42.322Z",
   "presets": [
     {
       "slug": "classic",
       "name": "Classic",
       "author": "AndyHazz",
       "description": "No progress bars, just alternating odd/even book title and chapter",
-      "added": "2026-04-19",
+      "added": "2026-04-19T13:02:35+01:00",
       "preset_url": "presets/classic.lua"
     },
     {
@@ -15,7 +15,7 @@
       "name": "KOReader stock",
       "author": "AndyHazz",
       "description": "Mimics KOReader's built-in status bar — page, clock, chapter, battery, percent, time remaining",
-      "added": "2026-04-19",
+      "added": "2026-04-19T13:02:35+01:00",
       "preset_url": "presets/koreader-stock.lua"
     },
     {
@@ -23,7 +23,7 @@
       "name": "Livros",
       "author": "Meirim",
       "description": "Simple books",
-      "added": "2026-04-19",
+      "added": "2026-04-19T12:44:42+01:00",
       "preset_url": "presets/livros.lua"
     },
     {
@@ -31,7 +31,7 @@
       "name": "Metro border",
       "author": "AndyHazz",
       "description": "All aboard!",
-      "added": "2026-04-19",
+      "added": "2026-04-19T12:29:07+01:00",
       "preset_url": "presets/metro-border.lua"
     },
     {
@@ -39,7 +39,7 @@
       "name": "Paper",
       "author": "AndyHazz",
       "description": "Uses borders to give a feel of real book",
-      "added": "2026-04-19",
+      "added": "2026-04-19T12:44:42+01:00",
       "preset_url": "presets/paper.lua"
     },
     {
@@ -47,7 +47,7 @@
       "name": "Rich detail",
       "author": "AndyHazz",
       "description": "Clock, battery, Wi-Fi, brightness, highlights — the full kitchen sink",
-      "added": "2026-04-19",
+      "added": "2026-04-19T00:20:23+01:00",
       "preset_url": "presets/rich-detail.lua"
     },
     {
@@ -55,7 +55,7 @@
       "name": "SimpleUI status bar",
       "author": "AndyHazz",
       "description": "Compact top-right status bar in the simpleui style",
-      "added": "2026-04-19",
+      "added": "2026-04-19T00:20:23+01:00",
       "preset_url": "presets/simpleui-status-bar.lua"
     },
     {
@@ -63,7 +63,7 @@
       "name": "Speed reader",
       "author": "AndyHazz",
       "description": "Session timer, reading speed, time remaining, progress percentages",
-      "added": "2026-04-19",
+      "added": "2026-04-19T00:20:23+01:00",
       "preset_url": "presets/speed-reader.lua"
     },
     {
@@ -71,7 +71,7 @@
       "name": "Stamp",
       "author": "AndyHazz",
       "description": "One for the philatelists",
-      "added": "2026-04-19",
+      "added": "2026-04-19T12:29:07+01:00",
       "preset_url": "presets/stamp.lua"
     }
   ]

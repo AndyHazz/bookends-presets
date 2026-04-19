@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-18T23:19:58Z",
+  "updated": "2026-04-19T11:29:06.536Z",
   "presets": [
     {
       "slug": "classic-alternating",
@@ -33,6 +33,14 @@
       "description": "Compact top-right status bar in the simpleui style",
       "added": "2026-04-18",
       "preset_url": "presets/simpleui-status-bar.lua"
+    },
+    {
+      "slug": "metro-border",
+      "name": "Metro border",
+      "author": "AndyHazz",
+      "description": "All aboard!",
+      "added": "2026-04-19",
+      "preset_url": "presets/metro-border.lua"
     }
   ]
 }

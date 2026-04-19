@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-19T22:40:16.302Z",
+  "updated": "2026-04-19T22:44:02.395Z",
   "presets": [
     {
       "slug": "classic",
@@ -9,6 +9,14 @@
       "description": "No progress bars, just alternating odd/even book title and chapter",
       "added": "2026-04-19T13:02:35+01:00",
       "preset_url": "presets/classic.lua"
+    },
+    {
+      "slug": "default",
+      "name": "GPM's Default",
+      "author": "good-pm",
+      "description": "All the necessities",
+      "added": "2026-04-19T23:43:54+01:00",
+      "preset_url": "presets/default.lua"
     },
     {
       "slug": "koreader-stock",

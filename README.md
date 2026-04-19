@@ -2,7 +2,7 @@
 
 Community preset gallery for the [**bookends** KOReader plugin](https://github.com/AndyHazz/bookends.koplugin).
 
-If you've got a bookends layout you're proud of and want others to find it — this is where it goes. No sign-up, no account, no server. Just a GitHub pull request with a Lua file and a JSON entry.
+If you've got a bookends layout you're proud of and want others to find it — this is where it goes.
 
 ---
 
@@ -14,18 +14,30 @@ This repo exists for the presets themselves — the source of truth for the Gall
 
 ---
 
-## For contributors — how to submit a preset
+## Submitting a preset
 
-A preset is a small Lua file describing overlay content for the six screen positions. The plugin already writes these when you use **Save current as new preset**, so the easiest workflow is:
+Two routes. The plugin route is simpler and what most people should use.
 
-1. **Build and test the preset on your device.** Use the bookends editor to get the layout how you like it. Save it via the preset manager.
-2. **Copy the saved file off your device.** Presets live at `<koreader-settings>/bookends_presets/<slug>.lua` — for Kindle that's `/mnt/us/koreader/settings/bookends_presets/`. Use SCP or the device's file browser.
-3. **Check the content.** Open the `.lua` file. Confirm it has `name`, `author`, `description` set. You can edit these in-app via the ⋯ menu, or just edit the file directly. See the [example](#example-preset) below.
-4. **Fork this repo and add the file.** Put it under `presets/` with a lowercase-with-dashes slug filename. Example: `moonlit-reader.lua`.
-5. **Add an entry to `index.json`.** Copy an existing entry and update the fields. Order doesn't matter.
-6. **Open a pull request.** Brief description, a screenshot if you can (optional but helps). PRs are reviewed for the style guidelines below.
+### Route A — from inside the plugin (recommended)
 
-Once merged to `main`, your preset appears in everyone's Gallery tab on next refresh.
+1. Build and test your preset on your device using bookends' preset manager.
+2. Long-press the preset in the Local list → **Submit to gallery…**
+3. If the preset doesn't have an author or description set, the plugin prompts you for them inline.
+4. Tap **Submit**. The plugin calls a small Cloudflare Worker that opens a pull request on this repo on your behalf.
+5. You get a success dialog with the PR number. The maintainer reviews and merges.
+
+Why it works this way: the Worker holds a GitHub token scoped only to this repo, so submitters don't need a GitHub account to contribute. The maintainer still reviews every submission — nothing appears in the Gallery until a PR is merged.
+
+### Route B — manual pull request
+
+Prefer git? Totally fine:
+
+1. Fork this repo.
+2. Add your preset `.lua` file under `presets/`. Use a lowercase-with-dashes slug for the filename.
+3. Add a matching entry to `index.json` (`slug`, `name`, `author`, `description`, `added`, `preset_url`).
+4. Open a pull request.
+
+The file format and style guidelines below apply to both routes — Route A just automates steps 1-4.
 
 ---
 
@@ -77,9 +89,9 @@ Every bookends token (`%c`, `%t`, `%k`, `%B`, etc.) and conditional (`[if:chargi
 
 ---
 
-## index.json entry
+## index.json entry (Route B only)
 
-Match what's in your preset file plus a filename and date:
+Route A builds this entry for you. For manual PRs, match what's in your preset file plus a filename and date:
 
 ```json
 {
@@ -105,7 +117,7 @@ The plugin only reads `index.json` to populate the list. The preset file itself 
 Presets that get merged follow these rough principles:
 
 - **Description is one line.** Two-line descriptions are a smell — either the preset does too many things, or the description is padding. Think of it as the one-liner you'd DM a friend to get them to try it.
-- **Name is short and evocative.** "Minimal", "Sunset Reader", "Manga Split" beat "My Custom Reading Bar Config". Lowercase or title case, your call.
+- **Name is short and evocative.** "Minimal", "Sunset Reader", "Manga Split" beat "My Custom Reading Bar Config".
 - **Don't override the user's default font** unless that's the entire point of the preset. Font choices are personal; respect them.
 - **Tokens, not hardcoded text.** Put book-generic content in tokens (`%c`, `%t`, `%k`) rather than fixed strings.
 - **Test on a real device.** E-ink renders differently from your editor. Small text, heavy icons, and tight margins can look fine on desktop and be unreadable on a Kindle.
@@ -119,7 +131,7 @@ Presets that get merged follow these rough principles:
 
 ## Licensing
 
-By opening a PR you agree your contribution is licensed under the same terms as the bookends plugin itself. You're credited via the `author` field; there's no formal copyright assignment.
+By opening a PR (via either route) you agree your contribution is licensed under the same terms as the bookends plugin itself. You're credited via the `author` field; there's no formal copyright assignment.
 
 ## Questions?
 

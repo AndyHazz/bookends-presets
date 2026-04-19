@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-19T16:10:54.243Z",
+  "updated": "2026-04-19T18:51:43.582Z",
   "presets": [
     {
       "slug": "classic",
@@ -29,7 +29,7 @@
     {
       "slug": "rich-detail",
       "name": "Rich detail",
-      "author": "andyhazz",
+      "author": "AndyHazz",
       "description": "Clock, battery, Wi-Fi, brightness, highlights — the full kitchen sink",
       "added": "2026-04-19",
       "preset_url": "presets/rich-detail.lua"

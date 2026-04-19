@@ -11,7 +11,7 @@ return {
         overlap_gap = 50,
         truncation_priority = "center",
     },
-    description = "No progress bars, just alteranting odd/even book title and chapter",
+    description = "No progress bars, just alternating odd/even book title and chapter",
     enabled = true,
     name = "Classic",
     positions = {

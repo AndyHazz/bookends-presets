@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-19T20:51:14.402Z",
+  "updated": "2026-04-19T22:32:02.857Z",
   "presets": [
     {
       "slug": "classic",
@@ -17,6 +17,14 @@
       "description": "Mimics KOReader's built-in status bar — page, clock, chapter, battery, percent, time remaining",
       "added": "2026-04-19",
       "preset_url": "presets/koreader-stock.lua"
+    },
+    {
+      "slug": "livros",
+      "name": "Livros",
+      "author": "Meirim",
+      "description": "Simple books",
+      "added": "2026-04-19",
+      "preset_url": "presets/livros.lua"
     },
     {
       "slug": "metro-border",

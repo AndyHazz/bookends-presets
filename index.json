@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-19T18:51:43.582Z",
+  "updated": "2026-04-19T18:52:08.780Z",
   "presets": [
     {
       "slug": "classic",
@@ -37,7 +37,7 @@
     {
       "slug": "simpleui-status-bar",
       "name": "SimpleUI status bar",
-      "author": "andyhazz",
+      "author": "AndyHazz",
       "description": "Compact top-right status bar in the simpleui style",
       "added": "2026-04-19",
       "preset_url": "presets/simpleui-status-bar.lua"

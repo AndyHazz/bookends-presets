@@ -1,0 +1,26 @@
+name: Notify on new preset submission
+on:
+  pull_request:
+    types: [opened]
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Push to ntfy
+        env:
+          NTFY_URL: ${{ secrets.NTFY_URL }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_USER: ${{ github.event.pull_request.user.login }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+        run: |
+          TITLE=$(printf %s "$PR_TITLE" | tr -d '\n' | cut -c1-200)
+          BODY="$TITLE (by $PR_USER)"
+          curl --fail-with-body \
+            -H "Authorization: Bearer $NTFY_TOKEN" \
+            -H "Title: Bookends preset submission" \
+            -H "Priority: default" \
+            -H "Tags: tada" \
+            -H "Click: $PR_URL" \
+            -d "$BODY" \
+            "$NTFY_URL"

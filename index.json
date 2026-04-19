@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-19T11:53:40.610Z",
+  "updated": "2026-04-19T16:02:19.010Z",
   "presets": [
     {
       "slug": "classic-alternating",
@@ -9,6 +9,14 @@
       "description": "Book title on even pages, chapter on odd, page number at bottom",
       "added": "2026-04-19",
       "preset_url": "presets/classic-alternating.lua"
+    },
+    {
+      "slug": "classic",
+      "name": "Classic",
+      "author": "AndyHazz",
+      "description": "No progress bars, just alteranting odd/even book title and chapter",
+      "added": "2026-04-19",
+      "preset_url": "presets/classic.lua"
     },
     {
       "slug": "metro-border",

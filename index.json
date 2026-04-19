@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-19T19:57:13.550Z",
+  "updated": "2026-04-19T20:51:14.402Z",
   "presets": [
     {
       "slug": "classic",
@@ -57,6 +57,14 @@
       "description": "Session timer, reading speed, time remaining, progress percentages",
       "added": "2026-04-19",
       "preset_url": "presets/speed-reader.lua"
+    },
+    {
+      "slug": "stamp",
+      "name": "Stamp",
+      "author": "AndyHazz",
+      "description": "One for the philatelists",
+      "added": "2026-04-19",
+      "preset_url": "presets/stamp.lua"
     }
   ]
 }

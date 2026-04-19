@@ -1,4 +1,4 @@
--- Bookends preset: Default
+-- Bookends preset: GPM's Default
 return {
     author = "good-pm",
     defaults = {
@@ -12,7 +12,7 @@ return {
         truncation_priority = "center",
     },
     description = "All the necessities",
-    name = "Default",
+    name = "GPM's Default",
     positions = {
         bc = {
             line_bar_height = {

@@ -1,38 +1,14 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-19T11:44:42.360Z",
+  "updated": "2026-04-19T11:51:18.161Z",
   "presets": [
     {
       "slug": "classic-alternating",
       "name": "Classic alternating",
       "author": "andyhazz",
       "description": "Book title on even pages, chapter on odd, page number at bottom",
-      "added": "2026-04-18",
+      "added": "2026-04-19",
       "preset_url": "presets/classic-alternating.lua"
-    },
-    {
-      "slug": "rich-detail",
-      "name": "Rich detail",
-      "author": "andyhazz",
-      "description": "Clock, battery, Wi-Fi, brightness, highlights — the full kitchen sink",
-      "added": "2026-04-18",
-      "preset_url": "presets/rich-detail.lua"
-    },
-    {
-      "slug": "speed-reader",
-      "name": "Speed reader",
-      "author": "andyhazz",
-      "description": "Session timer, reading speed, time remaining, progress percentages",
-      "added": "2026-04-18",
-      "preset_url": "presets/speed-reader.lua"
-    },
-    {
-      "slug": "simpleui-status-bar",
-      "name": "SimpleUI status bar",
-      "author": "andyhazz",
-      "description": "Compact top-right status bar in the simpleui style",
-      "added": "2026-04-18",
-      "preset_url": "presets/simpleui-status-bar.lua"
     },
     {
       "slug": "paper",
@@ -41,6 +17,30 @@
       "description": "Uses borders to give a feel of real book",
       "added": "2026-04-19",
       "preset_url": "presets/paper.lua"
+    },
+    {
+      "slug": "rich-detail",
+      "name": "Rich detail",
+      "author": "andyhazz",
+      "description": "Clock, battery, Wi-Fi, brightness, highlights — the full kitchen sink",
+      "added": "2026-04-19",
+      "preset_url": "presets/rich-detail.lua"
+    },
+    {
+      "slug": "simpleui-status-bar",
+      "name": "SimpleUI status bar",
+      "author": "andyhazz",
+      "description": "Compact top-right status bar in the simpleui style",
+      "added": "2026-04-19",
+      "preset_url": "presets/simpleui-status-bar.lua"
+    },
+    {
+      "slug": "speed-reader",
+      "name": "Speed reader",
+      "author": "andyhazz",
+      "description": "Session timer, reading speed, time remaining, progress percentages",
+      "added": "2026-04-19",
+      "preset_url": "presets/speed-reader.lua"
     }
   ]
 }

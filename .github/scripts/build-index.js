@@ -22,7 +22,7 @@ function firstCommitDate(file) {
         // execFileSync uses argv array — no shell, no injection surface.
         const out = execFileSync(
             "git",
-            ["log", "--format=%aI", "--diff-filter=A", "--follow", "--", file],
+            ["log", "--format=%aI", "--diff-filter=A", "--", file],
             { encoding: "utf8" },
         ).trim();
         const lines = out.split("\n").filter(Boolean);

@@ -1,6 +1,6 @@
 -- Bookends preset: SimpleUI status bar
 return {
-    author = "andyhazz",
+    author = "AndyHazz",
     defaults = {
         margin_bottom = 50,
         margin_left = 35,

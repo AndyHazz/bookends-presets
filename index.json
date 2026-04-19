@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-19T18:52:08.780Z",
+  "updated": "2026-04-19T18:52:40.106Z",
   "presets": [
     {
       "slug": "classic",
@@ -45,7 +45,7 @@
     {
       "slug": "speed-reader",
       "name": "Speed reader",
-      "author": "andyhazz",
+      "author": "AndyHazz",
       "description": "Session timer, reading speed, time remaining, progress percentages",
       "added": "2026-04-19",
       "preset_url": "presets/speed-reader.lua"

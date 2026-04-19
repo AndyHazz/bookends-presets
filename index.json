@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-19T22:35:42.322Z",
+  "updated": "2026-04-19T22:40:16.302Z",
   "presets": [
     {
       "slug": "classic",
@@ -15,7 +15,7 @@
       "name": "KOReader stock",
       "author": "AndyHazz",
       "description": "Mimics KOReader's built-in status bar — page, clock, chapter, battery, percent, time remaining",
-      "added": "2026-04-19T13:02:35+01:00",
+      "added": "2026-04-19T20:38:01+01:00",
       "preset_url": "presets/koreader-stock.lua"
     },
     {
@@ -23,7 +23,7 @@
       "name": "Livros",
       "author": "Meirim",
       "description": "Simple books",
-      "added": "2026-04-19T12:44:42+01:00",
+      "added": "2026-04-19T23:31:55+01:00",
       "preset_url": "presets/livros.lua"
     },
     {
@@ -71,7 +71,7 @@
       "name": "Stamp",
       "author": "AndyHazz",
       "description": "One for the philatelists",
-      "added": "2026-04-19T12:29:07+01:00",
+      "added": "2026-04-19T21:20:09+01:00",
       "preset_url": "presets/stamp.lua"
     }
   ]

@@ -1,15 +1,7 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-19T16:02:19.010Z",
+  "updated": "2026-04-19T16:10:54.243Z",
   "presets": [
-    {
-      "slug": "classic-alternating",
-      "name": "Classic alternating",
-      "author": "andyhazz",
-      "description": "Book title on even pages, chapter on odd, page number at bottom",
-      "added": "2026-04-19",
-      "preset_url": "presets/classic-alternating.lua"
-    },
     {
       "slug": "classic",
       "name": "Classic",

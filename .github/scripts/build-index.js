@@ -27,11 +27,11 @@ function firstCommitDate(file) {
         ).trim();
         const lines = out.split("\n").filter(Boolean);
         const first = lines[lines.length - 1];
-        if (first) return first.slice(0, 10);
+        if (first) return first;
     } catch (_) {
         // ignore, fall through
     }
-    return new Date().toISOString().slice(0, 10);
+    return new Date().toISOString();
 }
 
 function main() {

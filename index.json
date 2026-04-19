@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-19T18:55:39.762Z",
+  "updated": "2026-04-19T19:57:13.550Z",
   "presets": [
     {
       "slug": "classic",
@@ -9,6 +9,14 @@
       "description": "No progress bars, just alternating odd/even book title and chapter",
       "added": "2026-04-19",
       "preset_url": "presets/classic.lua"
+    },
+    {
+      "slug": "koreader-stock",
+      "name": "KOReader stock",
+      "author": "AndyHazz",
+      "description": "Mimics KOReader's built-in status bar — page, clock, chapter, battery, percent, time remaining",
+      "added": "2026-04-19",
+      "preset_url": "presets/koreader-stock.lua"
     },
     {
       "slug": "metro-border",

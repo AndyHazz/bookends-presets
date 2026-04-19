@@ -1,6 +1,6 @@
 -- Bookends preset: Speed reader
 return {
-    author = "andyhazz",
+    author = "AndyHazz",
     defaults = {
         margin_bottom = 25,
         margin_left = 18,

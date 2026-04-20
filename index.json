@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-20T16:12:36.657Z",
+  "updated": "2026-04-20T20:53:40.475Z",
   "presets": [
     {
       "slug": "classic",
@@ -17,6 +17,14 @@
       "description": "All the necessities",
       "added": "2026-04-19T23:43:54+01:00",
       "preset_url": "presets/default.lua"
+    },
+    {
+      "slug": "essentially-minimal",
+      "name": "Essentially Minimal",
+      "author": "iElliie",
+      "description": "Your essentials at a glance.",
+      "added": "2026-04-20T21:53:31+01:00",
+      "preset_url": "presets/essentially-minimal.lua"
     },
     {
       "slug": "fisico-com-barra",

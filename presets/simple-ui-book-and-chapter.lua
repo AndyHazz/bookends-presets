@@ -1,4 +1,4 @@
--- Bookends preset: simple ui (book and chapter)
+-- Bookends preset: Simple UI (book and chapter)
 return {
     author = "Fedesempai",
     defaults = {
@@ -12,7 +12,7 @@ return {
         truncation_priority = "sides",
     },
     description = "Simple ui with remaining pages numbers for the book and chapter",
-    name = "simple ui (book and chapter)",
+    name = "Simple UI (book and chapter)",
     positions = {
         bc = {
             disabled = true,

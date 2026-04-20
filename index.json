@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-20T16:11:43.925Z",
+  "updated": "2026-04-20T16:12:16.441Z",
   "presets": [
     {
       "slug": "classic",
@@ -81,6 +81,14 @@
       "description": "Clock, battery, Wi-Fi, brightness, highlights — the full kitchen sink",
       "added": "2026-04-19T00:20:23+01:00",
       "preset_url": "presets/rich-detail.lua"
+    },
+    {
+      "slug": "simple-ui-book-and-chapter",
+      "name": "Simple UI (book and chapter)",
+      "author": "Fedesempai",
+      "description": "Simple ui with remaining pages numbers for the book and chapter",
+      "added": "2026-04-20T17:12:07+01:00",
+      "preset_url": "presets/simple-ui-book-and-chapter.lua"
     },
     {
       "slug": "simpleui-status-bar",

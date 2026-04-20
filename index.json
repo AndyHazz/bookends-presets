@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-19T22:44:02.395Z",
+  "updated": "2026-04-20T06:24:01.969Z",
   "presets": [
     {
       "slug": "classic",
@@ -17,6 +17,14 @@
       "description": "All the necessities",
       "added": "2026-04-19T23:43:54+01:00",
       "preset_url": "presets/default.lua"
+    },
+    {
+      "slug": "kobo-like",
+      "name": "Kobo Like",
+      "author": "Orange",
+      "description": "Stock Kobo inspired with time display and other hidden tokens.",
+      "added": "2026-04-20T07:23:44+01:00",
+      "preset_url": "presets/kobo-like.lua"
     },
     {
       "slug": "koreader-stock",
@@ -51,6 +59,14 @@
       "preset_url": "presets/paper.lua"
     },
     {
+      "slug": "print",
+      "name": "Print",
+      "author": "bmf",
+      "description": "No progress bar. Alternating page number, odd/even title + author and chapter + series.",
+      "added": "2026-04-20T07:23:55+01:00",
+      "preset_url": "presets/print.lua"
+    },
+    {
       "slug": "rich-detail",
       "name": "Rich detail",
       "author": "AndyHazz",
@@ -81,6 +97,14 @@
       "description": "One for the philatelists",
       "added": "2026-04-19T21:20:09+01:00",
       "preset_url": "presets/stamp.lua"
+    },
+    {
+      "slug": "wow",
+      "name": "Wow",
+      "author": "DougAlvarenga",
+      "description": "Title/Author @ up. Pages, book % and time reading down. Language PT_Br",
+      "added": "2026-04-20T07:23:50+01:00",
+      "preset_url": "presets/wow.lua"
     }
   ]
 }

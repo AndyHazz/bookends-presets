@@ -12,6 +12,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: regenerate-index
+  cancel-in-progress: false
+
 jobs:
   rebuild:
     runs-on: ubuntu-latest

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-20T06:32:00.336Z",
+  "updated": "2026-04-20T16:11:43.925Z",
   "presets": [
     {
       "slug": "classic",
@@ -17,6 +17,14 @@
       "description": "All the necessities",
       "added": "2026-04-19T23:43:54+01:00",
       "preset_url": "presets/default.lua"
+    },
+    {
+      "slug": "fisico-com-barra",
+      "name": "Fisico com barra",
+      "author": "DougAlvarenga",
+      "description": "Titulo/Autor superior esquerdo. Capitulo superior direito. pagina e barra de progresso inferior central",
+      "added": "2026-04-20T17:11:34+01:00",
+      "preset_url": "presets/fisico-com-barra.lua"
     },
     {
       "slug": "kobo-like",

@@ -11,7 +11,7 @@ return {
         overlap_gap = 50,
         truncation_priority = "center",
     },
-    description = "Simpe preset with clock, pages left in chapter and book percentage.",
+    description = "Simple preset with clock, pages left in chapter and book percentage.",
     name = "Simplicity",
     positions = {
         bc = {

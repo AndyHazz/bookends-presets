@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-20T20:53:40.475Z",
+  "updated": "2026-04-22T07:36:15.318Z",
   "presets": [
     {
       "slug": "classic",
@@ -73,6 +73,14 @@
       "description": "Uses borders to give a feel of real book",
       "added": "2026-04-19T12:44:42+01:00",
       "preset_url": "presets/paper.lua"
+    },
+    {
+      "slug": "print-v-2",
+      "name": "Print v.2",
+      "author": "bmf",
+      "description": "Mimicking the classic novels print style. Added some new conditions.",
+      "added": "2026-04-22T08:36:05+01:00",
+      "preset_url": "presets/print-v-2.lua"
     },
     {
       "slug": "print",

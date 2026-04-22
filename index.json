@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-22T07:36:15.318Z",
+  "updated": "2026-04-22T14:39:02.297Z",
   "presets": [
     {
       "slug": "classic",
@@ -9,6 +9,14 @@
       "description": "No progress bars, just alternating odd/even book title and chapter",
       "added": "2026-04-19T13:02:35+01:00",
       "preset_url": "presets/classic.lua"
+    },
+    {
+      "slug": "dbo",
+      "name": "dbo",
+      "author": "DBO",
+      "description": "Simple and efficient",
+      "added": "2026-04-22T15:38:53+01:00",
+      "preset_url": "presets/dbo.lua"
     },
     {
       "slug": "default",

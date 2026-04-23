@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-23T21:40:02.765Z",
+  "updated": "2026-04-23T22:52:46.712Z",
   "presets": [
     {
       "slug": "book-page-framed-with-progress-bars",
@@ -9,6 +9,14 @@
       "description": "Mimics book pages framed with book/chapter progress bars.",
       "added": "2026-04-23T22:39:52+01:00",
       "preset_url": "presets/book-page-framed-with-progress-bars.lua"
+    },
+    {
+      "slug": "chapter-and-book-default",
+      "name": "Chapter and Book Default",
+      "author": "SH4DOWSIX",
+      "description": "Chapter and Book Progress Bars",
+      "added": "2026-04-23T23:52:39+01:00",
+      "preset_url": "presets/chapter-and-book-default.lua"
     },
     {
       "slug": "classic",

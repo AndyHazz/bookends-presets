@@ -1,7 +1,15 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-23T16:46:22.298Z",
+  "updated": "2026-04-23T21:40:02.765Z",
   "presets": [
+    {
+      "slug": "book-page-framed-with-progress-bars",
+      "name": "Book Page framed with Progress Bars",
+      "author": "Hille",
+      "description": "Mimics book pages framed with book/chapter progress bars.",
+      "added": "2026-04-23T22:39:52+01:00",
+      "preset_url": "presets/book-page-framed-with-progress-bars.lua"
+    },
     {
       "slug": "classic",
       "name": "Classic",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-23T22:52:46.712Z",
+  "updated": "2026-04-24T12:59:42.823Z",
   "presets": [
     {
       "slug": "book-page-framed-with-progress-bars",
@@ -57,6 +57,14 @@
       "description": "Stock Kobo inspired with time display and other hidden tokens.",
       "added": "2026-04-20T07:23:44+01:00",
       "preset_url": "presets/kobo-like.lua"
+    },
+    {
+      "slug": "kobo",
+      "name": "Kobo",
+      "author": "ReadinGadgets",
+      "description": "As close to Kobo",
+      "added": "2026-04-24T13:59:34+01:00",
+      "preset_url": "presets/kobo.lua"
     },
     {
       "slug": "koreader-stock",

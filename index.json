@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-24T14:50:41.105Z",
+  "updated": "2026-04-24T14:51:12.990Z",
   "presets": [
     {
       "slug": "book-page-framed-with-progress-bars",
@@ -49,6 +49,14 @@
       "description": "Titulo/Autor superior esquerdo. Capitulo superior direito. pagina e barra de progresso inferior central",
       "added": "2026-04-20T17:11:34+01:00",
       "preset_url": "presets/fisico-com-barra.lua"
+    },
+    {
+      "slug": "kindle-left-in-book",
+      "name": "Kindle left in book",
+      "author": "ReadinGadgets",
+      "description": "Kindle left in book",
+      "added": "2026-04-24T15:51:04+01:00",
+      "preset_url": "presets/kindle-left-in-book.lua"
     },
     {
       "slug": "kobo-like",

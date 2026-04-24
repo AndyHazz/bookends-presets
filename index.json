@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-24T12:59:42.823Z",
+  "updated": "2026-04-24T14:50:41.105Z",
   "presets": [
     {
       "slug": "book-page-framed-with-progress-bars",
@@ -105,6 +105,14 @@
       "description": "Uses borders to give a feel of real book",
       "added": "2026-04-19T12:44:42+01:00",
       "preset_url": "presets/paper.lua"
+    },
+    {
+      "slug": "placid",
+      "name": "Placid",
+      "author": "logwet",
+      "description": "All the essentials, condensed into two lines and styled to disappear.",
+      "added": "2026-04-24T15:50:31+01:00",
+      "preset_url": "presets/placid.lua"
     },
     {
       "slug": "print-v-2",

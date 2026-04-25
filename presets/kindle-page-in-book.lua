@@ -1,0 +1,253 @@
+-- Bookends preset: Kindle page in book
+return {
+    author = "ReadinGadgets",
+    defaults = {
+        font_scale = 100,
+        font_size = 14,
+        margin_bottom = 25,
+        margin_left = 18,
+        margin_right = 18,
+        margin_top = 10,
+        overlap_gap = 50,
+        truncation_priority = "center",
+    },
+    description = "Kindle page in book",
+    name = "Kindle page in book",
+    positions = {
+        bc = {
+            line_bar_height = {
+            },
+            line_bar_style = {
+            },
+            line_bar_type = {
+            },
+            line_font_face = {
+            },
+            line_font_size = {
+            },
+            line_h_nudge = {
+            },
+            line_page_filter = {
+            },
+            line_style = {
+            },
+            line_uppercase = {
+            },
+            line_v_nudge = {
+            },
+            lines = {
+            },
+            v_offset = 4,
+        },
+        bl = {
+            line_bar_height = {
+            },
+            line_bar_style = {
+            },
+            line_bar_type = {
+            },
+            line_font_face = {
+            },
+            line_font_size = {
+            },
+            line_h_nudge = {
+                50,
+            },
+            line_page_filter = {
+            },
+            line_style = {
+                "bold",
+            },
+            line_uppercase = {
+            },
+            line_v_nudge = {
+            },
+            lines = {
+                "Page %c ",
+            },
+        },
+        br = {
+            line_bar_height = {
+            },
+            line_bar_style = {
+            },
+            line_bar_type = {
+            },
+            line_font_face = {
+            },
+            line_font_size = {
+            },
+            line_h_nudge = {
+                -50,
+            },
+            line_page_filter = {
+            },
+            line_style = {
+                "bold",
+            },
+            line_uppercase = {
+            },
+            line_v_nudge = {
+            },
+            lines = {
+                "%p",
+            },
+        },
+        tc = {
+            line_bar_height = {
+            },
+            line_bar_style = {
+            },
+            line_bar_type = {
+            },
+            line_font_face = {
+            },
+            line_font_size = {
+                16,
+            },
+            line_h_nudge = {
+            },
+            line_page_filter = {
+            },
+            line_style = {
+                "bold",
+            },
+            line_uppercase = {
+            },
+            line_v_nudge = {
+                10,
+            },
+            lines = {
+                "%k",
+            },
+        },
+        tl = {
+            disabled = true,
+            line_bar_height = {
+            },
+            line_bar_style = {
+            },
+            line_bar_type = {
+            },
+            line_font_face = {
+            },
+            line_font_size = {
+            },
+            line_h_nudge = {
+            },
+            line_page_filter = {
+            },
+            line_style = {
+            },
+            line_uppercase = {
+            },
+            line_v_nudge = {
+            },
+            lines = {
+            },
+        },
+        tr = {
+            disabled = true,
+            line_font_size = {
+                16,
+            },
+            line_style = {
+                "bold",
+            },
+            lines = {
+                "%B %b",
+            },
+        },
+    },
+    progress_bars = {
+        {
+            chapter_ticks = "off",
+            enabled = false,
+            height = 20,
+            margin_left = 0,
+            margin_right = 0,
+            margin_v = 0,
+            style = "solid",
+            type = "book",
+            v_anchor = "bottom",
+        },
+        {
+            chapter_ticks = "off",
+            enabled = false,
+            height = 20,
+            margin_left = 0,
+            margin_right = 0,
+            margin_v = 0,
+            style = "solid",
+            type = "book",
+            v_anchor = "bottom",
+        },
+        {
+            chapter_ticks = "off",
+            enabled = false,
+            height = 20,
+            margin_left = 0,
+            margin_right = 0,
+            margin_v = 0,
+            style = "solid",
+            type = "book",
+            v_anchor = "bottom",
+        },
+        {
+            chapter_ticks = "off",
+            enabled = false,
+            height = 20,
+            margin_left = 0,
+            margin_right = 0,
+            margin_v = 0,
+            style = "solid",
+            type = "book",
+            v_anchor = "bottom",
+        },
+        {
+            chapter_ticks = "off",
+            enabled = false,
+            height = 20,
+            margin_left = 0,
+            margin_right = 0,
+            margin_v = 0,
+            style = "solid",
+            type = "book",
+            v_anchor = "bottom",
+        },
+        {
+            chapter_ticks = "off",
+            enabled = false,
+            height = 20,
+            margin_left = 0,
+            margin_right = 0,
+            margin_v = 0,
+            style = "solid",
+            type = "book",
+            v_anchor = "bottom",
+        },
+        {
+            chapter_ticks = "off",
+            enabled = false,
+            height = 20,
+            margin_left = 0,
+            margin_right = 0,
+            margin_v = 0,
+            style = "solid",
+            type = "book",
+            v_anchor = "bottom",
+        },
+        {
+            chapter_ticks = "off",
+            enabled = false,
+            height = 20,
+            margin_left = 0,
+            margin_right = 0,
+            margin_v = 0,
+            style = "solid",
+            type = "book",
+            v_anchor = "bottom",
+        },
+    },
+    tick_width_multiplier = 2,
+}

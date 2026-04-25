@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-25T02:51:33.094Z",
+  "updated": "2026-04-25T13:20:59.587Z",
   "presets": [
     {
       "slug": "book-page-framed-with-progress-bars",
@@ -73,6 +73,14 @@
       "description": "Kindle left in book",
       "added": "2026-04-24T15:51:04+01:00",
       "preset_url": "presets/kindle-left-in-book.lua"
+    },
+    {
+      "slug": "kindle-page-in-book",
+      "name": "Kindle page in book",
+      "author": "ReadinGadgets",
+      "description": "Kindle page in book",
+      "added": "2026-04-25T14:20:51+01:00",
+      "preset_url": "presets/kindle-page-in-book.lua"
     },
     {
       "slug": "kobo-like",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-24T16:01:55.305Z",
+  "updated": "2026-04-25T02:50:04.709Z",
   "presets": [
     {
       "slug": "book-page-framed-with-progress-bars",
@@ -17,6 +17,14 @@
       "description": "Chapter and Book Progress Bars",
       "added": "2026-04-23T23:52:39+01:00",
       "preset_url": "presets/chapter-and-book-default.lua"
+    },
+    {
+      "slug": "chapter-style",
+      "name": "Chapter Style",
+      "author": "Lautikin",
+      "description": "Modern and simple design.",
+      "added": "2026-04-25T03:49:57+01:00",
+      "preset_url": "presets/chapter-style.lua"
     },
     {
       "slug": "classic",

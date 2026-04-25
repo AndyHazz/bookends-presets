@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-25T02:50:04.709Z",
+  "updated": "2026-04-25T02:51:33.094Z",
   "presets": [
     {
       "slug": "book-page-framed-with-progress-bars",
@@ -201,6 +201,14 @@
       "description": "One for the philatelists",
       "added": "2026-04-19T21:20:09+01:00",
       "preset_url": "presets/stamp.lua"
+    },
+    {
+      "slug": "status-bar-compact",
+      "name": "Status Bar Compact",
+      "author": "Mido Vodella",
+      "description": "A condensed, bottom centric preset similar to KOReader's base progress bar.",
+      "added": "2026-04-25T03:51:26+01:00",
+      "preset_url": "presets/status-bar-compact.lua"
     },
     {
       "slug": "wow",

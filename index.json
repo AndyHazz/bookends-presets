@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-25T13:20:59.587Z",
+  "updated": "2026-04-25T13:21:26.370Z",
   "presets": [
     {
       "slug": "book-page-framed-with-progress-bars",
@@ -73,6 +73,14 @@
       "description": "Kindle left in book",
       "added": "2026-04-24T15:51:04+01:00",
       "preset_url": "presets/kindle-left-in-book.lua"
+    },
+    {
+      "slug": "kindle-left-in-chapter",
+      "name": "Kindle left in chapter",
+      "author": "ReadinGadgets",
+      "description": "Kindle left in chapter",
+      "added": "2026-04-25T14:21:19+01:00",
+      "preset_url": "presets/kindle-left-in-chapter.lua"
     },
     {
       "slug": "kindle-page-in-book",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-25T14:10:53.253Z",
+  "updated": "2026-04-25T20:31:21.216Z",
   "presets": [
     {
       "slug": "book-page-framed-with-progress-bars",
@@ -17,6 +17,14 @@
       "description": "Chapter and Book Progress Bars",
       "added": "2026-04-23T23:52:39+01:00",
       "preset_url": "presets/chapter-and-book-default.lua"
+    },
+    {
+      "slug": "chapter-new-style",
+      "name": "Chapter New Style",
+      "author": "Lautikin",
+      "description": "Minimalistic preset.",
+      "added": "2026-04-25T21:31:11+01:00",
+      "preset_url": "presets/chapter-new-style.lua"
     },
     {
       "slug": "chapter-style",

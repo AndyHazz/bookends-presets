@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-25T13:21:26.370Z",
+  "updated": "2026-04-25T14:10:53.253Z",
   "presets": [
     {
       "slug": "book-page-framed-with-progress-bars",
@@ -225,6 +225,14 @@
       "description": "A condensed, bottom centric preset similar to KOReader's base progress bar.",
       "added": "2026-04-25T03:51:26+01:00",
       "preset_url": "presets/status-bar-compact.lua"
+    },
+    {
+      "slug": "tmi",
+      "name": "TMI",
+      "author": "Classic_Platypus",
+      "description": "All of the information in a book-like presentation",
+      "added": "2026-04-25T15:10:45+01:00",
+      "preset_url": "presets/tmi.lua"
     },
     {
       "slug": "wow",

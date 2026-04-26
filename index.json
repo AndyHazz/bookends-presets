@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-25T20:31:21.216Z",
+  "updated": "2026-04-26T08:07:55.692Z",
   "presets": [
     {
       "slug": "book-page-framed-with-progress-bars",
@@ -41,6 +41,14 @@
       "description": "No progress bars, just alternating odd/even book title and chapter",
       "added": "2026-04-19T13:02:35+01:00",
       "preset_url": "presets/classic.lua"
+    },
+    {
+      "slug": "crosspoint-chapter",
+      "name": "Crosspoint Chapter",
+      "author": "ReadinGadgets",
+      "description": "Crosspoint Chapter",
+      "added": "2026-04-26T09:07:46+01:00",
+      "preset_url": "presets/crosspoint-chapter.lua"
     },
     {
       "slug": "dbo",

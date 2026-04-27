@@ -63,8 +63,8 @@ return {
             line_v_nudge = {
             },
             lines = {
-                "%book_pct ",
-                "%chap_pct",
+                "%book_pct ",
+                "%chap_pct ",
             },
         },
         br = {
@@ -91,8 +91,8 @@ return {
             line_v_nudge = {
             },
             lines = {
-                "⌛ %book_time_left",
-                "⏳ %chap_time_left",
+                " %book_time_left",
+                " %chap_time_left",
             },
         },
         tc = {

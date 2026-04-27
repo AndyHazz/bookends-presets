@@ -11,7 +11,7 @@ return {
         overlap_gap = 50,
         truncation_priority = "sides",
     },
-    description = "An elgant setup with alternating title/chapter, pages left, percentage read and time.",
+    description = "An elegant setup with alternating title/chapter, pages left, percentage read and time.",
     name = "Elegant minimal",
     positions = {
         bc = {

@@ -15,8 +15,28 @@ return {
     name = "Placid",
     positions = {
         bc = {
+            line_bar_height = {
+            },
+            line_bar_style = {
+            },
+            line_bar_type = {
+            },
+            line_font_face = {
+            },
+            line_font_size = {
+            },
+            line_h_nudge = {
+            },
+            line_page_filter = {
+            },
+            line_style = {
+            },
+            line_uppercase = {
+            },
+            line_v_nudge = {
+            },
             lines = {
-                "Page %c of %t",
+                "%page_num of %page_count",
             },
         },
         bl = {
@@ -43,8 +63,8 @@ return {
             line_v_nudge = {
             },
             lines = {
-                "%p ",
-                "%P",
+                "%book_pct ",
+                "%chap_pct",
             },
         },
         br = {
@@ -71,22 +91,37 @@ return {
             line_v_nudge = {
             },
             lines = {
-                "⌛ %H",
-                "⏳ %h",
+                "⌛ %book_time_left",
+                "⏳ %chap_time_left",
             },
         },
         tc = {
+            line_bar_height = {
+            },
+            line_bar_style = {
+            },
+            line_bar_type = {
+            },
+            line_font_face = {
+            },
+            line_font_size = {
+            },
+            line_h_nudge = {
+            },
             line_page_filter = {
                 "odd",
                 "even",
             },
             line_style = {
                 "italic",
-                "regular",
+            },
+            line_uppercase = {
+            },
+            line_v_nudge = {
             },
             lines = {
-                "%T",
-                "[if:series]%S - [/if][i]%A[/i]",
+                "%title - %chap_title",
+                "[if:series]%series - [/if][i]%author[/i]",
             },
         },
         tl = {
@@ -113,13 +148,13 @@ return {
             line_v_nudge = {
             },
             lines = {
-                "%k",
-                "%a %d",
+                "%time_12h",
+                "%weekday_short %date",
             },
         },
         tr = {
             lines = {
-                "%W %B %b",
+                "%wifi %batt_icon %batt",
             },
         },
     },
@@ -213,6 +248,7 @@ return {
             v_anchor = "bottom",
         },
     },
+    schema_version = 5,
     text_color = {
         grey = 64,
     },

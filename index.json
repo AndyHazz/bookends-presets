@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-27T07:09:24.679Z",
+  "updated": "2026-04-27T20:30:55.966Z",
   "presets": [
     {
       "slug": "all-i-need",
@@ -81,6 +81,14 @@
       "description": "Chapter and book donut progress",
       "added": "2026-04-26T09:10:52+01:00",
       "preset_url": "presets/donuts.lua"
+    },
+    {
+      "slug": "elegant-minimal",
+      "name": "Elegant minimal",
+      "author": "u/meowdogpewpew",
+      "description": "An elegant setup with alternating title/chapter, pages left, percentage read and time.",
+      "added": "2026-04-27T21:30:46+01:00",
+      "preset_url": "presets/elegant-minimal.lua"
     },
     {
       "slug": "essentially-minimal",

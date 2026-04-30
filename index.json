@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-27T20:30:55.966Z",
+  "updated": "2026-04-30T06:42:47.592Z",
   "presets": [
     {
       "slug": "all-i-need",
@@ -91,6 +91,14 @@
       "preset_url": "presets/elegant-minimal.lua"
     },
     {
+      "slug": "enough-for-me",
+      "name": "Enough For Me",
+      "author": "trash",
+      "description": "A clean setup with enough info for me",
+      "added": "2026-04-30T07:42:35+01:00",
+      "preset_url": "presets/enough-for-me.lua"
+    },
+    {
       "slug": "essentially-minimal",
       "name": "Essentially Minimal",
       "author": "iElliie",
@@ -113,6 +121,14 @@
       "description": "Lots o' info ",
       "added": "2026-04-24T17:01:46+01:00",
       "preset_url": "presets/infotopia.lua"
+    },
+    {
+      "slug": "ireader",
+      "name": "iReader",
+      "author": "ReadinGadgets",
+      "description": "iReader like",
+      "added": "2026-04-30T07:42:28+01:00",
+      "preset_url": "presets/ireader.lua"
     },
     {
       "slug": "kindle-left-in-book",
@@ -225,6 +241,14 @@
       "description": "Clock, battery, Wi-Fi, brightness, highlights — the full kitchen sink",
       "added": "2026-04-19T00:20:23+01:00",
       "preset_url": "presets/rich-detail.lua"
+    },
+    {
+      "slug": "side-bars",
+      "name": "Side Bars",
+      "author": "good-pm",
+      "description": "Read and fill them up!",
+      "added": "2026-04-30T07:42:31+01:00",
+      "preset_url": "presets/side-bars.lua"
     },
     {
       "slug": "simple-ui-book-and-chapter",

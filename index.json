@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-02T17:23:02.104Z",
+  "updated": "2026-05-02T22:53:47.654Z",
   "presets": [
     {
       "slug": "all-i-need",
@@ -41,6 +41,14 @@
       "description": "Modern and simple design.",
       "added": "2026-04-25T03:49:57+01:00",
       "preset_url": "presets/chapter-style.lua"
+    },
+    {
+      "slug": "classic-clean",
+      "name": "Classic Clean",
+      "author": "Pheanyl",
+      "description": "Alternate book title-author and chapter title - Bottom bar with minimal book information",
+      "added": "2026-05-02T23:53:40+01:00",
+      "preset_url": "presets/classic-clean.lua"
     },
     {
       "slug": "classic",

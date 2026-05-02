@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-02T15:13:09.404Z",
+  "updated": "2026-05-02T17:23:02.104Z",
   "presets": [
     {
       "slug": "all-i-need",
@@ -113,6 +113,14 @@
       "description": "Your essentials at a glance.",
       "added": "2026-04-20T21:53:31+01:00",
       "preset_url": "presets/essentially-minimal.lua"
+    },
+    {
+      "slug": "everyday",
+      "name": "Everyday",
+      "author": "Jack",
+      "description": "Simple — Gives you at a glance all the information you will need",
+      "added": "2026-05-02T18:22:54+01:00",
+      "preset_url": "presets/everyday.lua"
     },
     {
       "slug": "fisico-com-barra",

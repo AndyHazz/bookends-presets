@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-04-30T06:42:47.592Z",
+  "updated": "2026-05-02T15:13:09.404Z",
   "presets": [
     {
       "slug": "all-i-need",
@@ -49,6 +49,14 @@
       "description": "No progress bars, just alternating odd/even book title and chapter",
       "added": "2026-04-19T13:02:35+01:00",
       "preset_url": "presets/classic.lua"
+    },
+    {
+      "slug": "clean-and-informative",
+      "name": "Clean and Informative",
+      "author": "Maywind",
+      "description": "Alternate-page title and author, percentage and time left in chapter and book, book and chapter progress bars.",
+      "added": "2026-05-02T16:13:02+01:00",
+      "preset_url": "presets/clean-and-informative.lua"
     },
     {
       "slug": "crosspoint-book",

@@ -11,7 +11,7 @@ return {
         overlap_gap = 40,
         truncation_priority = "center",
     },
-    description = "Alternate book title-author and chapter title - Bottom bar with minimak book information",
+    description = "Alternate book title-author and chapter title - Bottom bar with minimal book information",
     name = "Classic Clean",
     positions = {
         bc = {

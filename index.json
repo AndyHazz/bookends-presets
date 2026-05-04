@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-03T14:40:37.276Z",
+  "updated": "2026-05-04T07:50:16.015Z",
   "presets": [
     {
       "slug": "all-i-need",
@@ -265,6 +265,14 @@
       "description": "No progress bar. Alternating page number, odd/even title + author and chapter + series.",
       "added": "2026-04-20T07:23:55+01:00",
       "preset_url": "presets/print.lua"
+    },
+    {
+      "slug": "raf",
+      "name": "Raf",
+      "author": "Rafik",
+      "description": "all you need",
+      "added": "2026-05-04T08:50:01+01:00",
+      "preset_url": "presets/raf.lua"
     },
     {
       "slug": "rich-detail",

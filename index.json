@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-04T07:50:16.015Z",
+  "updated": "2026-05-04T16:39:20.229Z",
   "presets": [
     {
       "slug": "all-i-need",
@@ -345,6 +345,14 @@
       "description": "All of the information in a book-like presentation",
       "added": "2026-04-25T15:10:45+01:00",
       "preset_url": "presets/tmi.lua"
+    },
+    {
+      "slug": "works-for-me",
+      "name": "Works for Me!",
+      "author": "Dragonweaver",
+      "description": "book progress bar at top, chapter bar at bottom",
+      "added": "2026-05-04T17:39:05+01:00",
+      "preset_url": "presets/works-for-me.lua"
     },
     {
       "slug": "wow",

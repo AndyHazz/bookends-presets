@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-04T16:39:20.229Z",
+  "updated": "2026-05-05T06:08:19.034Z",
   "presets": [
     {
       "slug": "all-i-need",
@@ -73,6 +73,14 @@
       "description": "Alternate-page title and author, percentage and time left in chapter and book, book and chapter progress bars.",
       "added": "2026-05-02T16:13:02+01:00",
       "preset_url": "presets/clean-and-informative.lua"
+    },
+    {
+      "slug": "clean-informative",
+      "name": "Clean & Informative",
+      "author": "fatcats55",
+      "description": "Essential info with 2 progress trackers in a clean format.",
+      "added": "2026-05-05T07:08:10+01:00",
+      "preset_url": "presets/clean-informative.lua"
     },
     {
       "slug": "crosspoint-book",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-05T06:08:19.034Z",
+  "updated": "2026-05-05T22:27:05.470Z",
   "presets": [
     {
       "slug": "all-i-need",
@@ -81,6 +81,14 @@
       "description": "Essential info with 2 progress trackers in a clean format.",
       "added": "2026-05-05T07:08:10+01:00",
       "preset_url": "presets/clean-informative.lua"
+    },
+    {
+      "slug": "comic-book",
+      "name": "Comic book",
+      "author": "AndyHazz",
+      "description": "Made for CBZ or PDF with background fill, white on black",
+      "added": "2026-05-05T23:26:48+01:00",
+      "preset_url": "presets/comic-book.lua"
     },
     {
       "slug": "crosspoint-book",

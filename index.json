@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-05T22:27:05.470Z",
+  "updated": "2026-05-06T19:04:05.384Z",
   "presets": [
     {
       "slug": "all-i-need",
@@ -361,6 +361,14 @@
       "description": "All of the information in a book-like presentation",
       "added": "2026-04-25T15:10:45+01:00",
       "preset_url": "presets/tmi.lua"
+    },
+    {
+      "slug": "uncluttered",
+      "name": "Uncluttered",
+      "author": "Tobias Lind",
+      "description": "Clean top and bottom bars for books and manga alike.",
+      "added": "2026-05-06T20:03:54+01:00",
+      "preset_url": "presets/uncluttered.lua"
     },
     {
       "slug": "works-for-me",

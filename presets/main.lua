@@ -1,4 +1,4 @@
--- Bookends preset: Main
+-- Bookends preset: l00py's main
 return {
     author = "l00py",
     defaults = {
@@ -12,7 +12,7 @@ return {
         truncation_priority = "center",
     },
     description = "edited minimal yet detailed to suit my needs",
-    name = "Main",
+    name = "l00py's main",
     positions = {
         bc = {
             line_bar_height = {

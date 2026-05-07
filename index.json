@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-07T06:01:37.476Z",
+  "updated": "2026-05-07T18:32:05.194Z",
   "presets": [
     {
       "slug": "all-i-need",
@@ -233,6 +233,14 @@
       "description": "Simple books",
       "added": "2026-04-19T23:31:55+01:00",
       "preset_url": "presets/livros.lua"
+    },
+    {
+      "slug": "main",
+      "name": "l00py's main",
+      "author": "l00py",
+      "description": "edited minimal yet detailed to suit my needs",
+      "added": "2026-05-07T19:31:55+01:00",
+      "preset_url": "presets/main.lua"
     },
     {
       "slug": "metro-border",

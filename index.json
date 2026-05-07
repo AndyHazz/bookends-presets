@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-06T19:04:05.384Z",
+  "updated": "2026-05-07T06:01:37.476Z",
   "presets": [
     {
       "slug": "all-i-need",
@@ -297,6 +297,14 @@
       "description": "Clock, battery, Wi-Fi, brightness, highlights — the full kitchen sink",
       "added": "2026-04-19T00:20:23+01:00",
       "preset_url": "presets/rich-detail.lua"
+    },
+    {
+      "slug": "rtl-bars",
+      "name": "RTL Bars",
+      "author": "mimorienne",
+      "description": "Very basic with RTL progress bars. Based on a physical Japanese book I own.",
+      "added": "2026-05-07T07:01:17+01:00",
+      "preset_url": "presets/rtl-bars.lua"
     },
     {
       "slug": "side-bars",

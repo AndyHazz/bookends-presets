@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-07T18:32:05.194Z",
+  "updated": "2026-05-08T11:26:51.024Z",
   "presets": [
     {
       "slug": "all-i-need",
@@ -161,6 +161,14 @@
       "description": "Titulo/Autor superior esquerdo. Capitulo superior direito. pagina e barra de progresso inferior central",
       "added": "2026-04-20T17:11:34+01:00",
       "preset_url": "presets/fisico-com-barra.lua"
+    },
+    {
+      "slug": "i-did-it-my-way",
+      "name": "I did it my way",
+      "author": "Mr Bean",
+      "description": "Hello",
+      "added": "2026-05-08T12:26:43+01:00",
+      "preset_url": "presets/i-did-it-my-way.lua"
     },
     {
       "slug": "infotopia",

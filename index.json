@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-13T10:25:02.835Z",
+  "updated": "2026-05-13T10:25:47.667Z",
   "presets": [
     {
       "slug": "all-i-need",
@@ -273,6 +273,14 @@
       "description": "Minimal starter — clock, page number, and a slim progress bar",
       "added": "2026-05-10T09:16:51+01:00",
       "preset_url": "presets/mangaminibar.lua"
+    },
+    {
+      "slug": "me",
+      "name": "Placid Edit",
+      "author": "CheshireCatSith",
+      "description": "Minimal preset with colour accents and series info. Based on Placid with custom styling.",
+      "added": "2026-05-13T11:25:32+01:00",
+      "preset_url": "presets/me.lua"
     },
     {
       "slug": "metro-border",

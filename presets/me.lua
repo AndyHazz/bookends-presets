@@ -1,4 +1,4 @@
--- Bookends preset: me
+-- Bookends preset: Placid Edit
 return {
     author = "CheshireCatSith",
     defaults = {
@@ -11,8 +11,8 @@ return {
         overlap_gap = 50,
         truncation_priority = "sides",
     },
-    description = "placid edit. work for me",
-    name = "me",
+    description = "Minimal preset with colour accents and series info. Based on Placid with custom styling.",
+    name = "Placid Edit",
     positions = {
         bc = {
             line_bar_height = {

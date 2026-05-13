@@ -1,6 +1,6 @@
 -- Bookends preset: PDF preset
 return {
-    author = "AndyHazz",
+    author = "Anon",
     background_color = {
         grey = 0,
     },

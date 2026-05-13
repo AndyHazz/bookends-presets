@@ -27,7 +27,7 @@ return {
         overlap_gap = 50,
         truncation_priority = "center",
     },
-    description = "Minimal settings for manga reading. Includes pages, tine left in book, mibi progress bar, clock, wifi, and battery %.",
+    description = "Minimal settings for manga reading. Includes pages, time left in book, mini progress bar, clock, wifi, and battery %.",
     name = "Manga Minimal",
     positions = {
         bc = {

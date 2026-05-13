@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-13T10:25:47.667Z",
+  "updated": "2026-05-13T10:26:11.026Z",
   "presets": [
     {
       "slug": "all-i-need",
@@ -305,6 +305,14 @@
       "description": "Uses borders to give a feel of real book",
       "added": "2026-04-19T12:44:42+01:00",
       "preset_url": "presets/paper.lua"
+    },
+    {
+      "slug": "pdf-preset",
+      "name": "PDF preset",
+      "author": "AndyHazz",
+      "description": "Made for CBZ or PDF with background fill, white on black",
+      "added": "2026-05-13T11:25:56+01:00",
+      "preset_url": "presets/pdf-preset.lua"
     },
     {
       "slug": "placid",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-10T08:16:59.845Z",
+  "updated": "2026-05-13T10:24:41.219Z",
   "presets": [
     {
       "slug": "all-i-need",
@@ -249,6 +249,14 @@
       "description": "edited minimal yet detailed to suit my needs",
       "added": "2026-05-07T19:31:55+01:00",
       "preset_url": "presets/main.lua"
+    },
+    {
+      "slug": "manga-minimal",
+      "name": "Manga Minimal",
+      "author": "fatcats55",
+      "description": "Minimal settings for manga reading. Includes pages, time left in book, mini progress bar, clock, wifi, and battery %.",
+      "added": "2026-05-13T11:24:25+01:00",
+      "preset_url": "presets/manga-minimal.lua"
     },
     {
       "slug": "mangaminibar",

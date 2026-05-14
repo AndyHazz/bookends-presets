@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-13T10:33:54.573Z",
+  "updated": "2026-05-14T18:52:51.126Z",
   "presets": [
     {
       "slug": "all-i-need",
@@ -297,6 +297,14 @@
       "description": "A clean and detailed view.",
       "added": "2026-04-23T17:39:10+01:00",
       "preset_url": "presets/minimal-yet-detailed.lua"
+    },
+    {
+      "slug": "my-kindle",
+      "name": "my.kindle",
+      "author": "Anon",
+      "description": "Minimal starter — clock, page number, and a slim progress bar",
+      "added": "2026-05-14T19:52:34+01:00",
+      "preset_url": "presets/my-kindle.lua"
     },
     {
       "slug": "paper",

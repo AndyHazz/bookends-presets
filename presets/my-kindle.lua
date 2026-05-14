@@ -1,6 +1,6 @@
 -- Bookends preset: my.kindle
 return {
-    author = "bookends",
+    author = "Anon",
     defaults = {
         font_scale = 100,
         font_size = 14,

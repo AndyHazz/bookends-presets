@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-14T18:52:51.126Z",
+  "updated": "2026-05-16T05:59:07.267Z",
   "presets": [
     {
       "slug": "all-i-need",
@@ -289,6 +289,14 @@
       "description": "All aboard!",
       "added": "2026-04-19T12:29:07+01:00",
       "preset_url": "presets/metro-border.lua"
+    },
+    {
+      "slug": "minimal-yet-detailed-v2",
+      "name": "Minimal yet detailed v2",
+      "author": "good-pm",
+      "description": "A clean and detailed view. ",
+      "added": "2026-05-16T06:58:59+01:00",
+      "preset_url": "presets/minimal-yet-detailed-v2.lua"
     },
     {
       "slug": "minimal-yet-detailed",

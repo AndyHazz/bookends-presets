@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-16T05:59:07.267Z",
+  "updated": "2026-05-16T13:44:27.703Z",
   "presets": [
     {
       "slug": "all-i-need",
@@ -449,6 +449,14 @@
       "description": "Clean top and bottom bars for books and manga alike.",
       "added": "2026-05-06T20:03:54+01:00",
       "preset_url": "presets/uncluttered.lua"
+    },
+    {
+      "slug": "wave-info",
+      "name": "wave info",
+      "author": "Anon",
+      "description": "everything i need ",
+      "added": "2026-05-16T14:44:19+01:00",
+      "preset_url": "presets/wave-info.lua"
     },
     {
       "slug": "works-for-me",

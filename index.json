@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-16T13:44:27.703Z",
+  "updated": "2026-05-18T15:28:33.360Z",
   "presets": [
     {
       "slug": "all-i-need",
@@ -289,6 +289,14 @@
       "description": "All aboard!",
       "added": "2026-04-19T12:29:07+01:00",
       "preset_url": "presets/metro-border.lua"
+    },
+    {
+      "slug": "minimal-kobo-inspired",
+      "name": "Minimal — Kobo inspired",
+      "author": "nono33",
+      "description": "minimal info, clean layout",
+      "added": "2026-05-18T16:28:21+01:00",
+      "preset_url": "presets/minimal-kobo-inspired.lua"
     },
     {
       "slug": "minimal-yet-detailed-v2",

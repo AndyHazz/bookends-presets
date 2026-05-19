@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-18T15:28:33.360Z",
+  "updated": "2026-05-19T16:19:31.147Z",
   "presets": [
     {
       "slug": "all-i-need",
@@ -177,6 +177,14 @@
       "description": "Hello",
       "added": "2026-05-08T12:26:43+01:00",
       "preset_url": "presets/i-did-it-my-way.lua"
+    },
+    {
+      "slug": "informationaly-minimal",
+      "name": "Informationaly minimal",
+      "author": "iks_okss",
+      "description": "minimal setup with all important informations",
+      "added": "2026-05-19T17:19:20+01:00",
+      "preset_url": "presets/informationaly-minimal.lua"
     },
     {
       "slug": "infotopia",

@@ -1,6 +1,6 @@
 -- Bookends preset: Basic bookends
 return {
-    author = "bookends",
+    author = "Anon",
     defaults = {
         font_scale = 100,
         font_size = 17,
@@ -18,9 +18,6 @@ return {
             disabled = true,
             line_font_size = {
                 14,
-            },
-            lines = {
-                "Page %page_num of %page_count",
             },
         },
         bl = {
@@ -75,9 +72,6 @@ return {
             line_uppercase = {
             },
             line_v_nudge = {
-            },
-            lines = {
-                "%time_12h",
             },
         },
         tl = {

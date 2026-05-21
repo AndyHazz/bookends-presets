@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-20T11:33:22.153Z",
+  "updated": "2026-05-21T18:07:08.545Z",
   "presets": [
     {
       "slug": "all-i-need",
@@ -17,14 +17,6 @@
       "description": "Top: Chapter, Bottom: Book. Battery warning if less than 20%.",
       "added": "2026-05-03T15:40:29+01:00",
       "preset_url": "presets/almost-invisible.lua"
-    },
-    {
-      "slug": "basic-bookends",
-      "name": "Basic bookends",
-      "author": "Anon",
-      "description": "Minimal starter — clock, page number, and a slim progress bar",
-      "added": "2026-05-20T12:33:05+01:00",
-      "preset_url": "presets/basic-bookends.lua"
     },
     {
       "slug": "basic",

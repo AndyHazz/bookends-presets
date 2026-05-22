@@ -1,7 +1,15 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-21T18:07:08.545Z",
+  "updated": "2026-05-22T07:03:45.151Z",
   "presets": [
+    {
+      "slug": "2-column-blackberry",
+      "name": "2 column blackberry",
+      "author": "cobdequiapo",
+      "description": "symbols",
+      "added": "2026-05-22T08:03:36+01:00",
+      "preset_url": "presets/2-column-blackberry.lua"
+    },
     {
       "slug": "all-i-need",
       "name": "All I need",

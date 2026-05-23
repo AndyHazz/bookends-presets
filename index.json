@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-22T07:03:45.151Z",
+  "updated": "2026-05-23T06:26:17.199Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -297,6 +297,14 @@
       "description": "Minimal starter — clock, page number, and a slim progress bar",
       "added": "2026-05-10T09:16:51+01:00",
       "preset_url": "presets/mangaminibar.lua"
+    },
+    {
+      "slug": "max-standard",
+      "name": "Max Standard",
+      "author": "mmccord",
+      "description": "Simple, progress-focused bars",
+      "added": "2026-05-23T07:26:07+01:00",
+      "preset_url": "presets/max-standard.lua"
     },
     {
       "slug": "me",

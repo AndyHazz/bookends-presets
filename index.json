@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-23T06:26:17.199Z",
+  "updated": "2026-05-23T11:39:44.710Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -433,6 +433,14 @@
       "description": "Simple ui with remaining pages numbers for the book and chapter",
       "added": "2026-04-20T17:12:07+01:00",
       "preset_url": "presets/simple-ui-book-and-chapter.lua"
+    },
+    {
+      "slug": "simple-yet-satisfying",
+      "name": "Simple yet satisfying",
+      "author": "Rebecca D",
+      "description": "simple yet informative",
+      "added": "2026-05-23T12:39:36+01:00",
+      "preset_url": "presets/simple-yet-satisfying.lua"
     },
     {
       "slug": "simpleui-status-bar",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-23T11:39:44.710Z",
+  "updated": "2026-05-23T21:08:42.666Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -89,6 +89,14 @@
       "description": "Alternate-page title and author, percentage and time left in chapter and book, book and chapter progress bars.",
       "added": "2026-05-02T16:13:02+01:00",
       "preset_url": "presets/clean-and-informative.lua"
+    },
+    {
+      "slug": "clean-complete",
+      "name": "Clean&complete",
+      "author": "Lycos",
+      "description": "A clean setup but with enough info",
+      "added": "2026-05-23T22:08:34+01:00",
+      "preset_url": "presets/clean-complete.lua"
     },
     {
       "slug": "clean-informative",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-23T21:08:42.666Z",
+  "updated": "2026-05-25T15:23:00.146Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -497,6 +497,14 @@
       "description": "All of the information in a book-like presentation",
       "added": "2026-04-25T15:10:45+01:00",
       "preset_url": "presets/tmi.lua"
+    },
+    {
+      "slug": "txt",
+      "name": "txt",
+      "author": "naimur29",
+      "description": "For me!",
+      "added": "2026-05-25T16:22:52+01:00",
+      "preset_url": "presets/txt.lua"
     },
     {
       "slug": "uncluttered",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-25T15:23:00.146Z",
+  "updated": "2026-05-26T15:25:21.508Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -361,6 +361,14 @@
       "description": "Minimal starter — clock, page number, and a slim progress bar",
       "added": "2026-05-14T19:52:34+01:00",
       "preset_url": "presets/my-kindle.lua"
+    },
+    {
+      "slug": "novel",
+      "name": "Novel",
+      "author": "kurokeita",
+      "description": "simple bars for novel",
+      "added": "2026-05-26T16:25:09+01:00",
+      "preset_url": "presets/novel.lua"
     },
     {
       "slug": "paper",

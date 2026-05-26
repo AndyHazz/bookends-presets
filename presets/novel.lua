@@ -1,4 +1,4 @@
--- Bookends preset: novel
+-- Bookends preset: Novel
 return {
     author = "kurokeita",
     defaults = {
@@ -12,7 +12,7 @@ return {
         truncation_priority = "center",
     },
     description = "simple bars for novel",
-    name = "novel",
+    name = "Novel",
     positions = {
         bc = {
             line_bar_height = {

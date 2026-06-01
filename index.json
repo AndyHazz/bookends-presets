@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-05-26T15:25:21.508Z",
+  "updated": "2026-06-01T13:21:49.873Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -139,6 +139,14 @@
       "preset_url": "presets/dbo.lua"
     },
     {
+      "slug": "digital-book",
+      "name": "Digital Book",
+      "author": "Lautikin",
+      "description": "subtle and simple",
+      "added": "2026-05-28T07:15:39+01:00",
+      "preset_url": "presets/digital-book.lua"
+    },
+    {
       "slug": "donuts",
       "name": "Donuts",
       "author": "good-pm",
@@ -225,6 +233,14 @@
       "description": "iReader like",
       "added": "2026-04-30T07:42:28+01:00",
       "preset_url": "presets/ireader.lua"
+    },
+    {
+      "slug": "kinda-a-lot-but-i-like-it",
+      "name": "Kinda a lot but I like it",
+      "author": "alib",
+      "description": "a lot of info, probably only interpretable by me",
+      "added": "2026-06-01T03:36:51+01:00",
+      "preset_url": "presets/kinda-a-lot-but-i-like-it.lua"
     },
     {
       "slug": "kindle-left-in-book",

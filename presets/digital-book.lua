@@ -11,7 +11,7 @@ return {
         overlap_gap = 70,
         truncation_priority = "center",
     },
-    description = "sutil and simpłe ",
+    description = "subtle and simple",
     name = "Digital Book",
     positions = {
         bc = {

@@ -1,4 +1,4 @@
--- Bookends preset: minimal bookend
+-- Bookends preset: Minimal Bookend
 return {
     author = "bobtran",
     defaults = {
@@ -12,7 +12,7 @@ return {
         truncation_priority = "center",
     },
     description = "minimal",
-    name = "minimal bookend",
+    name = "Minimal Bookend",
     positions = {
         bc = {
             line_bar_chapter_ticks = {

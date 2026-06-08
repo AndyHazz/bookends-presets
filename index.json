@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-01T13:21:49.873Z",
+  "updated": "2026-06-08T21:41:14.984Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -33,6 +33,22 @@
       "description": "basic info plus some extra",
       "added": "2026-05-20T12:33:09+01:00",
       "preset_url": "presets/basic.lua"
+    },
+    {
+      "slug": "blu-memori",
+      "name": "blu memori",
+      "author": "azul",
+      "description": "clean dreamy blue setup with lots of templates",
+      "added": "2026-06-08T22:41:04+01:00",
+      "preset_url": "presets/blu-memori.lua"
+    },
+    {
+      "slug": "book-chapter-info",
+      "name": "Book & Chapter Info",
+      "author": "rot-and-read",
+      "description": "See book & chapter information at a glance. Includes two progress bars and misc book/chap info.",
+      "added": "2026-06-03T21:42:14+01:00",
+      "preset_url": "presets/book-chapter-info.lua"
     },
     {
       "slug": "book-page-framed-with-progress-bars",
@@ -345,6 +361,14 @@
       "description": "All aboard!",
       "added": "2026-04-19T12:29:07+01:00",
       "preset_url": "presets/metro-border.lua"
+    },
+    {
+      "slug": "minimal-bookend",
+      "name": "Minimal Bookend",
+      "author": "bobtran",
+      "description": "minimal",
+      "added": "2026-06-03T21:42:18+01:00",
+      "preset_url": "presets/minimal-bookend.lua"
     },
     {
       "slug": "minimal-kobo-inspired",

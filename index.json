@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-08T21:41:14.984Z",
+  "updated": "2026-06-09T16:37:56.175Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -145,6 +145,14 @@
       "description": "Crosspoint Chapter",
       "added": "2026-04-26T09:07:46+01:00",
       "preset_url": "presets/crosspoint-chapter.lua"
+    },
+    {
+      "slug": "db-simple",
+      "name": "DB Simple",
+      "author": "DB",
+      "description": "Simple, clean, with dynamic info. Layout for KLC default margins",
+      "added": "2026-06-09T17:37:45+01:00",
+      "preset_url": "presets/db-simple.lua"
     },
     {
       "slug": "dbo",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-10T07:35:13.289Z",
+  "updated": "2026-06-10T07:36:24.699Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -145,6 +145,14 @@
       "description": "Crosspoint Chapter",
       "added": "2026-04-26T09:07:46+01:00",
       "preset_url": "presets/crosspoint-chapter.lua"
+    },
+    {
+      "slug": "db-detail",
+      "name": "DB Detail",
+      "author": "DB",
+      "description": "Detail build. Dynamic use of 1 line: more features. KLC optimised",
+      "added": "2026-06-10T08:36:15+01:00",
+      "preset_url": "presets/db-detail.lua"
     },
     {
       "slug": "db-simple",

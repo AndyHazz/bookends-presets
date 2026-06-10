@@ -1,4 +1,4 @@
--- Bookends preset: Less is less 
+-- Bookends preset: Less is less
 return {
     author = "trash",
     defaults = {
@@ -12,7 +12,7 @@ return {
         truncation_priority = "center",
     },
     description = "A clean setup with enough info for me",
-    name = "Less is less ",
+    name = "Less is less",
     positions = {
         bc = {
             line_bar_chapter_ticks = {

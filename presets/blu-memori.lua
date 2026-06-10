@@ -11,7 +11,7 @@ return {
         overlap_gap = 50,
         truncation_priority = "center",
     },
-    description = "clean dreamy blue setup with lots of templates",
+    description = "a clean dreamy setup with some even/odd and [if] templates.",
     name = "blu memori",
     positions = {
         bc = {
@@ -83,7 +83,7 @@ return {
             line_v_nudge = {
             },
             lines = {
-                "[if:page=odd]♣ %book_pct [else]  %page_num of %page_count  [/if]",
+                "[if:page=odd]♣ %book_pct [else]  %page_num/%page_count  [/if]",
             },
         },
         br = {
@@ -198,7 +198,7 @@ return {
             line_v_nudge = {
             },
             lines = {
-                "[if:time>18:00][/if][if:time<7:00][/if][if:time>=7:00][/if] %time_12h ",
+                "[if:time>=18:00][/if][if:time<7:00][/if][if:time>=7:00 and time<18:00][/if] %time_12h ",
             },
         },
         tr = {
@@ -225,13 +225,14 @@ return {
             line_page_filter = {
             },
             line_style = {
+                "bold",
             },
             line_uppercase = {
             },
             line_v_nudge = {
             },
             lines = {
-                "%batt_icon%batt",
+                "[if:wifi=on]%wifi·[/if]%batt_icon%batt",
             },
         },
     },

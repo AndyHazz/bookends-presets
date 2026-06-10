@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-10T07:34:29.739Z",
+  "updated": "2026-06-10T07:35:13.289Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -321,6 +321,14 @@
       "description": "Mimics KOReader's built-in status bar — page, clock, chapter, battery, percent, time remaining",
       "added": "2026-04-19T20:38:01+01:00",
       "preset_url": "presets/koreader-stock.lua"
+    },
+    {
+      "slug": "less-is-less",
+      "name": "Less is less",
+      "author": "trash",
+      "description": "A clean setup with enough info for me",
+      "added": "2026-06-10T08:35:03+01:00",
+      "preset_url": "presets/less-is-less.lua"
     },
     {
       "slug": "livros",

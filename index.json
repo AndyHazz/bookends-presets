@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-09T16:37:56.175Z",
+  "updated": "2026-06-10T07:27:17.571Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -38,7 +38,7 @@
       "slug": "blu-memori",
       "name": "blu memori",
       "author": "azul",
-      "description": "clean dreamy blue setup with lots of templates",
+      "description": "a clean dreamy setup with some even/odd and [if] templates.",
       "added": "2026-06-08T22:41:04+01:00",
       "preset_url": "presets/blu-memori.lua"
     },

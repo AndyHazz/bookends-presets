@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-10T07:36:24.699Z",
+  "updated": "2026-06-11T22:59:27.914Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -513,6 +513,14 @@
       "description": "Read and fill them up!",
       "added": "2026-04-30T07:42:31+01:00",
       "preset_url": "presets/side-bars.lua"
+    },
+    {
+      "slug": "simple-progress",
+      "name": "Simple Progress",
+      "author": "elda",
+      "description": "page #, progress bar, pages left in chapter ",
+      "added": "2026-06-11T23:59:20+01:00",
+      "preset_url": "presets/simple-progress.lua"
     },
     {
       "slug": "simple-ui-book-and-chapter",

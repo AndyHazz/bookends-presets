@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-11T22:59:27.914Z",
+  "updated": "2026-06-12T06:12:11.908Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -9,6 +9,14 @@
       "description": "symbols",
       "added": "2026-05-22T08:03:36+01:00",
       "preset_url": "presets/2-column-blackberry.lua"
+    },
+    {
+      "slug": "a-little-whimsy",
+      "name": "a little whimsy",
+      "author": "rillereads",
+      "description": "added emoticons, numerical value of reading progress (base design is from existing Minimal yet detailed preset)",
+      "added": "2026-06-12T07:12:02+01:00",
+      "preset_url": "presets/a-little-whimsy.lua"
     },
     {
       "slug": "all-i-need",

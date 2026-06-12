@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-12T06:12:11.908Z",
+  "updated": "2026-06-12T06:13:17.651Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -89,6 +89,14 @@
       "description": "Modern and simple design.",
       "added": "2026-04-25T03:49:57+01:00",
       "preset_url": "presets/chapter-style.lua"
+    },
+    {
+      "slug": "clarity",
+      "name": "Clarity",
+      "author": "DB",
+      "description": "Final version. Dynamic, non-intrusive, all-encompassing. KLC optimised",
+      "added": "2026-06-12T07:13:07+01:00",
+      "preset_url": "presets/clarity.lua"
     },
     {
       "slug": "classic-clean",

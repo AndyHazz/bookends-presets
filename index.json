@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-12T06:13:17.651Z",
+  "updated": "2026-06-12T13:31:09.203Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -529,6 +529,14 @@
       "description": "Read and fill them up!",
       "added": "2026-04-30T07:42:31+01:00",
       "preset_url": "presets/side-bars.lua"
+    },
+    {
+      "slug": "simple-manga",
+      "name": "simple manga",
+      "author": "fal",
+      "description": "space on left and right",
+      "added": "2026-06-12T14:30:59+01:00",
+      "preset_url": "presets/simple-manga.lua"
     },
     {
       "slug": "simple-progress",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-12T13:31:09.203Z",
+  "updated": "2026-06-18T12:41:10.201Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -377,6 +377,14 @@
       "description": "Minimal settings for manga reading. Includes pages, time left in book, mini progress bar, clock, wifi, and battery %.",
       "added": "2026-05-13T11:24:25+01:00",
       "preset_url": "presets/manga-minimal.lua"
+    },
+    {
+      "slug": "manga-simple-bar",
+      "name": "Manga simple bar",
+      "author": "Rafael Meirim",
+      "description": "Simple bar for mangas",
+      "added": "2026-06-18T13:41:00+01:00",
+      "preset_url": "presets/manga-simple-bar.lua"
     },
     {
       "slug": "mangaminibar",

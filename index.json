@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-18T12:41:10.201Z",
+  "updated": "2026-06-21T07:33:12.292Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -513,6 +513,14 @@
       "description": "all you need",
       "added": "2026-05-04T08:50:01+01:00",
       "preset_url": "presets/raf.lua"
+    },
+    {
+      "slug": "reach-for-the-stars",
+      "name": "Reach for the stars",
+      "author": "rillereads",
+      "description": "Stars in the header and footer",
+      "added": "2026-06-21T08:33:03+01:00",
+      "preset_url": "presets/reach-for-the-stars.lua"
     },
     {
       "slug": "rich-detail",

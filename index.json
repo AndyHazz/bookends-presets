@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-21T07:33:12.292Z",
+  "updated": "2026-06-22T11:12:33.571Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -401,6 +401,14 @@
       "description": "Simple, progress-focused bars",
       "added": "2026-05-23T07:26:07+01:00",
       "preset_url": "presets/max-standard.lua"
+    },
+    {
+      "slug": "maximalist-sparkles",
+      "name": "Maximalist sparkles",
+      "author": "rillereads",
+      "description": "Just a lot of sparkles (enable/disable bottom center and bookshelf tab)",
+      "added": "2026-06-22T12:12:24+01:00",
+      "preset_url": "presets/maximalist-sparkles.lua"
     },
     {
       "slug": "me",

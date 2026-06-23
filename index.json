@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-23T12:26:10.462Z",
+  "updated": "2026-06-23T17:13:53.410Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -665,6 +665,14 @@
       "description": "A condensed, bottom centric preset similar to KOReader's base progress bar.",
       "added": "2026-04-25T03:51:26+01:00",
       "preset_url": "presets/status-bar-compact.lua"
+    },
+    {
+      "slug": "take-flight",
+      "name": "Take flight",
+      "author": "rillereads",
+      "description": "See your journey with visible reading progress ",
+      "added": "2026-06-23T18:13:38+01:00",
+      "preset_url": "presets/take-flight.lua"
     },
     {
       "slug": "tmi",

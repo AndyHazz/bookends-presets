@@ -1,4 +1,4 @@
--- Bookends preset: first
+-- Bookends preset: skeitto's detail
 return {
     author = "skeitto",
     defaults = {
@@ -12,7 +12,7 @@ return {
         truncation_priority = "center",
     },
     description = "clean detailed and a bit performative",
-    name = "first",
+    name = "skeitto's detail",
     positions = {
         bc = {
             line_bar_chapter_ticks = {

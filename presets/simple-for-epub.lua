@@ -1,4 +1,4 @@
--- Bookends preset: simple for epub
+-- Bookends preset: Simple for EPUB
 return {
     author = "fal",
     defaults = {
@@ -12,7 +12,7 @@ return {
         truncation_priority = "center",
     },
     description = "bettr with atkinson font",
-    name = "simple for epub",
+    name = "Simple for EPUB",
     positions = {
         bc = {
             line_bar_chapter_ticks = {

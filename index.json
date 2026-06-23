@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-22T11:12:33.571Z",
+  "updated": "2026-06-23T12:26:10.462Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -131,6 +131,14 @@
       "preset_url": "presets/clean-complete.lua"
     },
     {
+      "slug": "clean-informative-v2",
+      "name": "Clean & Informative V2",
+      "author": "fatcats55",
+      "description": "Essential info with 2 progress trackers in a clean format.",
+      "added": "2026-06-23T13:25:50+01:00",
+      "preset_url": "presets/clean-informative-v2.lua"
+    },
+    {
       "slug": "clean-informative",
       "name": "Clean & Informative",
       "author": "fatcats55",
@@ -145,6 +153,14 @@
       "description": "Made for CBZ or PDF with background fill, white on black",
       "added": "2026-05-05T23:26:48+01:00",
       "preset_url": "presets/comic-book.lua"
+    },
+    {
+      "slug": "compact-detailed-view",
+      "name": "Compact Detailed View",
+      "author": "Cassie",
+      "description": "Lots of info without visual clutter",
+      "added": "2026-06-23T13:25:54+01:00",
+      "preset_url": "presets/compact-detailed-view.lua"
     },
     {
       "slug": "crosspoint-book",
@@ -249,6 +265,14 @@
       "description": "simple aja",
       "added": "2026-06-10T08:34:20+01:00",
       "preset_url": "presets/fals-epub.lua"
+    },
+    {
+      "slug": "first",
+      "name": "skeitto's detail",
+      "author": "skeitto",
+      "description": "clean detailed and a bit performative",
+      "added": "2026-06-23T13:25:47+01:00",
+      "preset_url": "presets/first.lua"
     },
     {
       "slug": "fisico-com-barra",
@@ -443,6 +467,14 @@
       "preset_url": "presets/minimal-kobo-inspired.lua"
     },
     {
+      "slug": "minimal-v1",
+      "name": "Minimal v1",
+      "author": "Laenas",
+      "description": "Minimal UI. Necessary information only",
+      "added": "2026-06-23T13:25:58+01:00",
+      "preset_url": "presets/minimal-v1.lua"
+    },
+    {
       "slug": "minimal-yet-detailed-v2",
       "name": "Minimal yet detailed v2",
       "author": "good-pm",
@@ -553,6 +585,14 @@
       "description": "Read and fill them up!",
       "added": "2026-04-30T07:42:31+01:00",
       "preset_url": "presets/side-bars.lua"
+    },
+    {
+      "slug": "simple-for-epub",
+      "name": "Simple for EPUB",
+      "author": "fal",
+      "description": "bettr with atkinson font",
+      "added": "2026-06-23T13:25:44+01:00",
+      "preset_url": "presets/simple-for-epub.lua"
     },
     {
       "slug": "simple-manga",

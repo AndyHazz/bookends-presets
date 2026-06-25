@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-23T17:13:53.410Z",
+  "updated": "2026-06-25T06:08:57.774Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -377,6 +377,14 @@
       "description": "A clean setup with enough info for me",
       "added": "2026-06-10T08:35:03+01:00",
       "preset_url": "presets/less-is-less.lua"
+    },
+    {
+      "slug": "live-laugh-love-the-layout",
+      "name": "live laugh love the layout",
+      "author": "klorka",
+      "description": "edited version of novel by kurokeita, adjusted to make it even more simple and yet still fancy",
+      "added": "2026-06-25T07:08:48+01:00",
+      "preset_url": "presets/live-laugh-love-the-layout.lua"
     },
     {
       "slug": "livros",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-25T06:08:57.774Z",
+  "updated": "2026-06-25T11:51:14.820Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -9,6 +9,14 @@
       "description": "symbols",
       "added": "2026-05-22T08:03:36+01:00",
       "preset_url": "presets/2-column-blackberry.lua"
+    },
+    {
+      "slug": "2-row-titlebar",
+      "name": "2-row~titlebar",
+      "author": "phyvealive",
+      "description": "Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.",
+      "added": "2026-06-25T12:51:07+01:00",
+      "preset_url": "presets/2-row-titlebar.lua"
     },
     {
       "slug": "a-little-whimsy",

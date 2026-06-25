@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-25T14:01:11.658Z",
+  "updated": "2026-06-25T18:05:14.087Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -529,6 +529,14 @@
       "description": "simple bars for novel",
       "added": "2026-05-26T16:25:09+01:00",
       "preset_url": "presets/novel.lua"
+    },
+    {
+      "slug": "packman-book-chapter-progress",
+      "name": "Packman: book&chapter progress",
+      "author": "asimoff",
+      "description": "Packman style bottom book&chapter progress",
+      "added": "2026-06-25T19:05:02+01:00",
+      "preset_url": "presets/packman-book-chapter-progress.lua"
     },
     {
       "slug": "paper",

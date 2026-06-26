@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-26T09:28:11.123Z",
+  "updated": "2026-06-26T23:30:02.346Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -625,6 +625,14 @@
       "description": "Read and fill them up!",
       "added": "2026-04-30T07:42:31+01:00",
       "preset_url": "presets/side-bars.lua"
+    },
+    {
+      "slug": "simple-4-me",
+      "name": "simple 4 me!",
+      "author": "apollo",
+      "description": "somewhat inspired by kobo stock reader (with more info)",
+      "added": "2026-06-27T00:29:54+01:00",
+      "preset_url": "presets/simple-4-me.lua"
     },
     {
       "slug": "simple-for-epub",

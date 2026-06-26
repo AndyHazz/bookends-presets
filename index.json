@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-26T23:30:02.346Z",
+  "updated": "2026-06-26T23:30:31.720Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -337,6 +337,14 @@
       "description": "iReader like",
       "added": "2026-04-30T07:42:28+01:00",
       "preset_url": "presets/ireader.lua"
+    },
+    {
+      "slug": "jon-s-simple-layout",
+      "name": "Jon's Simple Layout",
+      "author": "Jon",
+      "description": "Simple",
+      "added": "2026-06-27T00:30:24+01:00",
+      "preset_url": "presets/jon-s-simple-layout.lua"
     },
     {
       "slug": "kinda-a-lot-but-i-like-it",

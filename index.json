@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-25T18:05:14.087Z",
+  "updated": "2026-06-26T09:28:11.123Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -313,6 +313,14 @@
       "description": "minimal setup with all important informations",
       "added": "2026-05-19T17:19:20+01:00",
       "preset_url": "presets/informationaly-minimal.lua"
+    },
+    {
+      "slug": "informative-yet-sleek-v4",
+      "name": "informative yet sleek v4",
+      "author": "cgroi",
+      "description": "Informative but simple and not too overloaded. Designed on Kobo Clara BW.",
+      "added": "2026-06-26T10:28:02+01:00",
+      "preset_url": "presets/informative-yet-sleek-v4.lua"
     },
     {
       "slug": "infotopia",

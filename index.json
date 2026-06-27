@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-27T06:34:13.427Z",
+  "updated": "2026-06-27T06:34:34.640Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -489,6 +489,14 @@
       "description": "All aboard!",
       "added": "2026-04-19T12:29:07+01:00",
       "preset_url": "presets/metro-border.lua"
+    },
+    {
+      "slug": "minimal-bold",
+      "name": "minimal (bold)",
+      "author": "smsnrm",
+      "description": "minimal",
+      "added": "2026-06-27T07:34:27+01:00",
+      "preset_url": "presets/minimal-bold.lua"
     },
     {
       "slug": "minimal-bookend",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-26T23:30:31.720Z",
+  "updated": "2026-06-27T06:34:13.427Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -505,6 +505,14 @@
       "description": "minimal info, clean layout",
       "added": "2026-05-18T16:28:21+01:00",
       "preset_url": "presets/minimal-kobo-inspired.lua"
+    },
+    {
+      "slug": "minimal-regular",
+      "name": "minimal (regular)",
+      "author": "smsnrm",
+      "description": "minimal",
+      "added": "2026-06-27T07:34:02+01:00",
+      "preset_url": "presets/minimal-regular.lua"
     },
     {
       "slug": "minimal-v1",

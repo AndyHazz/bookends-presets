@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-28T09:15:32.849Z",
+  "updated": "2026-06-28T14:32:57.309Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -409,6 +409,14 @@
       "description": "Mimics KOReader's built-in status bar — page, clock, chapter, battery, percent, time remaining",
       "added": "2026-04-19T20:38:01+01:00",
       "preset_url": "presets/koreader-stock.lua"
+    },
+    {
+      "slug": "l00py-s-main",
+      "name": "l00py's main",
+      "author": "l00py",
+      "description": "tweaked minimal but detailed preset",
+      "added": "2026-06-28T15:32:45+01:00",
+      "preset_url": "presets/l00py-s-main.lua"
     },
     {
       "slug": "less-is-less",

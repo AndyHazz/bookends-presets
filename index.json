@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-28T07:41:02.618Z",
+  "updated": "2026-06-28T09:15:32.849Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -521,6 +521,14 @@
       "description": "minimal info, clean layout",
       "added": "2026-05-18T16:28:21+01:00",
       "preset_url": "presets/minimal-kobo-inspired.lua"
+    },
+    {
+      "slug": "minimal-red-accents",
+      "name": "Minimal + Red Accents",
+      "author": "Sekhonrts",
+      "description": "Only essential information and little reminders",
+      "added": "2026-06-28T10:15:23+01:00",
+      "preset_url": "presets/minimal-red-accents.lua"
     },
     {
       "slug": "minimal-regular",

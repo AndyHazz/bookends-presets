@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-27T06:34:34.640Z",
+  "updated": "2026-06-28T07:41:02.618Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -9,6 +9,14 @@
       "description": "symbols",
       "added": "2026-05-22T08:03:36+01:00",
       "preset_url": "presets/2-column-blackberry.lua"
+    },
+    {
+      "slug": "2-row-header",
+      "name": "2-row~header",
+      "author": "phyvealive",
+      "description": "Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.",
+      "added": "2026-06-28T08:40:53+01:00",
+      "preset_url": "presets/2-row-header.lua"
     },
     {
       "slug": "2-row-titlebar",

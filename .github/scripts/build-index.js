@@ -16,18 +16,18 @@ function extractField(src, field) {
     return m[1].replace(/\\"/g, '"').replace(/\\\\/g, "\\");
 }
 
-// First-commit-date of a file (ISO YYYY-MM-DD). Falls back to today.
-function firstCommitDate(file) {
+// Most-recent-commit-date touching a file (ISO 8601). Falls back to today.
+// Using the latest commit (not the first) means a re-submitted/updated
+// preset surfaces under "Newest" again, not just its original submission.
+function lastCommitDate(file) {
     try {
         // execFileSync uses argv array — no shell, no injection surface.
         const out = execFileSync(
             "git",
-            ["log", "--format=%aI", "--diff-filter=A", "--", file],
+            ["log", "-1", "--format=%aI", "--", file],
             { encoding: "utf8" },
         ).trim();
-        const lines = out.split("\n").filter(Boolean);
-        const first = lines[lines.length - 1];
-        if (first) return first;
+        if (out) return out;
     } catch (_) {
         // ignore, fall through
     }
@@ -59,7 +59,7 @@ function main() {
             name,
             author,
             description,
-            added: firstCommitDate(full),
+            added: lastCommitDate(full),
             preset_url: `presets/${f}`,
         });
     }

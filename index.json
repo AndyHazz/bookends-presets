@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-30T22:50:23.017Z",
+  "updated": "2026-06-30T22:50:41.596Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -321,6 +321,14 @@
       "description": "Titulo/Autor superior esquerdo. Capitulo superior direito. pagina e barra de progresso inferior central",
       "added": "2026-04-20T17:11:34+01:00",
       "preset_url": "presets/fisico-com-barra.lua"
+    },
+    {
+      "slug": "fit-for-bookshelf-launcher",
+      "name": "fit for Bookshelf launcher",
+      "author": "Lime",
+      "description": "simple details fit with Bookshelf launcher button",
+      "added": "2026-06-30T23:50:34+01:00",
+      "preset_url": "presets/fit-for-bookshelf-launcher.lua"
     },
     {
       "slug": "i-did-it-my-way",

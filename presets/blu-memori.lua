@@ -46,10 +46,8 @@ return {
                 8,
             },
             lines = {
-                "[if:book_pct<=20] Let's go~ [else] Reading~[/if]\
-[if:book_pct=50] Half way~[/if]\
-[if:book_pct>90] Almost done~[/if]",
-                " %chap_title ",
+                "[if:book_pct>90] Almost done~ [else] Reading~[/if] ",
+                "[if:page=odd] %chap_title [else] Time left in book - %book_time_left  [/if]",
             },
         },
         bl = {
@@ -251,7 +249,7 @@ return {
             height = 15,
             margin_left = 0,
             margin_right = 0,
-            margin_v = 8,
+            margin_v = 5,
             style = "solid",
             type = "book",
             unread_height = 10,

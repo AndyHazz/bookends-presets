@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-28T14:32:57.309Z",
+  "updated": "2026-06-30T22:49:35.069Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -81,6 +81,14 @@
       "description": "Mimics book pages framed with book/chapter progress bars.",
       "added": "2026-04-23T22:39:52+01:00",
       "preset_url": "presets/book-page-framed-with-progress-bars.lua"
+    },
+    {
+      "slug": "booklike-plus-percent-progress-bar",
+      "name": "booklike plus percent/progress bar",
+      "author": "mothsphere",
+      "description": "low profile, book/chap titles alternate except blank on first page of chap. ",
+      "added": "2026-06-30T23:49:22+01:00",
+      "preset_url": "presets/booklike-plus-percent-progress-bar.lua"
     },
     {
       "slug": "chapter-and-book-default",
@@ -225,6 +233,14 @@
       "description": "Simple and efficient",
       "added": "2026-04-22T15:38:53+01:00",
       "preset_url": "presets/dbo.lua"
+    },
+    {
+      "slug": "detalle",
+      "name": "detalle",
+      "author": "Flor",
+      "description": "para libros largos",
+      "added": "2026-06-30T23:49:16+01:00",
+      "preset_url": "presets/detalle.lua"
     },
     {
       "slug": "digital-book",
@@ -667,6 +683,14 @@
       "preset_url": "presets/rtl-bars.lua"
     },
     {
+      "slug": "sessions",
+      "name": "sessions",
+      "author": "Flor",
+      "description": "info de minutos leídos",
+      "added": "2026-06-30T23:49:14+01:00",
+      "preset_url": "presets/sessions.lua"
+    },
+    {
       "slug": "side-bars",
       "name": "Side Bars",
       "author": "good-pm",
@@ -689,6 +713,14 @@
       "description": "bettr with atkinson font",
       "added": "2026-06-23T13:25:44+01:00",
       "preset_url": "presets/simple-for-epub.lua"
+    },
+    {
+      "slug": "simple-informative",
+      "name": "Simple Informative",
+      "author": "Nicki",
+      "description": "All the Informtion forvreading time in a simple preset.",
+      "added": "2026-06-30T23:49:11+01:00",
+      "preset_url": "presets/simple-informative.lua"
     },
     {
       "slug": "simple-manga",
@@ -739,6 +771,14 @@
       "preset_url": "presets/simplicity.lua"
     },
     {
+      "slug": "sleek-info",
+      "name": "Sleek info",
+      "author": "FinSSSS",
+      "description": "Book detail, double progress bar (top = chapter, bottom = whole book) & basic device info - in a neat & minimal style",
+      "added": "2026-06-30T23:49:25+01:00",
+      "preset_url": "presets/sleek-info.lua"
+    },
+    {
       "slug": "speed-reader",
       "name": "Speed reader",
       "author": "AndyHazz",
@@ -769,6 +809,14 @@
       "description": "See your journey with visible reading progress ",
       "added": "2026-06-23T18:13:38+01:00",
       "preset_url": "presets/take-flight.lua"
+    },
+    {
+      "slug": "title-chap-page-bar-percent",
+      "name": "title/chap, page/bar/percent",
+      "author": "mothsphere",
+      "description": "book-style layout + bar and percentage",
+      "added": "2026-06-30T23:49:19+01:00",
+      "preset_url": "presets/title-chap-page-bar-percent.lua"
     },
     {
       "slug": "tmi",

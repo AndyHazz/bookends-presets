@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-30T22:50:41.596Z",
+  "updated": "2026-06-30T22:52:57.600Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -63,7 +63,7 @@
       "name": "blu memori",
       "author": "azul",
       "description": "a clean dreamy setup with some even/odd and [if] templates.",
-      "added": "2026-06-08T22:41:04+01:00",
+      "added": "2026-06-30T23:50:13+01:00",
       "preset_url": "presets/blu-memori.lua"
     },
     {
@@ -135,7 +135,7 @@
       "name": "Classic",
       "author": "AndyHazz",
       "description": "No progress bars, just alternating odd/even book title and chapter",
-      "added": "2026-04-19T13:02:35+01:00",
+      "added": "2026-04-19T19:55:33+01:00",
       "preset_url": "presets/classic.lua"
     },
     {
@@ -247,7 +247,7 @@
       "name": "Digital Book",
       "author": "Lautikin",
       "description": "subtle and simple",
-      "added": "2026-05-28T07:15:39+01:00",
+      "added": "2026-06-01T14:21:21+01:00",
       "preset_url": "presets/digital-book.lua"
     },
     {
@@ -631,7 +631,7 @@
       "name": "PDF preset",
       "author": "Anon",
       "description": "Made for CBZ or PDF with background fill, white on black",
-      "added": "2026-05-13T11:25:56+01:00",
+      "added": "2026-05-13T11:33:45+01:00",
       "preset_url": "presets/pdf-preset.lua"
     },
     {
@@ -639,7 +639,7 @@
       "name": "Placid",
       "author": "logwet",
       "description": "All the essentials, condensed into two lines and styled to disappear.",
-      "added": "2026-04-24T15:50:31+01:00",
+      "added": "2026-04-27T17:09:15+10:00",
       "preset_url": "presets/placid.lua"
     },
     {
@@ -679,7 +679,7 @@
       "name": "Rich detail",
       "author": "AndyHazz",
       "description": "Clock, battery, Wi-Fi, brightness, highlights — the full kitchen sink",
-      "added": "2026-04-19T00:20:23+01:00",
+      "added": "2026-04-19T19:51:36+01:00",
       "preset_url": "presets/rich-detail.lua"
     },
     {
@@ -767,7 +767,7 @@
       "name": "SimpleUI status bar",
       "author": "AndyHazz",
       "description": "Compact top-right status bar in the simpleui style",
-      "added": "2026-04-19T00:20:23+01:00",
+      "added": "2026-04-19T19:52:02+01:00",
       "preset_url": "presets/simpleui-status-bar.lua"
     },
     {
@@ -791,7 +791,7 @@
       "name": "Speed reader",
       "author": "AndyHazz",
       "description": "Session timer, reading speed, time remaining, progress percentages",
-      "added": "2026-04-19T00:20:23+01:00",
+      "added": "2026-04-19T19:52:33+01:00",
       "preset_url": "presets/speed-reader.lua"
     },
     {

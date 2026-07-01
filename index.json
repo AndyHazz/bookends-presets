@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-06-30T22:52:57.600Z",
+  "updated": "2026-07-01T19:17:52.634Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -593,6 +593,14 @@
       "description": "A clean and detailed view.",
       "added": "2026-04-23T17:39:10+01:00",
       "preset_url": "presets/minimal-yet-detailed.lua"
+    },
+    {
+      "slug": "minimalistic-sancai",
+      "name": "Minimalistic Sancai",
+      "author": "pesxguin",
+      "description": "Blue green amber. Book progress, chapter progress, clock + battery + book percentage. Suitable for color ereaders.",
+      "added": "2026-07-01T20:17:42+01:00",
+      "preset_url": "presets/minimalistic-sancai.lua"
     },
     {
       "slug": "my-kindle",

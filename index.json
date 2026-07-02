@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-07-01T19:17:52.634Z",
+  "updated": "2026-07-02T11:59:19.825Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -505,6 +505,14 @@
       "description": "Simple, progress-focused bars",
       "added": "2026-05-23T07:26:07+01:00",
       "preset_url": "presets/max-standard.lua"
+    },
+    {
+      "slug": "maximalist-sparkles-2-0",
+      "name": "Maximalist sparkles 2.0",
+      "author": "rillereads",
+      "description": "for anyone who likes bows, sparkles, and stars",
+      "added": "2026-07-02T12:59:12+01:00",
+      "preset_url": "presets/maximalist-sparkles-2-0.lua"
     },
     {
       "slug": "maximalist-sparkles",

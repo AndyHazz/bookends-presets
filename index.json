@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-07-02T11:59:19.825Z",
+  "updated": "2026-07-06T11:59:35.178Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -409,6 +409,14 @@
       "description": "Kindle page in book",
       "added": "2026-04-25T14:20:51+01:00",
       "preset_url": "presets/kindle-page-in-book.lua"
+    },
+    {
+      "slug": "kobo-like-with-time-progress",
+      "name": "Kobo like with time progress",
+      "author": "Koitma",
+      "description": "Kobo inspired with progress bars and time left tokens",
+      "added": "2026-07-06T12:59:25+01:00",
+      "preset_url": "presets/kobo-like-with-time-progress.lua"
     },
     {
       "slug": "kobo-like",

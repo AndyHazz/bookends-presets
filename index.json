@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-07-06T11:59:35.178Z",
+  "updated": "2026-07-07T11:20:48.439Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -89,6 +89,14 @@
       "description": "low profile, book/chap titles alternate except blank on first page of chap. ",
       "added": "2026-06-30T23:49:22+01:00",
       "preset_url": "presets/booklike-plus-percent-progress-bar.lua"
+    },
+    {
+      "slug": "bookshelf",
+      "name": "Bookshelf",
+      "author": "hope breekon",
+      "description": "styled after Bookshelf plugin",
+      "added": "2026-07-07T12:20:37+01:00",
+      "preset_url": "presets/bookshelf.lua"
     },
     {
       "slug": "chapter-and-book-default",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-07-07T11:20:48.439Z",
+  "updated": "2026-07-08T12:48:26.546Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -377,6 +377,14 @@
       "description": "iReader like",
       "added": "2026-04-30T07:42:28+01:00",
       "preset_url": "presets/ireader.lua"
+    },
+    {
+      "slug": "jab-simple-informative",
+      "name": "jab simple informative",
+      "author": "jab",
+      "description": "simple informative barr chapter pages(%)",
+      "added": "2026-07-08T13:48:17+01:00",
+      "preset_url": "presets/jab-simple-informative.lua"
     },
     {
       "slug": "jon-s-simple-layout",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-07-08T12:48:26.546Z",
+  "updated": "2026-07-08T14:05:06.542Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -633,6 +633,14 @@
       "description": "Blue green amber. Book progress, chapter progress, clock + battery + book percentage. Suitable for color ereaders.",
       "added": "2026-07-01T20:17:42+01:00",
       "preset_url": "presets/minimalistic-sancai.lua"
+    },
+    {
+      "slug": "my-kindle-expanded",
+      "name": "my.kindle expanded",
+      "author": "Anon",
+      "description": "Minimal starter — clock, page number, and a slim progress bar (modified version to my taste)",
+      "added": "2026-07-08T15:04:55+01:00",
+      "preset_url": "presets/my-kindle-expanded.lua"
     },
     {
       "slug": "my-kindle",

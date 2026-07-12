@@ -11,7 +11,7 @@ return {
         overlap_gap = 50,
         truncation_priority = "center",
     },
-    description = "cool on supernote Nomad",
+    description = "Radial chapter progress bar with page count and book percentage",
     name = "Supernote Nomad",
     positions = {
         bc = {

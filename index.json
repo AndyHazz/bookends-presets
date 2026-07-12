@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-07-09T12:08:09.012Z",
+  "updated": "2026-07-12T21:04:45.132Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -315,6 +315,30 @@
       "preset_url": "presets/fals-epub.lua"
     },
     {
+      "slug": "fine-simple-v1",
+      "name": "Fine Simple V1",
+      "author": "aerawata",
+      "description": "Simple. Essential. No distraction.",
+      "added": "2026-07-12T22:04:20+01:00",
+      "preset_url": "presets/fine-simple-v1.lua"
+    },
+    {
+      "slug": "fine-simple-v2",
+      "name": "Fine Simple V2",
+      "author": "aerawata",
+      "description": "Simple. Essential. No distraction.",
+      "added": "2026-07-12T22:04:17+01:00",
+      "preset_url": "presets/fine-simple-v2.lua"
+    },
+    {
+      "slug": "fine-simple-v3",
+      "name": "Fine Simple V3",
+      "author": "aerawata",
+      "description": "Simple. Essential. No distraction.",
+      "added": "2026-07-12T22:04:15+01:00",
+      "preset_url": "presets/fine-simple-v3.lua"
+    },
+    {
       "slug": "first",
       "name": "skeitto's detail",
       "author": "skeitto",
@@ -425,6 +449,14 @@
       "description": "Kindle page in book",
       "added": "2026-04-25T14:20:51+01:00",
       "preset_url": "presets/kindle-page-in-book.lua"
+    },
+    {
+      "slug": "kobo-dupe",
+      "name": "Kobo Dupe",
+      "author": "jayqism",
+      "description": "Dupe of Kobo’s layout with minimal additional information.",
+      "added": "2026-07-12T22:04:12+01:00",
+      "preset_url": "presets/kobo-dupe.lua"
     },
     {
       "slug": "kobo-like-with-time-progress",
@@ -611,6 +643,14 @@
       "preset_url": "presets/minimal-v1.lua"
     },
     {
+      "slug": "minimal-with-progress-bar",
+      "name": "minimal with progress bar",
+      "author": "smsnrm",
+      "description": "minimal with progress bar",
+      "added": "2026-07-12T22:04:29+01:00",
+      "preset_url": "presets/minimal-with-progress-bar.lua"
+    },
+    {
       "slug": "minimal-yet-detailed-v2",
       "name": "Minimal yet detailed v2",
       "author": "good-pm",
@@ -649,6 +689,14 @@
       "description": "Minimal starter — clock, page number, and a slim progress bar",
       "added": "2026-05-14T19:52:34+01:00",
       "preset_url": "presets/my-kindle.lua"
+    },
+    {
+      "slug": "nat-s-kindle-kobo-inspired-bookends",
+      "name": "Nat’s Kindle+Kobo Inspired Bookends",
+      "author": "nyataliefyi",
+      "description": "A mix of Kindle and Kobo UI in my own take.",
+      "added": "2026-07-12T22:04:35+01:00",
+      "preset_url": "presets/nat-s-kindle-kobo-inspired-bookends.lua"
     },
     {
       "slug": "novel",
@@ -835,6 +883,14 @@
       "preset_url": "presets/sleek-info.lua"
     },
     {
+      "slug": "solitude",
+      "name": "Solitude",
+      "author": "Rhelvorn",
+      "description": "Perfection in minimalism.",
+      "added": "2026-07-12T22:04:23+01:00",
+      "preset_url": "presets/solitude.lua"
+    },
+    {
       "slug": "speed-reader",
       "name": "Speed reader",
       "author": "AndyHazz",
@@ -857,6 +913,14 @@
       "description": "A condensed, bottom centric preset similar to KOReader's base progress bar.",
       "added": "2026-04-25T03:51:26+01:00",
       "preset_url": "presets/status-bar-compact.lua"
+    },
+    {
+      "slug": "super-booklike-with-tiny-progress-bar",
+      "name": "super booklike with tiny progress bar",
+      "author": "mothsphere",
+      "description": "book/chap titles alternate, blank on first page of chap. page num/bar",
+      "added": "2026-07-12T22:04:32+01:00",
+      "preset_url": "presets/super-booklike-with-tiny-progress-bar.lua"
     },
     {
       "slug": "take-flight",
@@ -929,6 +993,14 @@
       "description": "Title/Author @ up. Pages, book % and time reading down. Language PT_Br",
       "added": "2026-04-20T07:23:50+01:00",
       "preset_url": "presets/wow.lua"
+    },
+    {
+      "slug": "you-have-to-look-for-it",
+      "name": "You have to look for it",
+      "author": "Rami",
+      "description": "Alternating bottom page numbers and a book progress bar that you look for",
+      "added": "2026-07-12T22:04:26+01:00",
+      "preset_url": "presets/you-have-to-look-for-it.lua"
     }
   ]
 }

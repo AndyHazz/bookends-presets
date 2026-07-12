@@ -1,4 +1,4 @@
--- Bookends preset: pacman
+-- Bookends preset: Jotaro's Pacman Bars
 return {
     author = "jotaro",
     defaults = {
@@ -12,7 +12,7 @@ return {
         truncation_priority = "center",
     },
     description = "formal with names",
-    name = "pacman",
+    name = "Jotaro's Pacman Bars",
     positions = {
         bc = {
             disabled = true,

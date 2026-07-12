@@ -11,7 +11,7 @@ return {
         overlap_gap = 50,
         truncation_priority = "sides",
     },
-    description = "Minial and clean ereader setting",
+    description = "Minimal and clean ereader setting",
     name = "Books",
     positions = {
         bc = {

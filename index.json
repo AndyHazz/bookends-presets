@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-07-12T21:04:45.132Z",
+  "updated": "2026-07-12T21:05:27.262Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -89,6 +89,14 @@
       "description": "low profile, book/chap titles alternate except blank on first page of chap. ",
       "added": "2026-06-30T23:49:22+01:00",
       "preset_url": "presets/booklike-plus-percent-progress-bar.lua"
+    },
+    {
+      "slug": "books",
+      "name": "Books",
+      "author": "Midori",
+      "description": "Minimal and clean ereader setting",
+      "added": "2026-07-12T22:05:10+01:00",
+      "preset_url": "presets/books.lua"
     },
     {
       "slug": "bookshelf",
@@ -715,6 +723,14 @@
       "preset_url": "presets/packman-book-chapter-progress.lua"
     },
     {
+      "slug": "pacman",
+      "name": "Jotaro's Pacman Bars",
+      "author": "jotaro",
+      "description": "formal with names",
+      "added": "2026-07-12T22:05:16+01:00",
+      "preset_url": "presets/pacman.lua"
+    },
+    {
       "slug": "paper",
       "name": "Paper",
       "author": "AndyHazz",
@@ -921,6 +937,14 @@
       "description": "book/chap titles alternate, blank on first page of chap. page num/bar",
       "added": "2026-07-12T22:04:32+01:00",
       "preset_url": "presets/super-booklike-with-tiny-progress-bar.lua"
+    },
+    {
+      "slug": "supernote-nomad",
+      "name": "Supernote Nomad",
+      "author": "Jotaro",
+      "description": "Radial chapter progress bar with page count and book percentage",
+      "added": "2026-07-12T22:05:13+01:00",
+      "preset_url": "presets/supernote-nomad.lua"
     },
     {
       "slug": "take-flight",

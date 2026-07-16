@@ -1,4 +1,4 @@
--- Bookends preset: just right
+-- Bookends preset: Just right
 return {
     author = "Anon",
     defaults = {
@@ -12,7 +12,7 @@ return {
         truncation_priority = "center",
     },
     description = "its just right",
-    name = "just right",
+    name = "Just right",
     positions = {
         bc = {
             line_bar_chapter_ticks = {

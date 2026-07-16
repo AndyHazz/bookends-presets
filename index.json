@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-07-12T21:05:27.262Z",
+  "updated": "2026-07-16T07:05:11.097Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -425,6 +425,14 @@
       "description": "Simple",
       "added": "2026-06-27T00:30:24+01:00",
       "preset_url": "presets/jon-s-simple-layout.lua"
+    },
+    {
+      "slug": "just-right",
+      "name": "Just right",
+      "author": "Anon",
+      "description": "its just right",
+      "added": "2026-07-16T08:05:02+01:00",
+      "preset_url": "presets/just-right.lua"
     },
     {
       "slug": "kinda-a-lot-but-i-like-it",
@@ -985,6 +993,14 @@
       "description": "Clean top and bottom bars for books and manga alike.",
       "added": "2026-05-06T20:03:54+01:00",
       "preset_url": "presets/uncluttered.lua"
+    },
+    {
+      "slug": "uwe-s-1-sort",
+      "name": "Uwe's 1. Sort",
+      "author": "Jason",
+      "description": "Meine Basics",
+      "added": "2026-07-16T08:04:55+01:00",
+      "preset_url": "presets/uwe-s-1-sort.lua"
     },
     {
       "slug": "uwe-s",

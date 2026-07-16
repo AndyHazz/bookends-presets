@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-07-16T07:05:11.097Z",
+  "updated": "2026-07-16T07:05:43.935Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -49,6 +49,14 @@
       "description": "Top: Chapter, Bottom: Book. Battery warning if less than 20%.",
       "added": "2026-05-03T15:40:29+01:00",
       "preset_url": "presets/almost-invisible.lua"
+    },
+    {
+      "slug": "balanced-color",
+      "name": "Balanced Color+",
+      "author": "Zork",
+      "description": "Clean and informative.",
+      "added": "2026-07-16T08:05:21+01:00",
+      "preset_url": "presets/balanced-color.lua"
     },
     {
       "slug": "basic",
@@ -1001,6 +1009,14 @@
       "description": "Meine Basics",
       "added": "2026-07-16T08:04:55+01:00",
       "preset_url": "presets/uwe-s-1-sort.lua"
+    },
+    {
+      "slug": "uwe-s-2-sort",
+      "name": "Uwe's 2. Sort",
+      "author": "Jason",
+      "description": "Sortierung 2",
+      "added": "2026-07-16T08:05:31+01:00",
+      "preset_url": "presets/uwe-s-2-sort.lua"
     },
     {
       "slug": "uwe-s",

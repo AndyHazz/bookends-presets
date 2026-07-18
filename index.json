@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-07-16T07:05:43.935Z",
+  "updated": "2026-07-18T18:00:18.771Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -473,6 +473,14 @@
       "description": "Kindle page in book",
       "added": "2026-04-25T14:20:51+01:00",
       "preset_url": "presets/kindle-page-in-book.lua"
+    },
+    {
+      "slug": "kindle-style-pages",
+      "name": "Kindle Style (Pages)",
+      "author": "ZimpleDumpling",
+      "description": "Bottom left: page(s) left in chapter; Bottom right: pages read of total pages",
+      "added": "2026-07-18T19:00:11+01:00",
+      "preset_url": "presets/kindle-style-pages.lua"
     },
     {
       "slug": "kobo-dupe",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-07-18T18:00:18.771Z",
+  "updated": "2026-07-18T18:00:27.985Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -769,6 +769,14 @@
       "description": "Made for CBZ or PDF with background fill, white on black",
       "added": "2026-05-13T11:33:45+01:00",
       "preset_url": "presets/pdf-preset.lua"
+    },
+    {
+      "slug": "picomini",
+      "name": "picomini",
+      "author": "pico",
+      "description": "minimal bars",
+      "added": "2026-07-18T19:00:20+01:00",
+      "preset_url": "presets/picomini.lua"
     },
     {
       "slug": "placid",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-07-18T18:00:27.985Z",
+  "updated": "2026-07-18T18:00:40.160Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -385,6 +385,14 @@
       "description": "Hello",
       "added": "2026-05-08T12:26:43+01:00",
       "preset_url": "presets/i-did-it-my-way.lua"
+    },
+    {
+      "slug": "info-dump",
+      "name": "info dump",
+      "author": "boredbeluga",
+      "description": "tells your reading metrics and more at a glance",
+      "added": "2026-07-18T19:00:30+01:00",
+      "preset_url": "presets/info-dump.lua"
     },
     {
       "slug": "informationaly-minimal",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-07-26T09:11:13.346Z",
+  "updated": "2026-07-26T09:11:40.805Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -689,6 +689,14 @@
       "description": "Give a border around the text with minimal infos athe bottom.",
       "added": "2026-07-24T21:56:40+01:00",
       "preset_url": "presets/minimal-border.lua"
+    },
+    {
+      "slug": "minimal-distraction",
+      "name": "minimal distraction",
+      "author": "marte",
+      "description": "title, author, progress bar, book progress and chapter progress. focus on text.",
+      "added": "2026-07-26T10:11:27+01:00",
+      "preset_url": "presets/minimal-distraction.lua"
     },
     {
       "slug": "minimal-kobo-inspired",

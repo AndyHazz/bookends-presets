@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-07-26T09:11:40.805Z",
+  "updated": "2026-07-26T09:12:18.105Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -1017,6 +1017,14 @@
       "description": "Perfection in minimalism.",
       "added": "2026-07-12T22:04:23+01:00",
       "preset_url": "presets/solitude.lua"
+    },
+    {
+      "slug": "sparkle-k-i-s-s-keep-it-simple-stupid",
+      "name": "Sparkle K.I.S.S (keep it simple stupid)",
+      "author": "Rhelvorn",
+      "description": "Perfection in minimalism.",
+      "added": "2026-07-26T10:12:09+01:00",
+      "preset_url": "presets/sparkle-k-i-s-s-keep-it-simple-stupid.lua"
     },
     {
       "slug": "speed-reader",

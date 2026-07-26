@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-07-24T20:57:01.444Z",
+  "updated": "2026-07-26T09:11:13.346Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -761,6 +761,14 @@
       "description": "Minimal starter — clock, page number, and a slim progress bar (modified version to my taste)",
       "added": "2026-07-08T15:04:55+01:00",
       "preset_url": "presets/my-kindle-expanded.lua"
+    },
+    {
+      "slug": "my-kindle-pageleft",
+      "name": "my.kindle (pageleft)",
+      "author": "chananya",
+      "description": "Minimal starter — clock, page number, and a slim progress bar",
+      "added": "2026-07-26T10:11:04+01:00",
+      "preset_url": "presets/my-kindle-pageleft.lua"
     },
     {
       "slug": "my-kindle",

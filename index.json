@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-07-29T18:57:56.613Z",
+  "updated": "2026-07-29T22:49:48.001Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -121,6 +121,14 @@
       "description": "Chapter and Book Progress Bars",
       "added": "2026-04-23T23:52:39+01:00",
       "preset_url": "presets/chapter-and-book-default.lua"
+    },
+    {
+      "slug": "chapter-book-progress-bars",
+      "name": "Chapter & Book Progress Bars",
+      "author": "potetocake",
+      "description": "with chapter title, wifi on icon, & time.",
+      "added": "2026-07-29T23:49:39+01:00",
+      "preset_url": "presets/chapter-book-progress-bars.lua"
     },
     {
       "slug": "chapter-new-style",

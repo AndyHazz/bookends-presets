@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-07-26T09:12:18.105Z",
+  "updated": "2026-07-29T18:57:56.613Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -441,6 +441,14 @@
       "description": "iReader like",
       "added": "2026-04-30T07:42:28+01:00",
       "preset_url": "presets/ireader.lua"
+    },
+    {
+      "slug": "jab-simple-informative-advanced",
+      "name": "jab simple informative advanced",
+      "author": "jab_",
+      "description": "simple informative",
+      "added": "2026-07-29T19:57:44+01:00",
+      "preset_url": "presets/jab-simple-informative-advanced.lua"
     },
     {
       "slug": "jab-simple-informative",

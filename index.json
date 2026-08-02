@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-07-29T22:49:48.001Z",
+  "updated": "2026-08-02T16:05:53.467Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -25,6 +25,14 @@
       "description": "Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.",
       "added": "2026-06-25T12:51:07+01:00",
       "preset_url": "presets/2-row-titlebar.lua"
+    },
+    {
+      "slug": "4-edges",
+      "name": "4 edges",
+      "author": "Rafik",
+      "description": "all you need",
+      "added": "2026-08-02T17:05:43+01:00",
+      "preset_url": "presets/4-edges.lua"
     },
     {
       "slug": "a-little-whimsy",

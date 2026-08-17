@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-08-02T16:05:53.467Z",
+  "updated": "2026-08-17T09:42:45.728Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -75,6 +75,22 @@
       "preset_url": "presets/basic.lua"
     },
     {
+      "slug": "bknds-with-progress",
+      "name": "bknds with progress",
+      "author": "annomaly",
+      "description": "title, chapter, page number, clock, battery and progress bars",
+      "added": "2026-08-17T10:37:33+01:00",
+      "preset_url": "presets/bknds-with-progress.lua"
+    },
+    {
+      "slug": "bknds",
+      "name": "bknds",
+      "author": "annomaly",
+      "description": "title, chapter, page number, clock, battery",
+      "added": "2026-08-17T10:37:30+01:00",
+      "preset_url": "presets/bknds.lua"
+    },
+    {
       "slug": "blu-memori",
       "name": "blu memori",
       "author": "azul",
@@ -121,6 +137,22 @@
       "description": "styled after Bookshelf plugin",
       "added": "2026-07-07T12:20:37+01:00",
       "preset_url": "presets/bookshelf.lua"
+    },
+    {
+      "slug": "borders-the-preset",
+      "name": "Borders The Preset",
+      "author": "zee76",
+      "description": "Created at 3 am",
+      "added": "2026-08-17T10:37:11+01:00",
+      "preset_url": "presets/borders-the-preset.lua"
+    },
+    {
+      "slug": "bottomstatus",
+      "name": "BottomStatus",
+      "author": "Nobody",
+      "description": "Full bottom status",
+      "added": "2026-08-17T10:37:51+01:00",
+      "preset_url": "presets/bottomstatus.lua"
     },
     {
       "slug": "chapter-and-book-default",
@@ -281,6 +313,14 @@
       "description": "Simple and efficient",
       "added": "2026-04-22T15:38:53+01:00",
       "preset_url": "presets/dbo.lua"
+    },
+    {
+      "slug": "delight",
+      "name": "Delight",
+      "author": "zee76",
+      "description": "Created at 3 am",
+      "added": "2026-08-17T10:37:07+01:00",
+      "preset_url": "presets/delight.lua"
     },
     {
       "slug": "deri",
@@ -475,6 +515,14 @@
       "preset_url": "presets/jab-simple-informative.lua"
     },
     {
+      "slug": "jack-bookends",
+      "name": "Jack Bookends",
+      "author": "Jack Salillas",
+      "description": "Jack's Bookend",
+      "added": "2026-08-17T10:37:20+01:00",
+      "preset_url": "presets/jack-bookends.lua"
+    },
+    {
       "slug": "jon-s-simple-layout",
       "name": "Jon's Simple Layout",
       "author": "Jon",
@@ -611,6 +659,14 @@
       "preset_url": "presets/livros.lua"
     },
     {
+      "slug": "luddite-with-allowances",
+      "name": "Luddite with Allowances",
+      "author": "BozoGlizzy",
+      "description": "Simple and paper-like with barebones progress tracking and clock",
+      "added": "2026-08-17T10:37:48+01:00",
+      "preset_url": "presets/luddite-with-allowances.lua"
+    },
+    {
       "slug": "main-mini-mini",
       "name": "Main mini mini",
       "author": "Koalafied Wombat",
@@ -659,6 +715,14 @@
       "preset_url": "presets/max-standard.lua"
     },
     {
+      "slug": "maximalist-minimal",
+      "name": "Maximalist Minimal",
+      "author": "ScarceBraincells",
+      "description": "progress bar, pages left, total pages, percentage, wifi, time left in chapter, bookmarks, title, clock, battery",
+      "added": "2026-08-17T10:37:14+01:00",
+      "preset_url": "presets/maximalist-minimal.lua"
+    },
+    {
       "slug": "maximalist-sparkles-2-0",
       "name": "Maximalist sparkles 2.0",
       "author": "rillereads",
@@ -689,6 +753,14 @@
       "description": "All aboard!",
       "added": "2026-04-19T12:29:07+01:00",
       "preset_url": "presets/metro-border.lua"
+    },
+    {
+      "slug": "mickey-s",
+      "name": "Mickey's",
+      "author": "Mickey",
+      "description": "clean minimal preset with all required details",
+      "added": "2026-08-17T10:37:17+01:00",
+      "preset_url": "presets/mickey-s.lua"
     },
     {
       "slug": "minimal-bold",
@@ -779,6 +851,14 @@
       "preset_url": "presets/minimal-yet-detailed.lua"
     },
     {
+      "slug": "minimalist-sparkles",
+      "name": "minimalist sparkles",
+      "author": "bookends",
+      "description": "Minimalist with sparkles. Clock, book percentage, pages, and a barely-there progress bar!",
+      "added": "2026-08-17T10:37:54+01:00",
+      "preset_url": "presets/minimalist-sparkles.lua"
+    },
+    {
       "slug": "minimalistic-sancai",
       "name": "Minimalistic Sancai",
       "author": "pesxguin",
@@ -819,12 +899,28 @@
       "preset_url": "presets/nat-s-kindle-kobo-inspired-bookends.lua"
     },
     {
+      "slug": "nom",
+      "name": "nom",
+      "author": "LadyBnome",
+      "description": "pacman progress, pages read in chapter",
+      "added": "2026-08-17T10:37:44+01:00",
+      "preset_url": "presets/nom.lua"
+    },
+    {
       "slug": "novel",
       "name": "Novel",
       "author": "kurokeita",
       "description": "simple bars for novel",
       "added": "2026-05-26T16:25:09+01:00",
       "preset_url": "presets/novel.lua"
+    },
+    {
+      "slug": "one-line-minimalism",
+      "name": "One Line Minimalism",
+      "author": "Campanolo",
+      "description": "All the basics, in an unintrusive, elegant design.",
+      "added": "2026-08-17T10:37:24+01:00",
+      "preset_url": "presets/one-line-minimalism.lua"
     },
     {
       "slug": "packman-book-chapter-progress",
@@ -857,6 +953,22 @@
       "description": "Made for CBZ or PDF with background fill, white on black",
       "added": "2026-05-13T11:33:45+01:00",
       "preset_url": "presets/pdf-preset.lua"
+    },
+    {
+      "slug": "perfectly-minimal",
+      "name": "perfectly minimal",
+      "author": "mbakes03",
+      "description": "title, time & battery, thin progress bar, bool info",
+      "added": "2026-08-17T10:37:41+01:00",
+      "preset_url": "presets/perfectly-minimal.lua"
+    },
+    {
+      "slug": "personal-minimal",
+      "name": "Personal minimal",
+      "author": "Cyborne",
+      "description": "As minima, as i can make it for me",
+      "added": "2026-08-17T10:37:27+01:00",
+      "preset_url": "presets/personal-minimal.lua"
     },
     {
       "slug": "picomini",
@@ -1169,6 +1281,14 @@
       "description": "everything i need ",
       "added": "2026-05-16T14:44:19+01:00",
       "preset_url": "presets/wave-info.lua"
+    },
+    {
+      "slug": "whimsy-01",
+      "name": "whimsy 01",
+      "author": "flighty",
+      "description": "chap title, book name, time, battery, page  no, chap time until finish,total time left and progress bar",
+      "added": "2026-08-17T10:37:37+01:00",
+      "preset_url": "presets/whimsy-01.lua"
     },
     {
       "slug": "works-for-me",

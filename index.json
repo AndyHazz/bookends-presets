@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-08-18T18:16:19.128Z",
+  "updated": "2026-08-18T22:29:42.947Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -609,6 +609,14 @@
       "description": "Dupe of Kobo’s layout with minimal additional information.",
       "added": "2026-07-12T22:04:12+01:00",
       "preset_url": "presets/kobo-dupe.lua"
+    },
+    {
+      "slug": "kobo-like-stats",
+      "name": "kobo like stats",
+      "author": "meli",
+      "description": "kobo reading stats. You can read along as if you were using the kobo's interface",
+      "added": "2026-08-18T23:29:30+01:00",
+      "preset_url": "presets/kobo-like-stats.lua"
     },
     {
       "slug": "kobo-like-with-time-progress",

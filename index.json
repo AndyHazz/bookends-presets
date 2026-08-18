@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-08-17T09:42:45.728Z",
+  "updated": "2026-08-18T18:15:40.617Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -537,6 +537,14 @@
       "description": "its just right",
       "added": "2026-07-16T08:05:02+01:00",
       "preset_url": "presets/just-right.lua"
+    },
+    {
+      "slug": "kind-time-in-book",
+      "name": "kind time in book",
+      "author": "meli",
+      "description": " kindle like",
+      "added": "2026-08-18T19:15:28+01:00",
+      "preset_url": "presets/kind-time-in-book.lua"
     },
     {
       "slug": "kinda-a-lot-but-i-like-it",

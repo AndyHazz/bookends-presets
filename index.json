@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-08-18T18:15:40.617Z",
+  "updated": "2026-08-18T18:16:19.128Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -553,6 +553,14 @@
       "description": "a lot of info, probably only interpretable by me",
       "added": "2026-06-01T03:36:51+01:00",
       "preset_url": "presets/kinda-a-lot-but-i-like-it.lua"
+    },
+    {
+      "slug": "kindle-chapter-time",
+      "name": "kindle chapter time",
+      "author": "meli",
+      "description": "kindle like",
+      "added": "2026-08-18T19:16:09+01:00",
+      "preset_url": "presets/kindle-chapter-time.lua"
     },
     {
       "slug": "kindle-left-in-book",

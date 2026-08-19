@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-08-19T12:29:30.428Z",
+  "updated": "2026-08-19T19:00:28.995Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -1009,6 +1009,14 @@
       "description": "As minima, as i can make it for me",
       "added": "2026-08-17T10:37:27+01:00",
       "preset_url": "presets/personal-minimal.lua"
+    },
+    {
+      "slug": "phone-preset",
+      "name": "Phone preset",
+      "author": "Meg",
+      "description": "a simple preset for my phone reading",
+      "added": "2026-08-19T20:00:18+01:00",
+      "preset_url": "presets/phone-preset.lua"
     },
     {
       "slug": "picomini",

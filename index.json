@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-08-18T22:29:42.947Z",
+  "updated": "2026-08-19T06:58:57.219Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -537,6 +537,14 @@
       "description": "its just right",
       "added": "2026-07-16T08:05:02+01:00",
       "preset_url": "presets/just-right.lua"
+    },
+    {
+      "slug": "kaomoji-status-bar",
+      "name": "kaomoji status bar",
+      "author": "blog_dea",
+      "description": "kaomoji+if odd title (above) | kaomoji+ page, page left ch, clock (bottom)",
+      "added": "2026-08-19T07:58:49+01:00",
+      "preset_url": "presets/kaomoji-status-bar.lua"
     },
     {
       "slug": "kind-time-in-book",

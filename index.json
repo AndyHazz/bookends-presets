@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-08-19T06:58:57.219Z",
+  "updated": "2026-08-19T12:29:30.428Z",
   "presets": [
     {
       "slug": "2-column-blackberry",
@@ -449,6 +449,14 @@
       "description": "simple details fit with Bookshelf launcher button",
       "added": "2026-06-30T23:50:34+01:00",
       "preset_url": "presets/fit-for-bookshelf-launcher.lua"
+    },
+    {
+      "slug": "full-of-stars",
+      "name": "Full of Stars!",
+      "author": "diaryngpanget",
+      "description": "because I love stars",
+      "added": "2026-08-19T13:29:20+01:00",
+      "preset_url": "presets/full-of-stars.lua"
     },
     {
       "slug": "i-did-it-my-way",

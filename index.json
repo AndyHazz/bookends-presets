@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-08-23T19:16:13.994Z","presets":[
+{"schema_version":1,"updated":"2026-08-23T19:16:38.672Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -152,6 +152,7 @@
 {"slug":"sparkle-k-i-s-s-keep-it-simple-stupid","name":"Sparkle K.I.S.S (keep it simple stupid)","author":"Rhelvorn","description":"Perfection in minimalism.","added":"2026-07-26T10:12:09+01:00","preset_url":"presets/sparkle-k-i-s-s-keep-it-simple-stupid.lua"},
 {"slug":"speed-reader","name":"Speed reader","author":"AndyHazz","description":"Session timer, reading speed, time remaining, progress percentages","added":"2026-04-19T19:52:33+01:00","preset_url":"presets/speed-reader.lua"},
 {"slug":"stamp","name":"Stamp","author":"AndyHazz","description":"One for the philatelists","added":"2026-04-19T21:20:09+01:00","preset_url":"presets/stamp.lua"},
+{"slug":"starry-night","name":"Starry night","author":"diaryngpanget","description":"because I love stars! | originally \"Full of Stars!\" | added book %","added":"2026-08-23T20:16:29+01:00","preset_url":"presets/starry-night.lua"},
 {"slug":"status-bar-compact","name":"Status Bar Compact","author":"Mido Vodella","description":"A condensed, bottom centric preset similar to KOReader's base progress bar.","added":"2026-04-25T03:51:26+01:00","preset_url":"presets/status-bar-compact.lua"},
 {"slug":"super-booklike-with-tiny-progress-bar","name":"super booklike with tiny progress bar","author":"mothsphere","description":"book/chap titles alternate, blank on first page of chap. page num/bar","added":"2026-07-12T22:04:32+01:00","preset_url":"presets/super-booklike-with-tiny-progress-bar.lua"},
 {"slug":"supernote-nomad","name":"Supernote Nomad","author":"Jotaro","description":"Radial chapter progress bar with page count and book percentage","added":"2026-07-12T22:05:13+01:00","preset_url":"presets/supernote-nomad.lua"},

@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-08-23T19:17:04.940Z","presets":[
+{"schema_version":1,"updated":"2026-08-23T19:22:57.519Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -40,6 +40,7 @@
 {"slug":"dbo","name":"dbo","author":"DBO","description":"Simple and efficient","added":"2026-04-22T15:38:53+01:00","preset_url":"presets/dbo.lua"},
 {"slug":"delight","name":"Delight","author":"zee76","description":"Created at 3 am","added":"2026-08-17T10:37:07+01:00","preset_url":"presets/delight.lua"},
 {"slug":"deri","name":"Deri","author":"Deri","description":"Made by Deri for Deri","added":"2026-07-24T21:56:27+01:00","preset_url":"presets/deri.lua"},
+{"slug":"detalle-02","name":"detalle 02","author":"Flor","description":"otra opción libros largos","added":"2026-08-23T20:22:40+01:00","preset_url":"presets/detalle-02.lua"},
 {"slug":"detalle","name":"detalle","author":"Flor","description":"para libros largos","added":"2026-06-30T23:49:16+01:00","preset_url":"presets/detalle.lua"},
 {"slug":"digital-book","name":"Digital Book","author":"Lautikin","description":"subtle and simple","added":"2026-06-01T14:21:21+01:00","preset_url":"presets/digital-book.lua"},
 {"slug":"donuts","name":"Donuts","author":"good-pm","description":"Chapter and book donut progress","added":"2026-04-26T09:10:52+01:00","preset_url":"presets/donuts.lua"},
@@ -49,6 +50,7 @@
 {"slug":"essentially-minimal","name":"Essentially Minimal","author":"iElliie","description":"Your essentials at a glance.","added":"2026-04-20T21:53:31+01:00","preset_url":"presets/essentially-minimal.lua"},
 {"slug":"everyday","name":"Everyday","author":"Jack","description":"Simple — Gives you at a glance all the information you will need","added":"2026-05-02T18:22:54+01:00","preset_url":"presets/everyday.lua"},
 {"slug":"fals-epub","name":"Fal's epub","author":"fal","description":"simple aja","added":"2026-06-10T08:34:20+01:00","preset_url":"presets/fals-epub.lua"},
+{"slug":"fic","name":"fic","author":"Flor","description":"para fanfics","added":"2026-08-23T20:22:36+01:00","preset_url":"presets/fic.lua"},
 {"slug":"fine-simple-v1","name":"Fine Simple V1","author":"aerawata","description":"Simple. Essential. No distraction.","added":"2026-07-12T22:04:20+01:00","preset_url":"presets/fine-simple-v1.lua"},
 {"slug":"fine-simple-v2","name":"Fine Simple V2","author":"aerawata","description":"Simple. Essential. No distraction.","added":"2026-07-12T22:04:17+01:00","preset_url":"presets/fine-simple-v2.lua"},
 {"slug":"fine-simple-v3","name":"Fine Simple V3","author":"aerawata","description":"Simple. Essential. No distraction.","added":"2026-07-12T22:04:15+01:00","preset_url":"presets/fine-simple-v3.lua"},
@@ -132,7 +134,9 @@
 {"slug":"raf","name":"Raf","author":"Rafik","description":"all you need","added":"2026-05-04T08:50:01+01:00","preset_url":"presets/raf.lua"},
 {"slug":"reach-for-the-stars","name":"Reach for the stars","author":"rillereads","description":"Stars in the header and footer","added":"2026-06-21T08:33:03+01:00","preset_url":"presets/reach-for-the-stars.lua"},
 {"slug":"refinement","name":"Refinement","author":"Rhelvorn","description":"Book & Chapter Title, Pages Read in Total","added":"2026-07-24T21:56:52+01:00","preset_url":"presets/refinement.lua"},
+{"slug":"reverie","name":"» Reverie «","author":"evieane","description":"a pretty setup with lots of fun [if] templates ","added":"2026-08-23T20:22:32+01:00","preset_url":"presets/reverie.lua"},
 {"slug":"rich-detail","name":"Rich detail","author":"AndyHazz","description":"Clock, battery, Wi-Fi, brightness, highlights — the full kitchen sink","added":"2026-04-19T19:51:36+01:00","preset_url":"presets/rich-detail.lua"},
+{"slug":"ringkas","name":"ringkas","author":"ichiex","description":"book title, chapter, time, progress & battery","added":"2026-08-23T20:22:43+01:00","preset_url":"presets/ringkas.lua"},
 {"slug":"rtl-bars","name":"RTL Bars","author":"mimorienne","description":"Very basic with RTL progress bars. Based on a physical Japanese book I own.","added":"2026-05-07T07:01:17+01:00","preset_url":"presets/rtl-bars.lua"},
 {"slug":"sessions","name":"sessions","author":"Flor","description":"info de minutos leídos","added":"2026-06-30T23:49:14+01:00","preset_url":"presets/sessions.lua"},
 {"slug":"side-bars","name":"Side Bars","author":"good-pm","description":"Read and fill them up!","added":"2026-04-30T07:42:31+01:00","preset_url":"presets/side-bars.lua"},

@@ -1,1366 +1,172 @@
-{
-  "schema_version": 1,
-  "updated": "2026-08-19T19:00:28.995Z",
-  "presets": [
-    {
-      "slug": "2-column-blackberry",
-      "name": "2 column blackberry",
-      "author": "cobdequiapo",
-      "description": "symbols",
-      "added": "2026-05-22T08:03:36+01:00",
-      "preset_url": "presets/2-column-blackberry.lua"
-    },
-    {
-      "slug": "2-row-header",
-      "name": "2-row~header",
-      "author": "phyvealive",
-      "description": "Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.",
-      "added": "2026-06-28T08:40:53+01:00",
-      "preset_url": "presets/2-row-header.lua"
-    },
-    {
-      "slug": "2-row-titlebar",
-      "name": "2-row~titlebar",
-      "author": "phyvealive",
-      "description": "Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.",
-      "added": "2026-06-25T12:51:07+01:00",
-      "preset_url": "presets/2-row-titlebar.lua"
-    },
-    {
-      "slug": "4-edges",
-      "name": "4 edges",
-      "author": "Rafik",
-      "description": "all you need",
-      "added": "2026-08-02T17:05:43+01:00",
-      "preset_url": "presets/4-edges.lua"
-    },
-    {
-      "slug": "a-little-whimsy",
-      "name": "a little whimsy",
-      "author": "rillereads",
-      "description": "added emoticons, numerical value of reading progress (base design is from existing Minimal yet detailed preset)",
-      "added": "2026-06-12T07:12:02+01:00",
-      "preset_url": "presets/a-little-whimsy.lua"
-    },
-    {
-      "slug": "all-i-need",
-      "name": "All I need",
-      "author": "Alx",
-      "description": "All U need while reading",
-      "added": "2026-04-26T15:00:28+01:00",
-      "preset_url": "presets/all-i-need.lua"
-    },
-    {
-      "slug": "almost-invisible",
-      "name": "Almost invisible",
-      "author": "akrreh",
-      "description": "Top: Chapter, Bottom: Book. Battery warning if less than 20%.",
-      "added": "2026-05-03T15:40:29+01:00",
-      "preset_url": "presets/almost-invisible.lua"
-    },
-    {
-      "slug": "balanced-color",
-      "name": "Balanced Color+",
-      "author": "Zork",
-      "description": "Clean and informative.",
-      "added": "2026-07-16T08:05:21+01:00",
-      "preset_url": "presets/balanced-color.lua"
-    },
-    {
-      "slug": "basic",
-      "name": "Basic+",
-      "author": "JayV",
-      "description": "basic info plus some extra",
-      "added": "2026-05-20T12:33:09+01:00",
-      "preset_url": "presets/basic.lua"
-    },
-    {
-      "slug": "bknds-with-progress",
-      "name": "bknds with progress",
-      "author": "annomaly",
-      "description": "title, chapter, page number, clock, battery and progress bars",
-      "added": "2026-08-17T10:37:33+01:00",
-      "preset_url": "presets/bknds-with-progress.lua"
-    },
-    {
-      "slug": "bknds",
-      "name": "bknds",
-      "author": "annomaly",
-      "description": "title, chapter, page number, clock, battery",
-      "added": "2026-08-17T10:37:30+01:00",
-      "preset_url": "presets/bknds.lua"
-    },
-    {
-      "slug": "blu-memori",
-      "name": "blu memori",
-      "author": "azul",
-      "description": "a clean dreamy setup with some even/odd and [if] templates.",
-      "added": "2026-06-30T23:50:13+01:00",
-      "preset_url": "presets/blu-memori.lua"
-    },
-    {
-      "slug": "book-chapter-info",
-      "name": "Book & Chapter Info",
-      "author": "rot-and-read",
-      "description": "See book & chapter information at a glance. Includes two progress bars and misc book/chap info.",
-      "added": "2026-06-03T21:42:14+01:00",
-      "preset_url": "presets/book-chapter-info.lua"
-    },
-    {
-      "slug": "book-page-framed-with-progress-bars",
-      "name": "Book Page framed with Progress Bars",
-      "author": "Hille",
-      "description": "Mimics book pages framed with book/chapter progress bars.",
-      "added": "2026-04-23T22:39:52+01:00",
-      "preset_url": "presets/book-page-framed-with-progress-bars.lua"
-    },
-    {
-      "slug": "booklike-plus-percent-progress-bar",
-      "name": "booklike plus percent/progress bar",
-      "author": "mothsphere",
-      "description": "low profile, book/chap titles alternate except blank on first page of chap. ",
-      "added": "2026-06-30T23:49:22+01:00",
-      "preset_url": "presets/booklike-plus-percent-progress-bar.lua"
-    },
-    {
-      "slug": "books",
-      "name": "Books",
-      "author": "Midori",
-      "description": "Minimal and clean ereader setting",
-      "added": "2026-07-12T22:05:10+01:00",
-      "preset_url": "presets/books.lua"
-    },
-    {
-      "slug": "bookshelf",
-      "name": "Bookshelf",
-      "author": "hope breekon",
-      "description": "styled after Bookshelf plugin",
-      "added": "2026-07-07T12:20:37+01:00",
-      "preset_url": "presets/bookshelf.lua"
-    },
-    {
-      "slug": "borders-the-preset",
-      "name": "Borders The Preset",
-      "author": "zee76",
-      "description": "Created at 3 am",
-      "added": "2026-08-17T10:37:11+01:00",
-      "preset_url": "presets/borders-the-preset.lua"
-    },
-    {
-      "slug": "bottomstatus",
-      "name": "BottomStatus",
-      "author": "Nobody",
-      "description": "Full bottom status",
-      "added": "2026-08-17T10:37:51+01:00",
-      "preset_url": "presets/bottomstatus.lua"
-    },
-    {
-      "slug": "chapter-and-book-default",
-      "name": "Chapter and Book Default",
-      "author": "SH4DOWSIX",
-      "description": "Chapter and Book Progress Bars",
-      "added": "2026-04-23T23:52:39+01:00",
-      "preset_url": "presets/chapter-and-book-default.lua"
-    },
-    {
-      "slug": "chapter-book-progress-bars",
-      "name": "Chapter & Book Progress Bars",
-      "author": "potetocake",
-      "description": "with chapter title, wifi on icon, & time.",
-      "added": "2026-07-29T23:49:39+01:00",
-      "preset_url": "presets/chapter-book-progress-bars.lua"
-    },
-    {
-      "slug": "chapter-new-style",
-      "name": "Chapter New Style",
-      "author": "Lautikin",
-      "description": "Minimalistic preset.",
-      "added": "2026-04-25T21:31:11+01:00",
-      "preset_url": "presets/chapter-new-style.lua"
-    },
-    {
-      "slug": "chapter-style",
-      "name": "Chapter Style",
-      "author": "Lautikin",
-      "description": "Modern and simple design.",
-      "added": "2026-04-25T03:49:57+01:00",
-      "preset_url": "presets/chapter-style.lua"
-    },
-    {
-      "slug": "clarity",
-      "name": "Clarity",
-      "author": "DB",
-      "description": "Final version. Dynamic, non-intrusive, all-encompassing. KLC optimised",
-      "added": "2026-06-12T07:13:07+01:00",
-      "preset_url": "presets/clarity.lua"
-    },
-    {
-      "slug": "classic-clean",
-      "name": "Classic Clean",
-      "author": "Pheanyl",
-      "description": "Alternate book title-author and chapter title - Bottom bar with minimal book information",
-      "added": "2026-05-02T23:53:40+01:00",
-      "preset_url": "presets/classic-clean.lua"
-    },
-    {
-      "slug": "classic",
-      "name": "Classic",
-      "author": "AndyHazz",
-      "description": "No progress bars, just alternating odd/even book title and chapter",
-      "added": "2026-04-19T19:55:33+01:00",
-      "preset_url": "presets/classic.lua"
-    },
-    {
-      "slug": "clean-and-informative",
-      "name": "Clean and Informative",
-      "author": "Maywind",
-      "description": "Alternate-page title and author, percentage and time left in chapter and book, book and chapter progress bars.",
-      "added": "2026-05-02T16:13:02+01:00",
-      "preset_url": "presets/clean-and-informative.lua"
-    },
-    {
-      "slug": "clean-complete",
-      "name": "Clean&complete",
-      "author": "Lycos",
-      "description": "A clean setup but with enough info",
-      "added": "2026-05-23T22:08:34+01:00",
-      "preset_url": "presets/clean-complete.lua"
-    },
-    {
-      "slug": "clean-informative-v2",
-      "name": "Clean & Informative V2",
-      "author": "fatcats55",
-      "description": "Essential info with 2 progress trackers in a clean format.",
-      "added": "2026-06-23T13:25:50+01:00",
-      "preset_url": "presets/clean-informative-v2.lua"
-    },
-    {
-      "slug": "clean-informative",
-      "name": "Clean & Informative",
-      "author": "fatcats55",
-      "description": "Essential info with 2 progress trackers in a clean format.",
-      "added": "2026-05-05T07:08:10+01:00",
-      "preset_url": "presets/clean-informative.lua"
-    },
-    {
-      "slug": "clean-progress",
-      "name": "Clean Progress",
-      "author": "elda",
-      "description": "Clean progress bar with title below, with accompanying page number and paged left in chapter",
-      "added": "2026-06-25T15:01:01+01:00",
-      "preset_url": "presets/clean-progress.lua"
-    },
-    {
-      "slug": "comic-book",
-      "name": "Comic book",
-      "author": "AndyHazz",
-      "description": "Made for CBZ or PDF with background fill, white on black",
-      "added": "2026-05-05T23:26:48+01:00",
-      "preset_url": "presets/comic-book.lua"
-    },
-    {
-      "slug": "compact-detailed-view",
-      "name": "Compact Detailed View",
-      "author": "Cassie",
-      "description": "Lots of info without visual clutter",
-      "added": "2026-06-23T13:25:54+01:00",
-      "preset_url": "presets/compact-detailed-view.lua"
-    },
-    {
-      "slug": "condensed-at-bottom",
-      "name": "Condensed at Bottom",
-      "author": "pesxguin",
-      "description": "Wifi, battery indicator, book progress bar, and book read percentage. ",
-      "added": "2026-07-24T21:56:15+01:00",
-      "preset_url": "presets/condensed-at-bottom.lua"
-    },
-    {
-      "slug": "crosspoint-book",
-      "name": "Crosspoint Book",
-      "author": "ReadinGadgets",
-      "description": "Crosspoint Book",
-      "added": "2026-04-26T09:08:36+01:00",
-      "preset_url": "presets/crosspoint-book.lua"
-    },
-    {
-      "slug": "crosspoint-chapter",
-      "name": "Crosspoint Chapter",
-      "author": "ReadinGadgets",
-      "description": "Crosspoint Chapter",
-      "added": "2026-04-26T09:07:46+01:00",
-      "preset_url": "presets/crosspoint-chapter.lua"
-    },
-    {
-      "slug": "db-detail",
-      "name": "DB Detail",
-      "author": "DB",
-      "description": "Detail build. Dynamic use of 1 line: more features. KLC optimised",
-      "added": "2026-06-10T08:36:15+01:00",
-      "preset_url": "presets/db-detail.lua"
-    },
-    {
-      "slug": "db-simple",
-      "name": "DB Simple",
-      "author": "DB",
-      "description": "Simple, clean, with dynamic info. Layout for KLC default margins",
-      "added": "2026-06-09T17:37:45+01:00",
-      "preset_url": "presets/db-simple.lua"
-    },
-    {
-      "slug": "dbo",
-      "name": "dbo",
-      "author": "DBO",
-      "description": "Simple and efficient",
-      "added": "2026-04-22T15:38:53+01:00",
-      "preset_url": "presets/dbo.lua"
-    },
-    {
-      "slug": "delight",
-      "name": "Delight",
-      "author": "zee76",
-      "description": "Created at 3 am",
-      "added": "2026-08-17T10:37:07+01:00",
-      "preset_url": "presets/delight.lua"
-    },
-    {
-      "slug": "deri",
-      "name": "Deri",
-      "author": "Deri",
-      "description": "Made by Deri for Deri",
-      "added": "2026-07-24T21:56:27+01:00",
-      "preset_url": "presets/deri.lua"
-    },
-    {
-      "slug": "detalle",
-      "name": "detalle",
-      "author": "Flor",
-      "description": "para libros largos",
-      "added": "2026-06-30T23:49:16+01:00",
-      "preset_url": "presets/detalle.lua"
-    },
-    {
-      "slug": "digital-book",
-      "name": "Digital Book",
-      "author": "Lautikin",
-      "description": "subtle and simple",
-      "added": "2026-06-01T14:21:21+01:00",
-      "preset_url": "presets/digital-book.lua"
-    },
-    {
-      "slug": "donuts",
-      "name": "Donuts",
-      "author": "good-pm",
-      "description": "Chapter and book donut progress",
-      "added": "2026-04-26T09:10:52+01:00",
-      "preset_url": "presets/donuts.lua"
-    },
-    {
-      "slug": "dots-n-diamonds",
-      "name": "Dots n diamonds",
-      "author": "cranberryjam",
-      "description": "Small design with some decorations",
-      "added": "2026-05-13T11:24:52+01:00",
-      "preset_url": "presets/dots-n-diamonds.lua"
-    },
-    {
-      "slug": "elegant-minimal",
-      "name": "Elegant minimal",
-      "author": "u/meowdogpewpew",
-      "description": "An elegant setup with alternating title/chapter, pages left, percentage read and time.",
-      "added": "2026-04-27T21:30:46+01:00",
-      "preset_url": "presets/elegant-minimal.lua"
-    },
-    {
-      "slug": "enough-for-me",
-      "name": "Enough For Me",
-      "author": "trash",
-      "description": "A clean setup with enough info for me",
-      "added": "2026-04-30T07:42:35+01:00",
-      "preset_url": "presets/enough-for-me.lua"
-    },
-    {
-      "slug": "essentially-minimal",
-      "name": "Essentially Minimal",
-      "author": "iElliie",
-      "description": "Your essentials at a glance.",
-      "added": "2026-04-20T21:53:31+01:00",
-      "preset_url": "presets/essentially-minimal.lua"
-    },
-    {
-      "slug": "everyday",
-      "name": "Everyday",
-      "author": "Jack",
-      "description": "Simple — Gives you at a glance all the information you will need",
-      "added": "2026-05-02T18:22:54+01:00",
-      "preset_url": "presets/everyday.lua"
-    },
-    {
-      "slug": "fals-epub",
-      "name": "Fal's epub",
-      "author": "fal",
-      "description": "simple aja",
-      "added": "2026-06-10T08:34:20+01:00",
-      "preset_url": "presets/fals-epub.lua"
-    },
-    {
-      "slug": "fine-simple-v1",
-      "name": "Fine Simple V1",
-      "author": "aerawata",
-      "description": "Simple. Essential. No distraction.",
-      "added": "2026-07-12T22:04:20+01:00",
-      "preset_url": "presets/fine-simple-v1.lua"
-    },
-    {
-      "slug": "fine-simple-v2",
-      "name": "Fine Simple V2",
-      "author": "aerawata",
-      "description": "Simple. Essential. No distraction.",
-      "added": "2026-07-12T22:04:17+01:00",
-      "preset_url": "presets/fine-simple-v2.lua"
-    },
-    {
-      "slug": "fine-simple-v3",
-      "name": "Fine Simple V3",
-      "author": "aerawata",
-      "description": "Simple. Essential. No distraction.",
-      "added": "2026-07-12T22:04:15+01:00",
-      "preset_url": "presets/fine-simple-v3.lua"
-    },
-    {
-      "slug": "first",
-      "name": "skeitto's detail",
-      "author": "skeitto",
-      "description": "clean detailed and a bit performative",
-      "added": "2026-06-23T13:25:47+01:00",
-      "preset_url": "presets/first.lua"
-    },
-    {
-      "slug": "fisico-com-barra",
-      "name": "Fisico com barra",
-      "author": "DougAlvarenga",
-      "description": "Titulo/Autor superior esquerdo. Capitulo superior direito. pagina e barra de progresso inferior central",
-      "added": "2026-04-20T17:11:34+01:00",
-      "preset_url": "presets/fisico-com-barra.lua"
-    },
-    {
-      "slug": "fit-for-bookshelf-launcher",
-      "name": "fit for Bookshelf launcher",
-      "author": "Lime",
-      "description": "simple details fit with Bookshelf launcher button",
-      "added": "2026-06-30T23:50:34+01:00",
-      "preset_url": "presets/fit-for-bookshelf-launcher.lua"
-    },
-    {
-      "slug": "full-of-stars",
-      "name": "Full of Stars!",
-      "author": "diaryngpanget",
-      "description": "because I love stars",
-      "added": "2026-08-19T13:29:20+01:00",
-      "preset_url": "presets/full-of-stars.lua"
-    },
-    {
-      "slug": "i-did-it-my-way",
-      "name": "I did it my way",
-      "author": "Mr Bean",
-      "description": "Hello",
-      "added": "2026-05-08T12:26:43+01:00",
-      "preset_url": "presets/i-did-it-my-way.lua"
-    },
-    {
-      "slug": "info-dump",
-      "name": "info dump",
-      "author": "boredbeluga",
-      "description": "tells your reading metrics and more at a glance",
-      "added": "2026-07-18T19:00:30+01:00",
-      "preset_url": "presets/info-dump.lua"
-    },
-    {
-      "slug": "informationaly-minimal",
-      "name": "Informationaly minimal",
-      "author": "iks_okss",
-      "description": "minimal setup with all important informations",
-      "added": "2026-05-19T17:19:20+01:00",
-      "preset_url": "presets/informationaly-minimal.lua"
-    },
-    {
-      "slug": "informative-yet-sleek-v4",
-      "name": "informative yet sleek v4",
-      "author": "cgroi",
-      "description": "Informative but simple and not too overloaded. Designed on Kobo Clara BW.",
-      "added": "2026-06-26T10:28:02+01:00",
-      "preset_url": "presets/informative-yet-sleek-v4.lua"
-    },
-    {
-      "slug": "infotopia",
-      "name": "Infotopia",
-      "author": "Knet",
-      "description": "Lots o' info ",
-      "added": "2026-04-24T17:01:46+01:00",
-      "preset_url": "presets/infotopia.lua"
-    },
-    {
-      "slug": "ireader",
-      "name": "iReader",
-      "author": "ReadinGadgets",
-      "description": "iReader like",
-      "added": "2026-04-30T07:42:28+01:00",
-      "preset_url": "presets/ireader.lua"
-    },
-    {
-      "slug": "jab-simple-informative-advanced",
-      "name": "jab simple informative advanced",
-      "author": "jab_",
-      "description": "simple informative",
-      "added": "2026-07-29T19:57:44+01:00",
-      "preset_url": "presets/jab-simple-informative-advanced.lua"
-    },
-    {
-      "slug": "jab-simple-informative",
-      "name": "jab simple informative",
-      "author": "jab",
-      "description": "simple informative barr chapter pages(%)",
-      "added": "2026-07-08T13:48:17+01:00",
-      "preset_url": "presets/jab-simple-informative.lua"
-    },
-    {
-      "slug": "jack-bookends",
-      "name": "Jack Bookends",
-      "author": "Jack Salillas",
-      "description": "Jack's Bookend",
-      "added": "2026-08-17T10:37:20+01:00",
-      "preset_url": "presets/jack-bookends.lua"
-    },
-    {
-      "slug": "jon-s-simple-layout",
-      "name": "Jon's Simple Layout",
-      "author": "Jon",
-      "description": "Simple",
-      "added": "2026-06-27T00:30:24+01:00",
-      "preset_url": "presets/jon-s-simple-layout.lua"
-    },
-    {
-      "slug": "just-right",
-      "name": "Just right",
-      "author": "Anon",
-      "description": "its just right",
-      "added": "2026-07-16T08:05:02+01:00",
-      "preset_url": "presets/just-right.lua"
-    },
-    {
-      "slug": "kaomoji-status-bar",
-      "name": "kaomoji status bar",
-      "author": "blog_dea",
-      "description": "kaomoji+if odd title (above) | kaomoji+ page, page left ch, clock (bottom)",
-      "added": "2026-08-19T07:58:49+01:00",
-      "preset_url": "presets/kaomoji-status-bar.lua"
-    },
-    {
-      "slug": "kind-time-in-book",
-      "name": "kind time in book",
-      "author": "meli",
-      "description": " kindle like",
-      "added": "2026-08-18T19:15:28+01:00",
-      "preset_url": "presets/kind-time-in-book.lua"
-    },
-    {
-      "slug": "kinda-a-lot-but-i-like-it",
-      "name": "Kinda a lot but I like it",
-      "author": "alib",
-      "description": "a lot of info, probably only interpretable by me",
-      "added": "2026-06-01T03:36:51+01:00",
-      "preset_url": "presets/kinda-a-lot-but-i-like-it.lua"
-    },
-    {
-      "slug": "kindle-chapter-time",
-      "name": "kindle chapter time",
-      "author": "meli",
-      "description": "kindle like",
-      "added": "2026-08-18T19:16:09+01:00",
-      "preset_url": "presets/kindle-chapter-time.lua"
-    },
-    {
-      "slug": "kindle-left-in-book",
-      "name": "Kindle left in book",
-      "author": "ReadinGadgets",
-      "description": "Kindle left in book",
-      "added": "2026-04-24T15:51:04+01:00",
-      "preset_url": "presets/kindle-left-in-book.lua"
-    },
-    {
-      "slug": "kindle-left-in-chapter",
-      "name": "Kindle left in chapter",
-      "author": "ReadinGadgets",
-      "description": "Kindle left in chapter",
-      "added": "2026-04-25T14:21:19+01:00",
-      "preset_url": "presets/kindle-left-in-chapter.lua"
-    },
-    {
-      "slug": "kindle-page-in-book",
-      "name": "Kindle page in book",
-      "author": "ReadinGadgets",
-      "description": "Kindle page in book",
-      "added": "2026-04-25T14:20:51+01:00",
-      "preset_url": "presets/kindle-page-in-book.lua"
-    },
-    {
-      "slug": "kindle-style-pages",
-      "name": "Kindle Style (Pages)",
-      "author": "ZimpleDumpling",
-      "description": "Bottom left: page(s) left in chapter; Bottom right: pages read of total pages",
-      "added": "2026-07-18T19:00:11+01:00",
-      "preset_url": "presets/kindle-style-pages.lua"
-    },
-    {
-      "slug": "kitty-preset",
-      "name": "Kitty preset",
-      "author": "Kitty",
-      "description": "Simple preset w.o symbols for Kobo Clara",
-      "added": "2026-07-24T21:56:46+01:00",
-      "preset_url": "presets/kitty-preset.lua"
-    },
-    {
-      "slug": "kobo-dupe",
-      "name": "Kobo Dupe",
-      "author": "jayqism",
-      "description": "Dupe of Kobo’s layout with minimal additional information.",
-      "added": "2026-07-12T22:04:12+01:00",
-      "preset_url": "presets/kobo-dupe.lua"
-    },
-    {
-      "slug": "kobo-like-stats",
-      "name": "kobo like stats",
-      "author": "meli",
-      "description": "kobo reading stats. You can read along as if you were using the kobo's interface",
-      "added": "2026-08-18T23:29:30+01:00",
-      "preset_url": "presets/kobo-like-stats.lua"
-    },
-    {
-      "slug": "kobo-like-with-time-progress",
-      "name": "Kobo like with time progress",
-      "author": "Koitma",
-      "description": "Kobo inspired with progress bars and time left tokens",
-      "added": "2026-07-06T12:59:25+01:00",
-      "preset_url": "presets/kobo-like-with-time-progress.lua"
-    },
-    {
-      "slug": "kobo-like",
-      "name": "Kobo Like",
-      "author": "Orange",
-      "description": "Stock Kobo inspired with time display and other hidden tokens.",
-      "added": "2026-04-20T07:23:44+01:00",
-      "preset_url": "presets/kobo-like.lua"
-    },
-    {
-      "slug": "kobo",
-      "name": "Kobo",
-      "author": "ReadinGadgets",
-      "description": "As close to Kobo",
-      "added": "2026-04-24T13:59:34+01:00",
-      "preset_url": "presets/kobo.lua"
-    },
-    {
-      "slug": "koreader-stock",
-      "name": "KOReader stock",
-      "author": "AndyHazz",
-      "description": "Mimics KOReader's built-in status bar — page, clock, chapter, battery, percent, time remaining",
-      "added": "2026-04-19T20:38:01+01:00",
-      "preset_url": "presets/koreader-stock.lua"
-    },
-    {
-      "slug": "l00py-s-main",
-      "name": "l00py's main",
-      "author": "l00py",
-      "description": "tweaked minimal but detailed preset",
-      "added": "2026-06-28T15:32:45+01:00",
-      "preset_url": "presets/l00py-s-main.lua"
-    },
-    {
-      "slug": "less-is-less",
-      "name": "Less is less",
-      "author": "trash",
-      "description": "A clean setup with enough info for me",
-      "added": "2026-06-10T08:35:03+01:00",
-      "preset_url": "presets/less-is-less.lua"
-    },
-    {
-      "slug": "live-laugh-love-the-layout",
-      "name": "live laugh love the layout",
-      "author": "klorka",
-      "description": "edited version of novel by kurokeita, adjusted to make it even more simple and yet still fancy",
-      "added": "2026-06-25T07:08:48+01:00",
-      "preset_url": "presets/live-laugh-love-the-layout.lua"
-    },
-    {
-      "slug": "livros",
-      "name": "Livros",
-      "author": "Meirim",
-      "description": "Simple books",
-      "added": "2026-04-19T23:31:55+01:00",
-      "preset_url": "presets/livros.lua"
-    },
-    {
-      "slug": "luddite-with-allowances",
-      "name": "Luddite with Allowances",
-      "author": "BozoGlizzy",
-      "description": "Simple and paper-like with barebones progress tracking and clock",
-      "added": "2026-08-17T10:37:48+01:00",
-      "preset_url": "presets/luddite-with-allowances.lua"
-    },
-    {
-      "slug": "main-mini-mini",
-      "name": "Main mini mini",
-      "author": "Koalafied Wombat",
-      "description": "Simple",
-      "added": "2026-07-24T21:56:34+01:00",
-      "preset_url": "presets/main-mini-mini.lua"
-    },
-    {
-      "slug": "main",
-      "name": "l00py's main",
-      "author": "l00py",
-      "description": "edited minimal yet detailed to suit my needs",
-      "added": "2026-05-07T19:31:55+01:00",
-      "preset_url": "presets/main.lua"
-    },
-    {
-      "slug": "manga-minimal",
-      "name": "Manga Minimal",
-      "author": "fatcats55",
-      "description": "Minimal settings for manga reading. Includes pages, time left in book, mini progress bar, clock, wifi, and battery %.",
-      "added": "2026-05-13T11:24:25+01:00",
-      "preset_url": "presets/manga-minimal.lua"
-    },
-    {
-      "slug": "manga-simple-bar",
-      "name": "Manga simple bar",
-      "author": "Rafael Meirim",
-      "description": "Simple bar for mangas",
-      "added": "2026-06-18T13:41:00+01:00",
-      "preset_url": "presets/manga-simple-bar.lua"
-    },
-    {
-      "slug": "mangaminibar",
-      "name": "Mangaminibar",
-      "author": "bookends",
-      "description": "Minimal starter — clock, page number, and a slim progress bar",
-      "added": "2026-05-10T09:16:51+01:00",
-      "preset_url": "presets/mangaminibar.lua"
-    },
-    {
-      "slug": "max-standard",
-      "name": "Max Standard",
-      "author": "mmccord",
-      "description": "Simple, progress-focused bars",
-      "added": "2026-05-23T07:26:07+01:00",
-      "preset_url": "presets/max-standard.lua"
-    },
-    {
-      "slug": "maximalist-minimal",
-      "name": "Maximalist Minimal",
-      "author": "ScarceBraincells",
-      "description": "progress bar, pages left, total pages, percentage, wifi, time left in chapter, bookmarks, title, clock, battery",
-      "added": "2026-08-17T10:37:14+01:00",
-      "preset_url": "presets/maximalist-minimal.lua"
-    },
-    {
-      "slug": "maximalist-sparkles-2-0",
-      "name": "Maximalist sparkles 2.0",
-      "author": "rillereads",
-      "description": "for anyone who likes bows, sparkles, and stars",
-      "added": "2026-07-02T12:59:12+01:00",
-      "preset_url": "presets/maximalist-sparkles-2-0.lua"
-    },
-    {
-      "slug": "maximalist-sparkles",
-      "name": "Maximalist sparkles",
-      "author": "rillereads",
-      "description": "Just a lot of sparkles (enable/disable bottom center and bookshelf tab)",
-      "added": "2026-06-22T12:12:24+01:00",
-      "preset_url": "presets/maximalist-sparkles.lua"
-    },
-    {
-      "slug": "me",
-      "name": "Placid Edit",
-      "author": "CheshireCatSith",
-      "description": "Minimal preset with colour accents and series info. Based on Placid with custom styling.",
-      "added": "2026-05-13T11:25:32+01:00",
-      "preset_url": "presets/me.lua"
-    },
-    {
-      "slug": "metro-border",
-      "name": "Metro border",
-      "author": "AndyHazz",
-      "description": "All aboard!",
-      "added": "2026-04-19T12:29:07+01:00",
-      "preset_url": "presets/metro-border.lua"
-    },
-    {
-      "slug": "mickey-s",
-      "name": "Mickey's",
-      "author": "Mickey",
-      "description": "clean minimal preset with all required details",
-      "added": "2026-08-17T10:37:17+01:00",
-      "preset_url": "presets/mickey-s.lua"
-    },
-    {
-      "slug": "minimal-bold",
-      "name": "minimal (bold)",
-      "author": "smsnrm",
-      "description": "minimal",
-      "added": "2026-06-27T07:34:27+01:00",
-      "preset_url": "presets/minimal-bold.lua"
-    },
-    {
-      "slug": "minimal-bookend",
-      "name": "Minimal Bookend",
-      "author": "bobtran",
-      "description": "minimal",
-      "added": "2026-06-03T21:42:18+01:00",
-      "preset_url": "presets/minimal-bookend.lua"
-    },
-    {
-      "slug": "minimal-border",
-      "name": "Minimal & Border",
-      "author": "Moon",
-      "description": "Give a border around the text with minimal infos athe bottom.",
-      "added": "2026-07-24T21:56:40+01:00",
-      "preset_url": "presets/minimal-border.lua"
-    },
-    {
-      "slug": "minimal-distraction",
-      "name": "minimal distraction",
-      "author": "marte",
-      "description": "title, author, progress bar, book progress and chapter progress. focus on text.",
-      "added": "2026-07-26T10:11:27+01:00",
-      "preset_url": "presets/minimal-distraction.lua"
-    },
-    {
-      "slug": "minimal-kobo-inspired",
-      "name": "Minimal — Kobo inspired",
-      "author": "nono33",
-      "description": "minimal info, clean layout",
-      "added": "2026-05-18T16:28:21+01:00",
-      "preset_url": "presets/minimal-kobo-inspired.lua"
-    },
-    {
-      "slug": "minimal-red-accents",
-      "name": "Minimal + Red Accents",
-      "author": "Sekhonrts",
-      "description": "Only essential information and little reminders",
-      "added": "2026-06-28T10:15:23+01:00",
-      "preset_url": "presets/minimal-red-accents.lua"
-    },
-    {
-      "slug": "minimal-regular",
-      "name": "minimal (regular)",
-      "author": "smsnrm",
-      "description": "minimal",
-      "added": "2026-06-27T07:34:02+01:00",
-      "preset_url": "presets/minimal-regular.lua"
-    },
-    {
-      "slug": "minimal-v1",
-      "name": "Minimal v1",
-      "author": "Laenas",
-      "description": "Minimal UI. Necessary information only",
-      "added": "2026-06-23T13:25:58+01:00",
-      "preset_url": "presets/minimal-v1.lua"
-    },
-    {
-      "slug": "minimal-with-progress-bar",
-      "name": "minimal with progress bar",
-      "author": "smsnrm",
-      "description": "minimal with progress bar",
-      "added": "2026-07-12T22:04:29+01:00",
-      "preset_url": "presets/minimal-with-progress-bar.lua"
-    },
-    {
-      "slug": "minimal-yet-detailed-v2",
-      "name": "Minimal yet detailed v2",
-      "author": "good-pm",
-      "description": "A clean and detailed view. ",
-      "added": "2026-05-16T06:58:59+01:00",
-      "preset_url": "presets/minimal-yet-detailed-v2.lua"
-    },
-    {
-      "slug": "minimal-yet-detailed",
-      "name": "Minimal yet detailed",
-      "author": "good-pm",
-      "description": "A clean and detailed view.",
-      "added": "2026-04-23T17:39:10+01:00",
-      "preset_url": "presets/minimal-yet-detailed.lua"
-    },
-    {
-      "slug": "minimalist-sparkles",
-      "name": "minimalist sparkles",
-      "author": "bookends",
-      "description": "Minimalist with sparkles. Clock, book percentage, pages, and a barely-there progress bar!",
-      "added": "2026-08-17T10:37:54+01:00",
-      "preset_url": "presets/minimalist-sparkles.lua"
-    },
-    {
-      "slug": "minimalistic-sancai",
-      "name": "Minimalistic Sancai",
-      "author": "pesxguin",
-      "description": "Blue green amber. Book progress, chapter progress, clock + battery + book percentage. Suitable for color ereaders.",
-      "added": "2026-07-01T20:17:42+01:00",
-      "preset_url": "presets/minimalistic-sancai.lua"
-    },
-    {
-      "slug": "my-kindle-expanded",
-      "name": "my.kindle expanded",
-      "author": "Anon",
-      "description": "Minimal starter — clock, page number, and a slim progress bar (modified version to my taste)",
-      "added": "2026-07-08T15:04:55+01:00",
-      "preset_url": "presets/my-kindle-expanded.lua"
-    },
-    {
-      "slug": "my-kindle-pageleft",
-      "name": "my.kindle (pageleft)",
-      "author": "chananya",
-      "description": "Minimal starter — clock, page number, and a slim progress bar",
-      "added": "2026-07-26T10:11:04+01:00",
-      "preset_url": "presets/my-kindle-pageleft.lua"
-    },
-    {
-      "slug": "my-kindle",
-      "name": "my.kindle",
-      "author": "Anon",
-      "description": "Minimal starter — clock, page number, and a slim progress bar",
-      "added": "2026-05-14T19:52:34+01:00",
-      "preset_url": "presets/my-kindle.lua"
-    },
-    {
-      "slug": "nat-s-kindle-kobo-inspired-bookends",
-      "name": "Nat’s Kindle+Kobo Inspired Bookends",
-      "author": "nyataliefyi",
-      "description": "A mix of Kindle and Kobo UI in my own take.",
-      "added": "2026-07-12T22:04:35+01:00",
-      "preset_url": "presets/nat-s-kindle-kobo-inspired-bookends.lua"
-    },
-    {
-      "slug": "nom",
-      "name": "nom",
-      "author": "LadyBnome",
-      "description": "pacman progress, pages read in chapter",
-      "added": "2026-08-17T10:37:44+01:00",
-      "preset_url": "presets/nom.lua"
-    },
-    {
-      "slug": "novel",
-      "name": "Novel",
-      "author": "kurokeita",
-      "description": "simple bars for novel",
-      "added": "2026-05-26T16:25:09+01:00",
-      "preset_url": "presets/novel.lua"
-    },
-    {
-      "slug": "one-line-minimalism",
-      "name": "One Line Minimalism",
-      "author": "Campanolo",
-      "description": "All the basics, in an unintrusive, elegant design.",
-      "added": "2026-08-17T10:37:24+01:00",
-      "preset_url": "presets/one-line-minimalism.lua"
-    },
-    {
-      "slug": "packman-book-chapter-progress",
-      "name": "Packman: book&chapter progress",
-      "author": "asimoff",
-      "description": "Packman style bottom book&chapter progress",
-      "added": "2026-06-25T19:05:02+01:00",
-      "preset_url": "presets/packman-book-chapter-progress.lua"
-    },
-    {
-      "slug": "pacman",
-      "name": "Jotaro's Pacman Bars",
-      "author": "jotaro",
-      "description": "formal with names",
-      "added": "2026-07-12T22:05:16+01:00",
-      "preset_url": "presets/pacman.lua"
-    },
-    {
-      "slug": "paper",
-      "name": "Paper",
-      "author": "AndyHazz",
-      "description": "Uses borders to give a feel of real book",
-      "added": "2026-04-19T12:44:42+01:00",
-      "preset_url": "presets/paper.lua"
-    },
-    {
-      "slug": "pdf-preset",
-      "name": "PDF preset",
-      "author": "Anon",
-      "description": "Made for CBZ or PDF with background fill, white on black",
-      "added": "2026-05-13T11:33:45+01:00",
-      "preset_url": "presets/pdf-preset.lua"
-    },
-    {
-      "slug": "perfectly-minimal",
-      "name": "perfectly minimal",
-      "author": "mbakes03",
-      "description": "title, time & battery, thin progress bar, bool info",
-      "added": "2026-08-17T10:37:41+01:00",
-      "preset_url": "presets/perfectly-minimal.lua"
-    },
-    {
-      "slug": "personal-minimal",
-      "name": "Personal minimal",
-      "author": "Cyborne",
-      "description": "As minima, as i can make it for me",
-      "added": "2026-08-17T10:37:27+01:00",
-      "preset_url": "presets/personal-minimal.lua"
-    },
-    {
-      "slug": "phone-preset",
-      "name": "Phone preset",
-      "author": "Meg",
-      "description": "a simple preset for my phone reading",
-      "added": "2026-08-19T20:00:18+01:00",
-      "preset_url": "presets/phone-preset.lua"
-    },
-    {
-      "slug": "picomini",
-      "name": "picomini",
-      "author": "pico",
-      "description": "minimal bars",
-      "added": "2026-07-18T19:00:20+01:00",
-      "preset_url": "presets/picomini.lua"
-    },
-    {
-      "slug": "placid",
-      "name": "Placid",
-      "author": "logwet",
-      "description": "All the essentials, condensed into two lines and styled to disappear.",
-      "added": "2026-04-27T17:09:15+10:00",
-      "preset_url": "presets/placid.lua"
-    },
-    {
-      "slug": "print-v-2",
-      "name": "Print v.2",
-      "author": "bmf",
-      "description": "Mimicking the classic novels print style. Added some new conditions.",
-      "added": "2026-04-22T08:36:05+01:00",
-      "preset_url": "presets/print-v-2.lua"
-    },
-    {
-      "slug": "print",
-      "name": "Print",
-      "author": "bmf",
-      "description": "No progress bar. Alternating page number, odd/even title + author and chapter + series.",
-      "added": "2026-04-20T07:23:55+01:00",
-      "preset_url": "presets/print.lua"
-    },
-    {
-      "slug": "raf",
-      "name": "Raf",
-      "author": "Rafik",
-      "description": "all you need",
-      "added": "2026-05-04T08:50:01+01:00",
-      "preset_url": "presets/raf.lua"
-    },
-    {
-      "slug": "reach-for-the-stars",
-      "name": "Reach for the stars",
-      "author": "rillereads",
-      "description": "Stars in the header and footer",
-      "added": "2026-06-21T08:33:03+01:00",
-      "preset_url": "presets/reach-for-the-stars.lua"
-    },
-    {
-      "slug": "refinement",
-      "name": "Refinement",
-      "author": "Rhelvorn",
-      "description": "Book & Chapter Title, Pages Read in Total",
-      "added": "2026-07-24T21:56:52+01:00",
-      "preset_url": "presets/refinement.lua"
-    },
-    {
-      "slug": "rich-detail",
-      "name": "Rich detail",
-      "author": "AndyHazz",
-      "description": "Clock, battery, Wi-Fi, brightness, highlights — the full kitchen sink",
-      "added": "2026-04-19T19:51:36+01:00",
-      "preset_url": "presets/rich-detail.lua"
-    },
-    {
-      "slug": "rtl-bars",
-      "name": "RTL Bars",
-      "author": "mimorienne",
-      "description": "Very basic with RTL progress bars. Based on a physical Japanese book I own.",
-      "added": "2026-05-07T07:01:17+01:00",
-      "preset_url": "presets/rtl-bars.lua"
-    },
-    {
-      "slug": "sessions",
-      "name": "sessions",
-      "author": "Flor",
-      "description": "info de minutos leídos",
-      "added": "2026-06-30T23:49:14+01:00",
-      "preset_url": "presets/sessions.lua"
-    },
-    {
-      "slug": "side-bars",
-      "name": "Side Bars",
-      "author": "good-pm",
-      "description": "Read and fill them up!",
-      "added": "2026-04-30T07:42:31+01:00",
-      "preset_url": "presets/side-bars.lua"
-    },
-    {
-      "slug": "simple-4-me",
-      "name": "simple 4 me!",
-      "author": "apollo",
-      "description": "somewhat inspired by kobo stock reader (with more info)",
-      "added": "2026-06-27T00:29:54+01:00",
-      "preset_url": "presets/simple-4-me.lua"
-    },
-    {
-      "slug": "simple-for-epub",
-      "name": "Simple for EPUB",
-      "author": "fal",
-      "description": "bettr with atkinson font",
-      "added": "2026-06-23T13:25:44+01:00",
-      "preset_url": "presets/simple-for-epub.lua"
-    },
-    {
-      "slug": "simple-informative",
-      "name": "Simple Informative",
-      "author": "Nicki",
-      "description": "All the Informtion forvreading time in a simple preset.",
-      "added": "2026-06-30T23:49:11+01:00",
-      "preset_url": "presets/simple-informative.lua"
-    },
-    {
-      "slug": "simple-manga",
-      "name": "simple manga",
-      "author": "fal",
-      "description": "space on left and right",
-      "added": "2026-06-12T14:30:59+01:00",
-      "preset_url": "presets/simple-manga.lua"
-    },
-    {
-      "slug": "simple-progress",
-      "name": "Simple Progress",
-      "author": "elda",
-      "description": "page #, progress bar, pages left in chapter ",
-      "added": "2026-06-11T23:59:20+01:00",
-      "preset_url": "presets/simple-progress.lua"
-    },
-    {
-      "slug": "simple-ui-book-and-chapter",
-      "name": "Simple UI (book and chapter)",
-      "author": "Fedesempai",
-      "description": "Simple ui with remaining pages numbers for the book and chapter",
-      "added": "2026-04-20T17:12:07+01:00",
-      "preset_url": "presets/simple-ui-book-and-chapter.lua"
-    },
-    {
-      "slug": "simple-yet-satisfying",
-      "name": "Simple yet satisfying",
-      "author": "Rebecca D",
-      "description": "simple yet informative",
-      "added": "2026-05-23T12:39:36+01:00",
-      "preset_url": "presets/simple-yet-satisfying.lua"
-    },
-    {
-      "slug": "simpleui-status-bar",
-      "name": "SimpleUI status bar",
-      "author": "AndyHazz",
-      "description": "Compact top-right status bar in the simpleui style",
-      "added": "2026-04-19T19:52:02+01:00",
-      "preset_url": "presets/simpleui-status-bar.lua"
-    },
-    {
-      "slug": "simplicity",
-      "name": "Simplicity",
-      "author": "sabee",
-      "description": "Simple preset with clock, pages left in chapter and book percentage.",
-      "added": "2026-04-20T17:12:28+01:00",
-      "preset_url": "presets/simplicity.lua"
-    },
-    {
-      "slug": "simply-lovely",
-      "name": "simply lovely",
-      "author": "aly",
-      "description": "just enough info",
-      "added": "2026-07-24T21:56:21+01:00",
-      "preset_url": "presets/simply-lovely.lua"
-    },
-    {
-      "slug": "sleek-info",
-      "name": "Sleek info",
-      "author": "FinSSSS",
-      "description": "Book detail, double progress bar (top = chapter, bottom = whole book) & basic device info - in a neat & minimal style",
-      "added": "2026-06-30T23:49:25+01:00",
-      "preset_url": "presets/sleek-info.lua"
-    },
-    {
-      "slug": "solitude",
-      "name": "Solitude",
-      "author": "Rhelvorn",
-      "description": "Perfection in minimalism.",
-      "added": "2026-07-12T22:04:23+01:00",
-      "preset_url": "presets/solitude.lua"
-    },
-    {
-      "slug": "sparkle-k-i-s-s-keep-it-simple-stupid",
-      "name": "Sparkle K.I.S.S (keep it simple stupid)",
-      "author": "Rhelvorn",
-      "description": "Perfection in minimalism.",
-      "added": "2026-07-26T10:12:09+01:00",
-      "preset_url": "presets/sparkle-k-i-s-s-keep-it-simple-stupid.lua"
-    },
-    {
-      "slug": "speed-reader",
-      "name": "Speed reader",
-      "author": "AndyHazz",
-      "description": "Session timer, reading speed, time remaining, progress percentages",
-      "added": "2026-04-19T19:52:33+01:00",
-      "preset_url": "presets/speed-reader.lua"
-    },
-    {
-      "slug": "stamp",
-      "name": "Stamp",
-      "author": "AndyHazz",
-      "description": "One for the philatelists",
-      "added": "2026-04-19T21:20:09+01:00",
-      "preset_url": "presets/stamp.lua"
-    },
-    {
-      "slug": "status-bar-compact",
-      "name": "Status Bar Compact",
-      "author": "Mido Vodella",
-      "description": "A condensed, bottom centric preset similar to KOReader's base progress bar.",
-      "added": "2026-04-25T03:51:26+01:00",
-      "preset_url": "presets/status-bar-compact.lua"
-    },
-    {
-      "slug": "super-booklike-with-tiny-progress-bar",
-      "name": "super booklike with tiny progress bar",
-      "author": "mothsphere",
-      "description": "book/chap titles alternate, blank on first page of chap. page num/bar",
-      "added": "2026-07-12T22:04:32+01:00",
-      "preset_url": "presets/super-booklike-with-tiny-progress-bar.lua"
-    },
-    {
-      "slug": "supernote-nomad",
-      "name": "Supernote Nomad",
-      "author": "Jotaro",
-      "description": "Radial chapter progress bar with page count and book percentage",
-      "added": "2026-07-12T22:05:13+01:00",
-      "preset_url": "presets/supernote-nomad.lua"
-    },
-    {
-      "slug": "take-flight",
-      "name": "Take flight",
-      "author": "rillereads",
-      "description": "See your journey with visible reading progress ",
-      "added": "2026-06-23T18:13:38+01:00",
-      "preset_url": "presets/take-flight.lua"
-    },
-    {
-      "slug": "title-chap-page-bar-percent",
-      "name": "title/chap, page/bar/percent",
-      "author": "mothsphere",
-      "description": "book-style layout + bar and percentage",
-      "added": "2026-06-30T23:49:19+01:00",
-      "preset_url": "presets/title-chap-page-bar-percent.lua"
-    },
-    {
-      "slug": "tmi",
-      "name": "TMI",
-      "author": "Classic_Platypus",
-      "description": "All of the information in a book-like presentation",
-      "added": "2026-04-25T15:10:45+01:00",
-      "preset_url": "presets/tmi.lua"
-    },
-    {
-      "slug": "txt",
-      "name": "txt",
-      "author": "naimur29",
-      "description": "For me!",
-      "added": "2026-05-25T16:22:52+01:00",
-      "preset_url": "presets/txt.lua"
-    },
-    {
-      "slug": "uncluttered",
-      "name": "Uncluttered",
-      "author": "Tobias Lind",
-      "description": "Clean top and bottom bars for books and manga alike.",
-      "added": "2026-05-06T20:03:54+01:00",
-      "preset_url": "presets/uncluttered.lua"
-    },
-    {
-      "slug": "uwe-s-1-sort",
-      "name": "Uwe's 1. Sort",
-      "author": "Jason",
-      "description": "Meine Basics",
-      "added": "2026-07-16T08:04:55+01:00",
-      "preset_url": "presets/uwe-s-1-sort.lua"
-    },
-    {
-      "slug": "uwe-s-2-sort",
-      "name": "Uwe's 2. Sort",
-      "author": "Jason",
-      "description": "Sortierung 2",
-      "added": "2026-07-16T08:05:31+01:00",
-      "preset_url": "presets/uwe-s-2-sort.lua"
-    },
-    {
-      "slug": "uwe-s-3-sort",
-      "name": "Uwe's 3. Sort",
-      "author": "Jason",
-      "description": "Sortierung 2",
-      "added": "2026-07-24T21:56:08+01:00",
-      "preset_url": "presets/uwe-s-3-sort.lua"
-    },
-    {
-      "slug": "uwe-s",
-      "name": "Uwe's",
-      "author": "Jason",
-      "description": "Meine Basics",
-      "added": "2026-07-09T13:07:57+01:00",
-      "preset_url": "presets/uwe-s.lua"
-    },
-    {
-      "slug": "wave-info",
-      "name": "wave info",
-      "author": "Anon",
-      "description": "everything i need ",
-      "added": "2026-05-16T14:44:19+01:00",
-      "preset_url": "presets/wave-info.lua"
-    },
-    {
-      "slug": "whimsy-01",
-      "name": "whimsy 01",
-      "author": "flighty",
-      "description": "chap title, book name, time, battery, page  no, chap time until finish,total time left and progress bar",
-      "added": "2026-08-17T10:37:37+01:00",
-      "preset_url": "presets/whimsy-01.lua"
-    },
-    {
-      "slug": "works-for-me",
-      "name": "Works for Me!",
-      "author": "Dragonweaver",
-      "description": "book progress bar at top, chapter bar at bottom",
-      "added": "2026-05-04T17:39:05+01:00",
-      "preset_url": "presets/works-for-me.lua"
-    },
-    {
-      "slug": "wow",
-      "name": "Wow",
-      "author": "DougAlvarenga",
-      "description": "Title/Author @ up. Pages, book % and time reading down. Language PT_Br",
-      "added": "2026-04-20T07:23:50+01:00",
-      "preset_url": "presets/wow.lua"
-    },
-    {
-      "slug": "you-have-to-look-for-it",
-      "name": "You have to look for it",
-      "author": "Rami",
-      "description": "Alternating bottom page numbers and a book progress bar that you look for",
-      "added": "2026-07-12T22:04:26+01:00",
-      "preset_url": "presets/you-have-to-look-for-it.lua"
-    }
-  ]
-}
+{"schema_version":1,"updated":"2026-08-23T18:55:37.249Z","presets":[
+{"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
+{"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
+{"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
+{"slug":"4-edges","name":"4 edges","author":"Rafik","description":"all you need","added":"2026-08-02T17:05:43+01:00","preset_url":"presets/4-edges.lua"},
+{"slug":"a-little-whimsy","name":"a little whimsy","author":"rillereads","description":"added emoticons, numerical value of reading progress (base design is from existing Minimal yet detailed preset)","added":"2026-06-12T07:12:02+01:00","preset_url":"presets/a-little-whimsy.lua"},
+{"slug":"all-i-need","name":"All I need","author":"Alx","description":"All U need while reading","added":"2026-04-26T15:00:28+01:00","preset_url":"presets/all-i-need.lua"},
+{"slug":"almost-invisible","name":"Almost invisible","author":"akrreh","description":"Top: Chapter, Bottom: Book. Battery warning if less than 20%.","added":"2026-05-03T15:40:29+01:00","preset_url":"presets/almost-invisible.lua"},
+{"slug":"balanced-color","name":"Balanced Color+","author":"Zork","description":"Clean and informative.","added":"2026-07-16T08:05:21+01:00","preset_url":"presets/balanced-color.lua"},
+{"slug":"basic","name":"Basic+","author":"JayV","description":"basic info plus some extra","added":"2026-05-20T12:33:09+01:00","preset_url":"presets/basic.lua"},
+{"slug":"bknds-with-progress","name":"bknds with progress","author":"annomaly","description":"title, chapter, page number, clock, battery and progress bars","added":"2026-08-17T10:37:33+01:00","preset_url":"presets/bknds-with-progress.lua"},
+{"slug":"bknds","name":"bknds","author":"annomaly","description":"title, chapter, page number, clock, battery","added":"2026-08-17T10:37:30+01:00","preset_url":"presets/bknds.lua"},
+{"slug":"blu-memori","name":"blu memori","author":"azul","description":"a clean dreamy setup with some even/odd and [if] templates.","added":"2026-06-30T23:50:13+01:00","preset_url":"presets/blu-memori.lua"},
+{"slug":"book-chapter-info","name":"Book & Chapter Info","author":"rot-and-read","description":"See book & chapter information at a glance. Includes two progress bars and misc book/chap info.","added":"2026-06-03T21:42:14+01:00","preset_url":"presets/book-chapter-info.lua"},
+{"slug":"book-page-framed-with-progress-bars","name":"Book Page framed with Progress Bars","author":"Hille","description":"Mimics book pages framed with book/chapter progress bars.","added":"2026-04-23T22:39:52+01:00","preset_url":"presets/book-page-framed-with-progress-bars.lua"},
+{"slug":"booklike-plus-percent-progress-bar","name":"booklike plus percent/progress bar","author":"mothsphere","description":"low profile, book/chap titles alternate except blank on first page of chap. ","added":"2026-06-30T23:49:22+01:00","preset_url":"presets/booklike-plus-percent-progress-bar.lua"},
+{"slug":"books","name":"Books","author":"Midori","description":"Minimal and clean ereader setting","added":"2026-07-12T22:05:10+01:00","preset_url":"presets/books.lua"},
+{"slug":"bookshelf","name":"Bookshelf","author":"hope breekon","description":"styled after Bookshelf plugin","added":"2026-07-07T12:20:37+01:00","preset_url":"presets/bookshelf.lua"},
+{"slug":"borders-the-preset","name":"Borders The Preset","author":"zee76","description":"Created at 3 am","added":"2026-08-17T10:37:11+01:00","preset_url":"presets/borders-the-preset.lua"},
+{"slug":"bottomstatus","name":"BottomStatus","author":"Nobody","description":"Full bottom status","added":"2026-08-17T10:37:51+01:00","preset_url":"presets/bottomstatus.lua"},
+{"slug":"chapter-and-book-default","name":"Chapter and Book Default","author":"SH4DOWSIX","description":"Chapter and Book Progress Bars","added":"2026-04-23T23:52:39+01:00","preset_url":"presets/chapter-and-book-default.lua"},
+{"slug":"chapter-book-progress-bars","name":"Chapter & Book Progress Bars","author":"potetocake","description":"with chapter title, wifi on icon, & time.","added":"2026-07-29T23:49:39+01:00","preset_url":"presets/chapter-book-progress-bars.lua"},
+{"slug":"chapter-new-style","name":"Chapter New Style","author":"Lautikin","description":"Minimalistic preset.","added":"2026-04-25T21:31:11+01:00","preset_url":"presets/chapter-new-style.lua"},
+{"slug":"chapter-style","name":"Chapter Style","author":"Lautikin","description":"Modern and simple design.","added":"2026-04-25T03:49:57+01:00","preset_url":"presets/chapter-style.lua"},
+{"slug":"clarity","name":"Clarity","author":"DB","description":"Final version. Dynamic, non-intrusive, all-encompassing. KLC optimised","added":"2026-06-12T07:13:07+01:00","preset_url":"presets/clarity.lua"},
+{"slug":"classic-clean","name":"Classic Clean","author":"Pheanyl","description":"Alternate book title-author and chapter title - Bottom bar with minimal book information","added":"2026-05-02T23:53:40+01:00","preset_url":"presets/classic-clean.lua"},
+{"slug":"classic","name":"Classic","author":"AndyHazz","description":"No progress bars, just alternating odd/even book title and chapter","added":"2026-04-19T19:55:33+01:00","preset_url":"presets/classic.lua"},
+{"slug":"clean-and-informative","name":"Clean and Informative","author":"Maywind","description":"Alternate-page title and author, percentage and time left in chapter and book, book and chapter progress bars.","added":"2026-05-02T16:13:02+01:00","preset_url":"presets/clean-and-informative.lua"},
+{"slug":"clean-complete","name":"Clean&complete","author":"Lycos","description":"A clean setup but with enough info","added":"2026-05-23T22:08:34+01:00","preset_url":"presets/clean-complete.lua"},
+{"slug":"clean-informative-v2","name":"Clean & Informative V2","author":"fatcats55","description":"Essential info with 2 progress trackers in a clean format.","added":"2026-06-23T13:25:50+01:00","preset_url":"presets/clean-informative-v2.lua"},
+{"slug":"clean-informative","name":"Clean & Informative","author":"fatcats55","description":"Essential info with 2 progress trackers in a clean format.","added":"2026-05-05T07:08:10+01:00","preset_url":"presets/clean-informative.lua"},
+{"slug":"clean-progress","name":"Clean Progress","author":"elda","description":"Clean progress bar with title below, with accompanying page number and paged left in chapter","added":"2026-06-25T15:01:01+01:00","preset_url":"presets/clean-progress.lua"},
+{"slug":"comic-book","name":"Comic book","author":"AndyHazz","description":"Made for CBZ or PDF with background fill, white on black","added":"2026-05-05T23:26:48+01:00","preset_url":"presets/comic-book.lua"},
+{"slug":"compact-detailed-view","name":"Compact Detailed View","author":"Cassie","description":"Lots of info without visual clutter","added":"2026-06-23T13:25:54+01:00","preset_url":"presets/compact-detailed-view.lua"},
+{"slug":"condensed-at-bottom","name":"Condensed at Bottom","author":"pesxguin","description":"Wifi, battery indicator, book progress bar, and book read percentage. ","added":"2026-07-24T21:56:15+01:00","preset_url":"presets/condensed-at-bottom.lua"},
+{"slug":"crosspoint-book","name":"Crosspoint Book","author":"ReadinGadgets","description":"Crosspoint Book","added":"2026-04-26T09:08:36+01:00","preset_url":"presets/crosspoint-book.lua"},
+{"slug":"crosspoint-chapter","name":"Crosspoint Chapter","author":"ReadinGadgets","description":"Crosspoint Chapter","added":"2026-04-26T09:07:46+01:00","preset_url":"presets/crosspoint-chapter.lua"},
+{"slug":"db-detail","name":"DB Detail","author":"DB","description":"Detail build. Dynamic use of 1 line: more features. KLC optimised","added":"2026-06-10T08:36:15+01:00","preset_url":"presets/db-detail.lua"},
+{"slug":"db-simple","name":"DB Simple","author":"DB","description":"Simple, clean, with dynamic info. Layout for KLC default margins","added":"2026-06-09T17:37:45+01:00","preset_url":"presets/db-simple.lua"},
+{"slug":"dbo","name":"dbo","author":"DBO","description":"Simple and efficient","added":"2026-04-22T15:38:53+01:00","preset_url":"presets/dbo.lua"},
+{"slug":"delight","name":"Delight","author":"zee76","description":"Created at 3 am","added":"2026-08-17T10:37:07+01:00","preset_url":"presets/delight.lua"},
+{"slug":"deri","name":"Deri","author":"Deri","description":"Made by Deri for Deri","added":"2026-07-24T21:56:27+01:00","preset_url":"presets/deri.lua"},
+{"slug":"detalle","name":"detalle","author":"Flor","description":"para libros largos","added":"2026-06-30T23:49:16+01:00","preset_url":"presets/detalle.lua"},
+{"slug":"digital-book","name":"Digital Book","author":"Lautikin","description":"subtle and simple","added":"2026-06-01T14:21:21+01:00","preset_url":"presets/digital-book.lua"},
+{"slug":"donuts","name":"Donuts","author":"good-pm","description":"Chapter and book donut progress","added":"2026-04-26T09:10:52+01:00","preset_url":"presets/donuts.lua"},
+{"slug":"dots-n-diamonds","name":"Dots n diamonds","author":"cranberryjam","description":"Small design with some decorations","added":"2026-05-13T11:24:52+01:00","preset_url":"presets/dots-n-diamonds.lua"},
+{"slug":"elegant-minimal","name":"Elegant minimal","author":"u/meowdogpewpew","description":"An elegant setup with alternating title/chapter, pages left, percentage read and time.","added":"2026-04-27T21:30:46+01:00","preset_url":"presets/elegant-minimal.lua"},
+{"slug":"enough-for-me","name":"Enough For Me","author":"trash","description":"A clean setup with enough info for me","added":"2026-04-30T07:42:35+01:00","preset_url":"presets/enough-for-me.lua"},
+{"slug":"essentially-minimal","name":"Essentially Minimal","author":"iElliie","description":"Your essentials at a glance.","added":"2026-04-20T21:53:31+01:00","preset_url":"presets/essentially-minimal.lua"},
+{"slug":"everyday","name":"Everyday","author":"Jack","description":"Simple — Gives you at a glance all the information you will need","added":"2026-05-02T18:22:54+01:00","preset_url":"presets/everyday.lua"},
+{"slug":"fals-epub","name":"Fal's epub","author":"fal","description":"simple aja","added":"2026-06-10T08:34:20+01:00","preset_url":"presets/fals-epub.lua"},
+{"slug":"fine-simple-v1","name":"Fine Simple V1","author":"aerawata","description":"Simple. Essential. No distraction.","added":"2026-07-12T22:04:20+01:00","preset_url":"presets/fine-simple-v1.lua"},
+{"slug":"fine-simple-v2","name":"Fine Simple V2","author":"aerawata","description":"Simple. Essential. No distraction.","added":"2026-07-12T22:04:17+01:00","preset_url":"presets/fine-simple-v2.lua"},
+{"slug":"fine-simple-v3","name":"Fine Simple V3","author":"aerawata","description":"Simple. Essential. No distraction.","added":"2026-07-12T22:04:15+01:00","preset_url":"presets/fine-simple-v3.lua"},
+{"slug":"first","name":"skeitto's detail","author":"skeitto","description":"clean detailed and a bit performative","added":"2026-06-23T13:25:47+01:00","preset_url":"presets/first.lua"},
+{"slug":"fisico-com-barra","name":"Fisico com barra","author":"DougAlvarenga","description":"Titulo/Autor superior esquerdo. Capitulo superior direito. pagina e barra de progresso inferior central","added":"2026-04-20T17:11:34+01:00","preset_url":"presets/fisico-com-barra.lua"},
+{"slug":"fit-for-bookshelf-launcher","name":"fit for Bookshelf launcher","author":"Lime","description":"simple details fit with Bookshelf launcher button","added":"2026-06-30T23:50:34+01:00","preset_url":"presets/fit-for-bookshelf-launcher.lua"},
+{"slug":"full-of-stars","name":"Full of Stars!","author":"diaryngpanget","description":"because I love stars","added":"2026-08-19T13:29:20+01:00","preset_url":"presets/full-of-stars.lua"},
+{"slug":"i-did-it-my-way","name":"I did it my way","author":"Mr Bean","description":"Hello","added":"2026-05-08T12:26:43+01:00","preset_url":"presets/i-did-it-my-way.lua"},
+{"slug":"info-dump","name":"info dump","author":"boredbeluga","description":"tells your reading metrics and more at a glance","added":"2026-07-18T19:00:30+01:00","preset_url":"presets/info-dump.lua"},
+{"slug":"informationaly-minimal","name":"Informationaly minimal","author":"iks_okss","description":"minimal setup with all important informations","added":"2026-05-19T17:19:20+01:00","preset_url":"presets/informationaly-minimal.lua"},
+{"slug":"informative-yet-sleek-v4","name":"informative yet sleek v4","author":"cgroi","description":"Informative but simple and not too overloaded. Designed on Kobo Clara BW.","added":"2026-06-26T10:28:02+01:00","preset_url":"presets/informative-yet-sleek-v4.lua"},
+{"slug":"infotopia","name":"Infotopia","author":"Knet","description":"Lots o' info ","added":"2026-04-24T17:01:46+01:00","preset_url":"presets/infotopia.lua"},
+{"slug":"ireader","name":"iReader","author":"ReadinGadgets","description":"iReader like","added":"2026-04-30T07:42:28+01:00","preset_url":"presets/ireader.lua"},
+{"slug":"jab-simple-informative-advanced","name":"jab simple informative advanced","author":"jab_","description":"simple informative","added":"2026-07-29T19:57:44+01:00","preset_url":"presets/jab-simple-informative-advanced.lua"},
+{"slug":"jab-simple-informative","name":"jab simple informative","author":"jab","description":"simple informative barr chapter pages(%)","added":"2026-07-08T13:48:17+01:00","preset_url":"presets/jab-simple-informative.lua"},
+{"slug":"jack-bookends","name":"Jack Bookends","author":"Jack Salillas","description":"Jack's Bookend","added":"2026-08-17T10:37:20+01:00","preset_url":"presets/jack-bookends.lua"},
+{"slug":"jon-s-simple-layout","name":"Jon's Simple Layout","author":"Jon","description":"Simple","added":"2026-06-27T00:30:24+01:00","preset_url":"presets/jon-s-simple-layout.lua"},
+{"slug":"just-right","name":"Just right","author":"Anon","description":"its just right","added":"2026-07-16T08:05:02+01:00","preset_url":"presets/just-right.lua"},
+{"slug":"kaomoji-status-bar","name":"kaomoji status bar","author":"blog_dea","description":"kaomoji+if odd title (above) | kaomoji+ page, page left ch, clock (bottom)","added":"2026-08-19T07:58:49+01:00","preset_url":"presets/kaomoji-status-bar.lua"},
+{"slug":"kind-time-in-book","name":"kind time in book","author":"meli","description":" kindle like","added":"2026-08-18T19:15:28+01:00","preset_url":"presets/kind-time-in-book.lua"},
+{"slug":"kinda-a-lot-but-i-like-it","name":"Kinda a lot but I like it","author":"alib","description":"a lot of info, probably only interpretable by me","added":"2026-06-01T03:36:51+01:00","preset_url":"presets/kinda-a-lot-but-i-like-it.lua"},
+{"slug":"kindle-chapter-time","name":"kindle chapter time","author":"meli","description":"kindle like","added":"2026-08-18T19:16:09+01:00","preset_url":"presets/kindle-chapter-time.lua"},
+{"slug":"kindle-left-in-book","name":"Kindle left in book","author":"ReadinGadgets","description":"Kindle left in book","added":"2026-04-24T15:51:04+01:00","preset_url":"presets/kindle-left-in-book.lua"},
+{"slug":"kindle-left-in-chapter","name":"Kindle left in chapter","author":"ReadinGadgets","description":"Kindle left in chapter","added":"2026-04-25T14:21:19+01:00","preset_url":"presets/kindle-left-in-chapter.lua"},
+{"slug":"kindle-page-in-book","name":"Kindle page in book","author":"ReadinGadgets","description":"Kindle page in book","added":"2026-04-25T14:20:51+01:00","preset_url":"presets/kindle-page-in-book.lua"},
+{"slug":"kindle-style-pages","name":"Kindle Style (Pages)","author":"ZimpleDumpling","description":"Bottom left: page(s) left in chapter; Bottom right: pages read of total pages","added":"2026-07-18T19:00:11+01:00","preset_url":"presets/kindle-style-pages.lua"},
+{"slug":"kitty-preset","name":"Kitty preset","author":"Kitty","description":"Simple preset w.o symbols for Kobo Clara","added":"2026-07-24T21:56:46+01:00","preset_url":"presets/kitty-preset.lua"},
+{"slug":"kobo-dupe","name":"Kobo Dupe","author":"jayqism","description":"Dupe of Kobo’s layout with minimal additional information.","added":"2026-07-12T22:04:12+01:00","preset_url":"presets/kobo-dupe.lua"},
+{"slug":"kobo-like-stats","name":"kobo like stats","author":"meli","description":"kobo reading stats. You can read along as if you were using the kobo's interface","added":"2026-08-18T23:29:30+01:00","preset_url":"presets/kobo-like-stats.lua"},
+{"slug":"kobo-like-with-time-progress","name":"Kobo like with time progress","author":"Koitma","description":"Kobo inspired with progress bars and time left tokens","added":"2026-07-06T12:59:25+01:00","preset_url":"presets/kobo-like-with-time-progress.lua"},
+{"slug":"kobo-like","name":"Kobo Like","author":"Orange","description":"Stock Kobo inspired with time display and other hidden tokens.","added":"2026-04-20T07:23:44+01:00","preset_url":"presets/kobo-like.lua"},
+{"slug":"kobo","name":"Kobo","author":"ReadinGadgets","description":"As close to Kobo","added":"2026-04-24T13:59:34+01:00","preset_url":"presets/kobo.lua"},
+{"slug":"koreader-stock","name":"KOReader stock","author":"AndyHazz","description":"Mimics KOReader's built-in status bar — page, clock, chapter, battery, percent, time remaining","added":"2026-04-19T20:38:01+01:00","preset_url":"presets/koreader-stock.lua"},
+{"slug":"l00py-s-main","name":"l00py's main","author":"l00py","description":"tweaked minimal but detailed preset","added":"2026-06-28T15:32:45+01:00","preset_url":"presets/l00py-s-main.lua"},
+{"slug":"less-is-less","name":"Less is less","author":"trash","description":"A clean setup with enough info for me","added":"2026-06-10T08:35:03+01:00","preset_url":"presets/less-is-less.lua"},
+{"slug":"live-laugh-love-the-layout","name":"live laugh love the layout","author":"klorka","description":"edited version of novel by kurokeita, adjusted to make it even more simple and yet still fancy","added":"2026-06-25T07:08:48+01:00","preset_url":"presets/live-laugh-love-the-layout.lua"},
+{"slug":"livros","name":"Livros","author":"Meirim","description":"Simple books","added":"2026-04-19T23:31:55+01:00","preset_url":"presets/livros.lua"},
+{"slug":"luddite-with-allowances","name":"Luddite with Allowances","author":"BozoGlizzy","description":"Simple and paper-like with barebones progress tracking and clock","added":"2026-08-17T10:37:48+01:00","preset_url":"presets/luddite-with-allowances.lua"},
+{"slug":"main-mini-mini","name":"Main mini mini","author":"Koalafied Wombat","description":"Simple","added":"2026-07-24T21:56:34+01:00","preset_url":"presets/main-mini-mini.lua"},
+{"slug":"main","name":"l00py's main","author":"l00py","description":"edited minimal yet detailed to suit my needs","added":"2026-05-07T19:31:55+01:00","preset_url":"presets/main.lua"},
+{"slug":"manga-minimal","name":"Manga Minimal","author":"fatcats55","description":"Minimal settings for manga reading. Includes pages, time left in book, mini progress bar, clock, wifi, and battery %.","added":"2026-05-13T11:24:25+01:00","preset_url":"presets/manga-minimal.lua"},
+{"slug":"manga-simple-bar","name":"Manga simple bar","author":"Rafael Meirim","description":"Simple bar for mangas","added":"2026-06-18T13:41:00+01:00","preset_url":"presets/manga-simple-bar.lua"},
+{"slug":"mangaminibar","name":"Mangaminibar","author":"bookends","description":"Minimal starter — clock, page number, and a slim progress bar","added":"2026-05-10T09:16:51+01:00","preset_url":"presets/mangaminibar.lua"},
+{"slug":"max-standard","name":"Max Standard","author":"mmccord","description":"Simple, progress-focused bars","added":"2026-05-23T07:26:07+01:00","preset_url":"presets/max-standard.lua"},
+{"slug":"maximalist-minimal","name":"Maximalist Minimal","author":"ScarceBraincells","description":"progress bar, pages left, total pages, percentage, wifi, time left in chapter, bookmarks, title, clock, battery","added":"2026-08-17T10:37:14+01:00","preset_url":"presets/maximalist-minimal.lua"},
+{"slug":"maximalist-sparkles-2-0","name":"Maximalist sparkles 2.0","author":"rillereads","description":"for anyone who likes bows, sparkles, and stars","added":"2026-07-02T12:59:12+01:00","preset_url":"presets/maximalist-sparkles-2-0.lua"},
+{"slug":"maximalist-sparkles","name":"Maximalist sparkles","author":"rillereads","description":"Just a lot of sparkles (enable/disable bottom center and bookshelf tab)","added":"2026-06-22T12:12:24+01:00","preset_url":"presets/maximalist-sparkles.lua"},
+{"slug":"me","name":"Placid Edit","author":"CheshireCatSith","description":"Minimal preset with colour accents and series info. Based on Placid with custom styling.","added":"2026-05-13T11:25:32+01:00","preset_url":"presets/me.lua"},
+{"slug":"metro-border","name":"Metro border","author":"AndyHazz","description":"All aboard!","added":"2026-04-19T12:29:07+01:00","preset_url":"presets/metro-border.lua"},
+{"slug":"mickey-s","name":"Mickey's","author":"Mickey","description":"clean minimal preset with all required details","added":"2026-08-17T10:37:17+01:00","preset_url":"presets/mickey-s.lua"},
+{"slug":"minimal-bold","name":"minimal (bold)","author":"smsnrm","description":"minimal","added":"2026-06-27T07:34:27+01:00","preset_url":"presets/minimal-bold.lua"},
+{"slug":"minimal-bookend","name":"Minimal Bookend","author":"bobtran","description":"minimal","added":"2026-06-03T21:42:18+01:00","preset_url":"presets/minimal-bookend.lua"},
+{"slug":"minimal-border","name":"Minimal & Border","author":"Moon","description":"Give a border around the text with minimal infos athe bottom.","added":"2026-07-24T21:56:40+01:00","preset_url":"presets/minimal-border.lua"},
+{"slug":"minimal-distraction","name":"minimal distraction","author":"marte","description":"title, author, progress bar, book progress and chapter progress. focus on text.","added":"2026-07-26T10:11:27+01:00","preset_url":"presets/minimal-distraction.lua"},
+{"slug":"minimal-kobo-inspired","name":"Minimal — Kobo inspired","author":"nono33","description":"minimal info, clean layout","added":"2026-05-18T16:28:21+01:00","preset_url":"presets/minimal-kobo-inspired.lua"},
+{"slug":"minimal-red-accents","name":"Minimal + Red Accents","author":"Sekhonrts","description":"Only essential information and little reminders","added":"2026-06-28T10:15:23+01:00","preset_url":"presets/minimal-red-accents.lua"},
+{"slug":"minimal-regular","name":"minimal (regular)","author":"smsnrm","description":"minimal","added":"2026-06-27T07:34:02+01:00","preset_url":"presets/minimal-regular.lua"},
+{"slug":"minimal-v1","name":"Minimal v1","author":"Laenas","description":"Minimal UI. Necessary information only","added":"2026-06-23T13:25:58+01:00","preset_url":"presets/minimal-v1.lua"},
+{"slug":"minimal-with-progress-bar","name":"minimal with progress bar","author":"smsnrm","description":"minimal with progress bar","added":"2026-07-12T22:04:29+01:00","preset_url":"presets/minimal-with-progress-bar.lua"},
+{"slug":"minimal-yet-detailed-v2","name":"Minimal yet detailed v2","author":"good-pm","description":"A clean and detailed view. ","added":"2026-05-16T06:58:59+01:00","preset_url":"presets/minimal-yet-detailed-v2.lua"},
+{"slug":"minimal-yet-detailed","name":"Minimal yet detailed","author":"good-pm","description":"A clean and detailed view.","added":"2026-04-23T17:39:10+01:00","preset_url":"presets/minimal-yet-detailed.lua"},
+{"slug":"minimalist-sparkles","name":"minimalist sparkles","author":"bookends","description":"Minimalist with sparkles. Clock, book percentage, pages, and a barely-there progress bar!","added":"2026-08-17T10:37:54+01:00","preset_url":"presets/minimalist-sparkles.lua"},
+{"slug":"minimalistic-sancai","name":"Minimalistic Sancai","author":"pesxguin","description":"Blue green amber. Book progress, chapter progress, clock + battery + book percentage. Suitable for color ereaders.","added":"2026-07-01T20:17:42+01:00","preset_url":"presets/minimalistic-sancai.lua"},
+{"slug":"my-kindle-expanded","name":"my.kindle expanded","author":"Anon","description":"Minimal starter — clock, page number, and a slim progress bar (modified version to my taste)","added":"2026-07-08T15:04:55+01:00","preset_url":"presets/my-kindle-expanded.lua"},
+{"slug":"my-kindle-pageleft","name":"my.kindle (pageleft)","author":"chananya","description":"Minimal starter — clock, page number, and a slim progress bar","added":"2026-07-26T10:11:04+01:00","preset_url":"presets/my-kindle-pageleft.lua"},
+{"slug":"my-kindle","name":"my.kindle","author":"Anon","description":"Minimal starter — clock, page number, and a slim progress bar","added":"2026-05-14T19:52:34+01:00","preset_url":"presets/my-kindle.lua"},
+{"slug":"nat-s-kindle-kobo-inspired-bookends","name":"Nat’s Kindle+Kobo Inspired Bookends","author":"nyataliefyi","description":"A mix of Kindle and Kobo UI in my own take.","added":"2026-07-12T22:04:35+01:00","preset_url":"presets/nat-s-kindle-kobo-inspired-bookends.lua"},
+{"slug":"nom","name":"nom","author":"LadyBnome","description":"pacman progress, pages read in chapter","added":"2026-08-17T10:37:44+01:00","preset_url":"presets/nom.lua"},
+{"slug":"novel","name":"Novel","author":"kurokeita","description":"simple bars for novel","added":"2026-05-26T16:25:09+01:00","preset_url":"presets/novel.lua"},
+{"slug":"one-line-minimalism","name":"One Line Minimalism","author":"Campanolo","description":"All the basics, in an unintrusive, elegant design.","added":"2026-08-17T10:37:24+01:00","preset_url":"presets/one-line-minimalism.lua"},
+{"slug":"packman-book-chapter-progress","name":"Packman: book&chapter progress","author":"asimoff","description":"Packman style bottom book&chapter progress","added":"2026-06-25T19:05:02+01:00","preset_url":"presets/packman-book-chapter-progress.lua"},
+{"slug":"pacman","name":"Jotaro's Pacman Bars","author":"jotaro","description":"formal with names","added":"2026-07-12T22:05:16+01:00","preset_url":"presets/pacman.lua"},
+{"slug":"paper","name":"Paper","author":"AndyHazz","description":"Uses borders to give a feel of real book","added":"2026-04-19T12:44:42+01:00","preset_url":"presets/paper.lua"},
+{"slug":"pdf-preset","name":"PDF preset","author":"Anon","description":"Made for CBZ or PDF with background fill, white on black","added":"2026-05-13T11:33:45+01:00","preset_url":"presets/pdf-preset.lua"},
+{"slug":"perfectly-minimal","name":"perfectly minimal","author":"mbakes03","description":"title, time & battery, thin progress bar, bool info","added":"2026-08-17T10:37:41+01:00","preset_url":"presets/perfectly-minimal.lua"},
+{"slug":"personal-minimal","name":"Personal minimal","author":"Cyborne","description":"As minima, as i can make it for me","added":"2026-08-17T10:37:27+01:00","preset_url":"presets/personal-minimal.lua"},
+{"slug":"phone-preset","name":"Phone preset","author":"Meg","description":"a simple preset for my phone reading","added":"2026-08-19T20:00:18+01:00","preset_url":"presets/phone-preset.lua"},
+{"slug":"picomini","name":"picomini","author":"pico","description":"minimal bars","added":"2026-07-18T19:00:20+01:00","preset_url":"presets/picomini.lua"},
+{"slug":"placid","name":"Placid","author":"logwet","description":"All the essentials, condensed into two lines and styled to disappear.","added":"2026-04-27T17:09:15+10:00","preset_url":"presets/placid.lua"},
+{"slug":"print-v-2","name":"Print v.2","author":"bmf","description":"Mimicking the classic novels print style. Added some new conditions.","added":"2026-04-22T08:36:05+01:00","preset_url":"presets/print-v-2.lua"},
+{"slug":"print","name":"Print","author":"bmf","description":"No progress bar. Alternating page number, odd/even title + author and chapter + series.","added":"2026-04-20T07:23:55+01:00","preset_url":"presets/print.lua"},
+{"slug":"raf","name":"Raf","author":"Rafik","description":"all you need","added":"2026-05-04T08:50:01+01:00","preset_url":"presets/raf.lua"},
+{"slug":"reach-for-the-stars","name":"Reach for the stars","author":"rillereads","description":"Stars in the header and footer","added":"2026-06-21T08:33:03+01:00","preset_url":"presets/reach-for-the-stars.lua"},
+{"slug":"refinement","name":"Refinement","author":"Rhelvorn","description":"Book & Chapter Title, Pages Read in Total","added":"2026-07-24T21:56:52+01:00","preset_url":"presets/refinement.lua"},
+{"slug":"rich-detail","name":"Rich detail","author":"AndyHazz","description":"Clock, battery, Wi-Fi, brightness, highlights — the full kitchen sink","added":"2026-04-19T19:51:36+01:00","preset_url":"presets/rich-detail.lua"},
+{"slug":"rtl-bars","name":"RTL Bars","author":"mimorienne","description":"Very basic with RTL progress bars. Based on a physical Japanese book I own.","added":"2026-05-07T07:01:17+01:00","preset_url":"presets/rtl-bars.lua"},
+{"slug":"sessions","name":"sessions","author":"Flor","description":"info de minutos leídos","added":"2026-06-30T23:49:14+01:00","preset_url":"presets/sessions.lua"},
+{"slug":"side-bars","name":"Side Bars","author":"good-pm","description":"Read and fill them up!","added":"2026-04-30T07:42:31+01:00","preset_url":"presets/side-bars.lua"},
+{"slug":"simple-4-me","name":"simple 4 me!","author":"apollo","description":"somewhat inspired by kobo stock reader (with more info)","added":"2026-06-27T00:29:54+01:00","preset_url":"presets/simple-4-me.lua"},
+{"slug":"simple-for-epub","name":"Simple for EPUB","author":"fal","description":"bettr with atkinson font","added":"2026-06-23T13:25:44+01:00","preset_url":"presets/simple-for-epub.lua"},
+{"slug":"simple-informative","name":"Simple Informative","author":"Nicki","description":"All the Informtion forvreading time in a simple preset.","added":"2026-06-30T23:49:11+01:00","preset_url":"presets/simple-informative.lua"},
+{"slug":"simple-manga","name":"simple manga","author":"fal","description":"space on left and right","added":"2026-06-12T14:30:59+01:00","preset_url":"presets/simple-manga.lua"},
+{"slug":"simple-progress","name":"Simple Progress","author":"elda","description":"page #, progress bar, pages left in chapter ","added":"2026-06-11T23:59:20+01:00","preset_url":"presets/simple-progress.lua"},
+{"slug":"simple-ui-book-and-chapter","name":"Simple UI (book and chapter)","author":"Fedesempai","description":"Simple ui with remaining pages numbers for the book and chapter","added":"2026-04-20T17:12:07+01:00","preset_url":"presets/simple-ui-book-and-chapter.lua"},
+{"slug":"simple-yet-satisfying","name":"Simple yet satisfying","author":"Rebecca D","description":"simple yet informative","added":"2026-05-23T12:39:36+01:00","preset_url":"presets/simple-yet-satisfying.lua"},
+{"slug":"simpleui-status-bar","name":"SimpleUI status bar","author":"AndyHazz","description":"Compact top-right status bar in the simpleui style","added":"2026-04-19T19:52:02+01:00","preset_url":"presets/simpleui-status-bar.lua"},
+{"slug":"simplicity","name":"Simplicity","author":"sabee","description":"Simple preset with clock, pages left in chapter and book percentage.","added":"2026-04-20T17:12:28+01:00","preset_url":"presets/simplicity.lua"},
+{"slug":"simply-lovely","name":"simply lovely","author":"aly","description":"just enough info","added":"2026-07-24T21:56:21+01:00","preset_url":"presets/simply-lovely.lua"},
+{"slug":"sleek-info","name":"Sleek info","author":"FinSSSS","description":"Book detail, double progress bar (top = chapter, bottom = whole book) & basic device info - in a neat & minimal style","added":"2026-06-30T23:49:25+01:00","preset_url":"presets/sleek-info.lua"},
+{"slug":"solitude","name":"Solitude","author":"Rhelvorn","description":"Perfection in minimalism.","added":"2026-07-12T22:04:23+01:00","preset_url":"presets/solitude.lua"},
+{"slug":"sparkle-k-i-s-s-keep-it-simple-stupid","name":"Sparkle K.I.S.S (keep it simple stupid)","author":"Rhelvorn","description":"Perfection in minimalism.","added":"2026-07-26T10:12:09+01:00","preset_url":"presets/sparkle-k-i-s-s-keep-it-simple-stupid.lua"},
+{"slug":"speed-reader","name":"Speed reader","author":"AndyHazz","description":"Session timer, reading speed, time remaining, progress percentages","added":"2026-04-19T19:52:33+01:00","preset_url":"presets/speed-reader.lua"},
+{"slug":"stamp","name":"Stamp","author":"AndyHazz","description":"One for the philatelists","added":"2026-04-19T21:20:09+01:00","preset_url":"presets/stamp.lua"},
+{"slug":"status-bar-compact","name":"Status Bar Compact","author":"Mido Vodella","description":"A condensed, bottom centric preset similar to KOReader's base progress bar.","added":"2026-04-25T03:51:26+01:00","preset_url":"presets/status-bar-compact.lua"},
+{"slug":"super-booklike-with-tiny-progress-bar","name":"super booklike with tiny progress bar","author":"mothsphere","description":"book/chap titles alternate, blank on first page of chap. page num/bar","added":"2026-07-12T22:04:32+01:00","preset_url":"presets/super-booklike-with-tiny-progress-bar.lua"},
+{"slug":"supernote-nomad","name":"Supernote Nomad","author":"Jotaro","description":"Radial chapter progress bar with page count and book percentage","added":"2026-07-12T22:05:13+01:00","preset_url":"presets/supernote-nomad.lua"},
+{"slug":"take-flight","name":"Take flight","author":"rillereads","description":"See your journey with visible reading progress ","added":"2026-06-23T18:13:38+01:00","preset_url":"presets/take-flight.lua"},
+{"slug":"title-chap-page-bar-percent","name":"title/chap, page/bar/percent","author":"mothsphere","description":"book-style layout + bar and percentage","added":"2026-06-30T23:49:19+01:00","preset_url":"presets/title-chap-page-bar-percent.lua"},
+{"slug":"tmi","name":"TMI","author":"Classic_Platypus","description":"All of the information in a book-like presentation","added":"2026-04-25T15:10:45+01:00","preset_url":"presets/tmi.lua"},
+{"slug":"txt","name":"txt","author":"naimur29","description":"For me!","added":"2026-05-25T16:22:52+01:00","preset_url":"presets/txt.lua"},
+{"slug":"uncluttered","name":"Uncluttered","author":"Tobias Lind","description":"Clean top and bottom bars for books and manga alike.","added":"2026-05-06T20:03:54+01:00","preset_url":"presets/uncluttered.lua"},
+{"slug":"uwe-s-1-sort","name":"Uwe's 1. Sort","author":"Jason","description":"Meine Basics","added":"2026-07-16T08:04:55+01:00","preset_url":"presets/uwe-s-1-sort.lua"},
+{"slug":"uwe-s-2-sort","name":"Uwe's 2. Sort","author":"Jason","description":"Sortierung 2","added":"2026-07-16T08:05:31+01:00","preset_url":"presets/uwe-s-2-sort.lua"},
+{"slug":"uwe-s-3-sort","name":"Uwe's 3. Sort","author":"Jason","description":"Sortierung 2","added":"2026-07-24T21:56:08+01:00","preset_url":"presets/uwe-s-3-sort.lua"},
+{"slug":"uwe-s","name":"Uwe's","author":"Jason","description":"Meine Basics","added":"2026-07-09T13:07:57+01:00","preset_url":"presets/uwe-s.lua"},
+{"slug":"wave-info","name":"wave info","author":"Anon","description":"everything i need ","added":"2026-05-16T14:44:19+01:00","preset_url":"presets/wave-info.lua"},
+{"slug":"whimsy-01","name":"whimsy 01","author":"flighty","description":"chap title, book name, time, battery, page  no, chap time until finish,total time left and progress bar","added":"2026-08-17T10:37:37+01:00","preset_url":"presets/whimsy-01.lua"},
+{"slug":"works-for-me","name":"Works for Me!","author":"Dragonweaver","description":"book progress bar at top, chapter bar at bottom","added":"2026-05-04T17:39:05+01:00","preset_url":"presets/works-for-me.lua"},
+{"slug":"wow","name":"Wow","author":"DougAlvarenga","description":"Title/Author @ up. Pages, book % and time reading down. Language PT_Br","added":"2026-04-20T07:23:50+01:00","preset_url":"presets/wow.lua"},
+{"slug":"you-have-to-look-for-it","name":"You have to look for it","author":"Rami","description":"Alternating bottom page numbers and a book progress bar that you look for","added":"2026-07-12T22:04:26+01:00","preset_url":"presets/you-have-to-look-for-it.lua"}
+]}

@@ -16,6 +16,31 @@ function extractField(src, field) {
     return m[1].replace(/\\"/g, '"').replace(/\\\\/g, "\\");
 }
 
+// A shallow clone cannot see past its graft boundary, so `git log -1 -- <file>`
+// reports the boundary commit for every file last touched before it. That makes
+// lastCommitDate silently wrong for a large slice of the gallery -- observed
+// rewriting `added` for 39 of 170 presets to a single date, which reshuffles the
+// Newest sort -- and nothing about the output looks broken. The workflow checks
+// out with fetch-depth: 0; refuse to run anywhere that isn't equivalent.
+function assertFullHistory() {
+    let shallow;
+    try {
+        shallow = execFileSync("git", ["rev-parse", "--is-shallow-repository"], {
+            encoding: "utf8",
+        }).trim();
+    } catch (_) {
+        return; // not a git checkout at all; lastCommitDate's fallback applies
+    }
+    if (shallow === "true") {
+        console.error(
+            "refusing to run in a shallow clone: `added` would be wrong for every preset\n" +
+            "last touched before the graft boundary, silently reordering the Newest sort.\n" +
+            "Run `git fetch --unshallow` first, or let the GitHub Action do it.",
+        );
+        process.exit(1);
+    }
+}
+
 // Most-recent-commit-date touching a file (ISO 8601). Falls back to today.
 // Using the latest commit (not the first) means a re-submitted/updated
 // preset surfaces under "Newest" again, not just its original submission.
@@ -34,7 +59,36 @@ function lastCommitDate(file) {
     return new Date().toISOString();
 }
 
+// One preset per line, each object itself minified.
+//
+// The old 2-space-indented form was 45,793 bytes at 170 presets, and the plugin
+// downloads the whole thing on every gallery open with no compression (its
+// LuaSocket fetch sends no Accept-Encoding, and KOReader's zlib binding only
+// does zlib-format, not gzip). Minifying takes that to ~36 KB, a 21% saving on
+// a payload that grows with every merged preset.
+//
+// Fully minified (one single line) would save a further 117 bytes -- not worth
+// it, because CI commits this file on every merge and a one-line 36 KB blob has
+// no reviewable diff. One line per preset keeps `git diff` showing exactly which
+// presets changed, which is how the regen is sanity-checked.
+//
+// A further ~7 KB is available by dropping preset_url, which is always
+// `presets/<slug>.lua` and so fully derivable from the slug. NOT done yet: the
+// released plugin reads entry.preset_url straight out of the index
+// (preset_manager_modal.lua), so removing it would break gallery installs for
+// everyone who hasn't updated. The client now derives the path itself and only
+// falls back to this field, so once that has shipped and been adopted, delete
+// the preset_url line above and this paragraph with it.
+function serialiseIndex(index) {
+    const { presets, ...head } = index;
+    const headJson = JSON.stringify(head, null, 0);
+    const rows = presets.map((p) => JSON.stringify(p));
+    // Splice the presets array in by hand so the head keys keep their order.
+    return `${headJson.slice(0, -1)},"presets":[\n${rows.join(",\n")}\n]}\n`;
+}
+
 function main() {
+    assertFullHistory();
     const dir = "presets";
     const files = fs
         .readdirSync(dir)
@@ -70,7 +124,7 @@ function main() {
         presets: entries,
     };
 
-    fs.writeFileSync("index.json", JSON.stringify(index, null, 2) + "\n");
+    fs.writeFileSync("index.json", serialiseIndex(index));
     console.log(`wrote index.json with ${entries.length} presets`);
     if (skipped.length) {
         console.log(`skipped ${skipped.length}:`);

@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-08-23T19:16:38.672Z","presets":[
+{"schema_version":1,"updated":"2026-08-23T19:17:04.940Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -55,7 +55,6 @@
 {"slug":"first","name":"skeitto's detail","author":"skeitto","description":"clean detailed and a bit performative","added":"2026-06-23T13:25:47+01:00","preset_url":"presets/first.lua"},
 {"slug":"fisico-com-barra","name":"Fisico com barra","author":"DougAlvarenga","description":"Titulo/Autor superior esquerdo. Capitulo superior direito. pagina e barra de progresso inferior central","added":"2026-04-20T17:11:34+01:00","preset_url":"presets/fisico-com-barra.lua"},
 {"slug":"fit-for-bookshelf-launcher","name":"fit for Bookshelf launcher","author":"Lime","description":"simple details fit with Bookshelf launcher button","added":"2026-06-30T23:50:34+01:00","preset_url":"presets/fit-for-bookshelf-launcher.lua"},
-{"slug":"full-of-stars","name":"Full of Stars!","author":"diaryngpanget","description":"because I love stars","added":"2026-08-19T13:29:20+01:00","preset_url":"presets/full-of-stars.lua"},
 {"slug":"i-did-it-my-way","name":"I did it my way","author":"Mr Bean","description":"Hello","added":"2026-05-08T12:26:43+01:00","preset_url":"presets/i-did-it-my-way.lua"},
 {"slug":"info-dump","name":"info dump","author":"boredbeluga","description":"tells your reading metrics and more at a glance","added":"2026-07-18T19:00:30+01:00","preset_url":"presets/info-dump.lua"},
 {"slug":"informationaly-minimal","name":"Informationaly minimal","author":"iks_okss","description":"minimal setup with all important informations","added":"2026-05-19T17:19:20+01:00","preset_url":"presets/informationaly-minimal.lua"},

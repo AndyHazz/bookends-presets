@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-08-23T18:55:37.249Z","presets":[
+{"schema_version":1,"updated":"2026-08-23T19:16:13.994Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -164,6 +164,7 @@
 {"slug":"uwe-s-2-sort","name":"Uwe's 2. Sort","author":"Jason","description":"Sortierung 2","added":"2026-07-16T08:05:31+01:00","preset_url":"presets/uwe-s-2-sort.lua"},
 {"slug":"uwe-s-3-sort","name":"Uwe's 3. Sort","author":"Jason","description":"Sortierung 2","added":"2026-07-24T21:56:08+01:00","preset_url":"presets/uwe-s-3-sort.lua"},
 {"slug":"uwe-s","name":"Uwe's","author":"Jason","description":"Meine Basics","added":"2026-07-09T13:07:57+01:00","preset_url":"presets/uwe-s.lua"},
+{"slug":"vjs-not-so-minimal-v2","name":"VJS_Not so minimal V2","author":"Logan_VJS","description":"Book,author,chapter and Progress","added":"2026-08-23T20:16:06+01:00","preset_url":"presets/vjs-not-so-minimal-v2.lua"},
 {"slug":"wave-info","name":"wave info","author":"Anon","description":"everything i need ","added":"2026-05-16T14:44:19+01:00","preset_url":"presets/wave-info.lua"},
 {"slug":"whimsy-01","name":"whimsy 01","author":"flighty","description":"chap title, book name, time, battery, page  no, chap time until finish,total time left and progress bar","added":"2026-08-17T10:37:37+01:00","preset_url":"presets/whimsy-01.lua"},
 {"slug":"works-for-me","name":"Works for Me!","author":"Dragonweaver","description":"book progress bar at top, chapter bar at bottom","added":"2026-05-04T17:39:05+01:00","preset_url":"presets/works-for-me.lua"},

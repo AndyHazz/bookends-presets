@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-08-24T02:37:02.522Z","presets":[
+{"schema_version":1,"updated":"2026-08-24T02:37:31.163Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -35,6 +35,7 @@
 {"slug":"condensed-at-bottom","name":"Condensed at Bottom","author":"pesxguin","description":"Wifi, battery indicator, book progress bar, and book read percentage. ","added":"2026-07-24T21:56:15+01:00","preset_url":"presets/condensed-at-bottom.lua"},
 {"slug":"crosspoint-book","name":"Crosspoint Book","author":"ReadinGadgets","description":"Crosspoint Book","added":"2026-04-26T09:08:36+01:00","preset_url":"presets/crosspoint-book.lua"},
 {"slug":"crosspoint-chapter","name":"Crosspoint Chapter","author":"ReadinGadgets","description":"Crosspoint Chapter","added":"2026-04-26T09:07:46+01:00","preset_url":"presets/crosspoint-chapter.lua"},
+{"slug":"cute-d","name":"cute :D","author":"Anonymous","description":"cute but essential","added":"2026-08-24T03:37:23+01:00","preset_url":"presets/cute-d.lua"},
 {"slug":"db-detail","name":"DB Detail","author":"DB","description":"Detail build. Dynamic use of 1 line: more features. KLC optimised","added":"2026-06-10T08:36:15+01:00","preset_url":"presets/db-detail.lua"},
 {"slug":"db-simple","name":"DB Simple","author":"DB","description":"Simple, clean, with dynamic info. Layout for KLC default margins","added":"2026-06-09T17:37:45+01:00","preset_url":"presets/db-simple.lua"},
 {"slug":"dbo","name":"dbo","author":"DBO","description":"Simple and efficient","added":"2026-04-22T15:38:53+01:00","preset_url":"presets/dbo.lua"},

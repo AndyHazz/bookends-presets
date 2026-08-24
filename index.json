@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-08-23T19:22:57.519Z","presets":[
+{"schema_version":1,"updated":"2026-08-24T02:37:02.522Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -147,6 +147,7 @@
 {"slug":"simple-progress","name":"Simple Progress","author":"elda","description":"page #, progress bar, pages left in chapter ","added":"2026-06-11T23:59:20+01:00","preset_url":"presets/simple-progress.lua"},
 {"slug":"simple-ui-book-and-chapter","name":"Simple UI (book and chapter)","author":"Fedesempai","description":"Simple ui with remaining pages numbers for the book and chapter","added":"2026-04-20T17:12:07+01:00","preset_url":"presets/simple-ui-book-and-chapter.lua"},
 {"slug":"simple-yet-satisfying","name":"Simple yet satisfying","author":"Rebecca D","description":"simple yet informative","added":"2026-05-23T12:39:36+01:00","preset_url":"presets/simple-yet-satisfying.lua"},
+{"slug":"simple1","name":"Simple1","author":"NoBody","description":"Simple1","added":"2026-08-24T03:36:53+01:00","preset_url":"presets/simple1.lua"},
 {"slug":"simpleui-status-bar","name":"SimpleUI status bar","author":"AndyHazz","description":"Compact top-right status bar in the simpleui style","added":"2026-04-19T19:52:02+01:00","preset_url":"presets/simpleui-status-bar.lua"},
 {"slug":"simplicity","name":"Simplicity","author":"sabee","description":"Simple preset with clock, pages left in chapter and book percentage.","added":"2026-04-20T17:12:28+01:00","preset_url":"presets/simplicity.lua"},
 {"slug":"simply-lovely","name":"simply lovely","author":"aly","description":"just enough info","added":"2026-07-24T21:56:21+01:00","preset_url":"presets/simply-lovely.lua"},

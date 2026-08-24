@@ -1,6 +1,6 @@
 -- Bookends preset: cute :D
 return {
-    author = "null",
+    author = "Anonymous",
     defaults = {
         font_scale = 100,
         font_size = 14,

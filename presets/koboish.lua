@@ -11,7 +11,7 @@ return {
         overlap_gap = 50,
         truncation_priority = "center",
     },
-    description = "kobo nstive theme, purple color ;)",
+    description = "kobo native theme, purple color ;)",
     name = "Koboish",
     positions = {
         bc = {

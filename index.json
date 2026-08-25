@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-08-24T11:02:26.274Z","presets":[
+{"schema_version":1,"updated":"2026-08-25T21:54:24.576Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -12,6 +12,7 @@
 {"slug":"bknds","name":"bknds","author":"annomaly","description":"title, chapter, page number, clock, battery","added":"2026-08-17T10:37:30+01:00","preset_url":"presets/bknds.lua"},
 {"slug":"blu-memori","name":"blu memori","author":"azul","description":"a clean dreamy setup with some even/odd and [if] templates.","added":"2026-06-30T23:50:13+01:00","preset_url":"presets/blu-memori.lua"},
 {"slug":"book-chapter-info","name":"Book & Chapter Info","author":"rot-and-read","description":"See book & chapter information at a glance. Includes two progress bars and misc book/chap info.","added":"2026-06-03T21:42:14+01:00","preset_url":"presets/book-chapter-info.lua"},
+{"slug":"book-info-and-progress","name":"Book info and progress","author":"Ade07","description":"Book chapters, page progress, bars and time","added":"2026-08-25T22:54:10+01:00","preset_url":"presets/book-info-and-progress.lua"},
 {"slug":"book-page-framed-with-progress-bars","name":"Book Page framed with Progress Bars","author":"Hille","description":"Mimics book pages framed with book/chapter progress bars.","added":"2026-04-23T22:39:52+01:00","preset_url":"presets/book-page-framed-with-progress-bars.lua"},
 {"slug":"booklike-plus-percent-progress-bar","name":"booklike plus percent/progress bar","author":"mothsphere","description":"low profile, book/chap titles alternate except blank on first page of chap. ","added":"2026-06-30T23:49:22+01:00","preset_url":"presets/booklike-plus-percent-progress-bar.lua"},
 {"slug":"books","name":"Books","author":"Midori","description":"Minimal and clean ereader setting","added":"2026-07-12T22:05:10+01:00","preset_url":"presets/books.lua"},
@@ -83,6 +84,7 @@
 {"slug":"kobo-like-with-time-progress","name":"Kobo like with time progress","author":"Koitma","description":"Kobo inspired with progress bars and time left tokens","added":"2026-07-06T12:59:25+01:00","preset_url":"presets/kobo-like-with-time-progress.lua"},
 {"slug":"kobo-like","name":"Kobo Like","author":"Orange","description":"Stock Kobo inspired with time display and other hidden tokens.","added":"2026-04-20T07:23:44+01:00","preset_url":"presets/kobo-like.lua"},
 {"slug":"kobo","name":"Kobo","author":"ReadinGadgets","description":"As close to Kobo","added":"2026-04-24T13:59:34+01:00","preset_url":"presets/kobo.lua"},
+{"slug":"koboish","name":"Koboish","author":"jules","description":"kobo native theme, purple color ;)","added":"2026-08-25T22:54:06+01:00","preset_url":"presets/koboish.lua"},
 {"slug":"koreader-stock","name":"KOReader stock","author":"AndyHazz","description":"Mimics KOReader's built-in status bar — page, clock, chapter, battery, percent, time remaining","added":"2026-04-19T20:38:01+01:00","preset_url":"presets/koreader-stock.lua"},
 {"slug":"l00py-s-main","name":"l00py's main","author":"l00py","description":"tweaked minimal but detailed preset","added":"2026-06-28T15:32:45+01:00","preset_url":"presets/l00py-s-main.lua"},
 {"slug":"less-is-less","name":"Less is less","author":"trash","description":"A clean setup with enough info for me","added":"2026-06-10T08:35:03+01:00","preset_url":"presets/less-is-less.lua"},

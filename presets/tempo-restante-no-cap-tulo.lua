@@ -11,7 +11,7 @@ return {
         overlap_gap = 50,
         truncation_priority = "center",
     },
-    description = "Minimal starter — clock, page number, and a slim progress bar",
+    description = "Tempo restante no capítulo escrito em texto, com relógio, título e barra de progresso",
     name = "Tempo restante no capítulo",
     positions = {
         bc = {
@@ -63,7 +63,7 @@ return {
                 10,
             },
             lines = {
-                "%chap_read de %chap_pages ⋅ [if:chap_time_left<1]Menos de 1 min. restante no capítulo[else][if:chap_time_left=1]1 min. restante no capítulo[else][if:chap_time_left<60]%chap_time_left_m min. restantes no capítulo[else][if:chap_time_left_m=0]%chap_time_left_h h restantes no capítulo[else][if:chap_time_left_m<10]%chap_time_left_hh0%chap_time_left_m min restantes no capítulo[else]%chap_time_left_hh%chap_time_left_mmin restantes no capítulo[/if][/if][/if][/if][/if] ⋅ %chap_pct",
+                "%chap_read de %chap_pages ⋅ [if:chap_time_left<1]Menos de 1 min. restante no capítulo[else][if:chap_time_left=1]1 min. restante no capítulo[else][if:chap_time_left<60]%chap_time_left_m min. restantes no capítulo[else][if:chap_time_left_m=0]%chap_time_left_h h restantes no capítulo[else][if:chap_time_left_m<10]%chap_time_left_h h 0%chap_time_left_m min restantes no capítulo[else]%chap_time_left_h h %chap_time_left_m min restantes no capítulo[/if][/if][/if][/if][/if] ⋅ %chap_pct",
                 "%bar",
             },
         },

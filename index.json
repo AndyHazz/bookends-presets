@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-08-27T08:51:33.219Z","presets":[
+{"schema_version":1,"updated":"2026-08-27T08:51:59.628Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -70,6 +70,7 @@
 {"slug":"jab-simple-informative","name":"jab simple informative","author":"jab","description":"simple informative barr chapter pages(%)","added":"2026-07-08T13:48:17+01:00","preset_url":"presets/jab-simple-informative.lua"},
 {"slug":"jack-bookends","name":"Jack Bookends","author":"Jack Salillas","description":"Jack's Bookend","added":"2026-08-17T10:37:20+01:00","preset_url":"presets/jack-bookends.lua"},
 {"slug":"jon-s-simple-layout","name":"Jon's Simple Layout","author":"Jon","description":"Simple","added":"2026-06-27T00:30:24+01:00","preset_url":"presets/jon-s-simple-layout.lua"},
+{"slug":"josiong-kobo-libra-color","name":"josiong - kobo libra color","author":"JoSiong","description":"readjust for kobo libra color","added":"2026-08-27T09:51:41+01:00","preset_url":"presets/josiong-kobo-libra-color.lua"},
 {"slug":"josiong","name":"josiong","author":"JoSiong","description":"a modified version of stamp preset by AndyHazz","added":"2026-08-26T06:06:28+01:00","preset_url":"presets/josiong.lua"},
 {"slug":"just-right","name":"Just right","author":"Anon","description":"its just right","added":"2026-07-16T08:05:02+01:00","preset_url":"presets/just-right.lua"},
 {"slug":"kaomoji-status-bar","name":"kaomoji status bar","author":"blog_dea","description":"kaomoji+if odd title (above) | kaomoji+ page, page left ch, clock (bottom)","added":"2026-08-19T07:58:49+01:00","preset_url":"presets/kaomoji-status-bar.lua"},
@@ -131,6 +132,7 @@
 {"slug":"paper","name":"Paper","author":"AndyHazz","description":"Uses borders to give a feel of real book","added":"2026-04-19T12:44:42+01:00","preset_url":"presets/paper.lua"},
 {"slug":"pdf-preset","name":"PDF preset","author":"Anon","description":"Made for CBZ or PDF with background fill, white on black","added":"2026-05-13T11:33:45+01:00","preset_url":"presets/pdf-preset.lua"},
 {"slug":"perfectly-minimal","name":"perfectly minimal","author":"mbakes03","description":"title, time & battery, thin progress bar, bool info","added":"2026-08-17T10:37:41+01:00","preset_url":"presets/perfectly-minimal.lua"},
+{"slug":"personal-dawson","name":"Personal Dawson","author":"Personal DFI","description":"personal simple config","added":"2026-08-27T09:51:46+01:00","preset_url":"presets/personal-dawson.lua"},
 {"slug":"personal-minimal","name":"Personal minimal","author":"Cyborne","description":"As minima, as i can make it for me","added":"2026-08-17T10:37:27+01:00","preset_url":"presets/personal-minimal.lua"},
 {"slug":"phone-preset","name":"Phone preset","author":"Meg","description":"a simple preset for my phone reading","added":"2026-08-19T20:00:18+01:00","preset_url":"presets/phone-preset.lua"},
 {"slug":"picomini","name":"picomini","author":"pico","description":"minimal bars","added":"2026-07-18T19:00:20+01:00","preset_url":"presets/picomini.lua"},

@@ -1,4 +1,4 @@
--- Bookends preset: Enough for a starry night v2
+-- Bookends preset: Enough for a starry night
 return {
     author = "Paulikid",
     defaults = {
@@ -12,7 +12,7 @@ return {
         truncation_priority = "center",
     },
     description = "based on \"Enough For Me\" and \"Starry night\". Chapter progress in top area",
-    name = "Enough for a starry night v2",
+    name = "Enough for a starry night",
     positions = {
         bc = {
             line_bar_chapter_ticks = {

@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-08-27T09:14:28.454Z","presets":[
+{"schema_version":1,"updated":"2026-08-31T14:50:18.366Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -6,6 +6,7 @@
 {"slug":"a-little-whimsy","name":"a little whimsy","author":"rillereads","description":"added emoticons, numerical value of reading progress (base design is from existing Minimal yet detailed preset)","added":"2026-06-12T07:12:02+01:00","preset_url":"presets/a-little-whimsy.lua"},
 {"slug":"a-nice-one-don-t-you-think","name":"A Nice One, don't you think?","author":"ayatotoro","description":"My page margins are rather small though, don't know how it's going to fare on yours","added":"2026-08-27T10:14:18+01:00","preset_url":"presets/a-nice-one-don-t-you-think.lua"},
 {"slug":"all-i-need","name":"All I need","author":"Alx","description":"All U need while reading","added":"2026-04-26T15:00:28+01:00","preset_url":"presets/all-i-need.lua"},
+{"slug":"allin-condensed","name":"AllIn condensed","author":"Amo","description":"Double progress bar (book + chapter in dot), title, pages, ...","added":"2026-08-31T15:50:01+01:00","preset_url":"presets/allin-condensed.lua"},
 {"slug":"almost-invisible","name":"Almost invisible","author":"akrreh","description":"Top: Chapter, Bottom: Book. Battery warning if less than 20%.","added":"2026-05-03T15:40:29+01:00","preset_url":"presets/almost-invisible.lua"},
 {"slug":"balanced-color","name":"Balanced Color+","author":"Zork","description":"Clean and informative.","added":"2026-07-16T08:05:21+01:00","preset_url":"presets/balanced-color.lua"},
 {"slug":"basic","name":"Basic+","author":"JayV","description":"basic info plus some extra","added":"2026-05-20T12:33:09+01:00","preset_url":"presets/basic.lua"},
@@ -49,6 +50,7 @@
 {"slug":"donuts","name":"Donuts","author":"good-pm","description":"Chapter and book donut progress","added":"2026-04-26T09:10:52+01:00","preset_url":"presets/donuts.lua"},
 {"slug":"dots-n-diamonds","name":"Dots n diamonds","author":"cranberryjam","description":"Small design with some decorations","added":"2026-05-13T11:24:52+01:00","preset_url":"presets/dots-n-diamonds.lua"},
 {"slug":"elegant-minimal","name":"Elegant minimal","author":"u/meowdogpewpew","description":"An elegant setup with alternating title/chapter, pages left, percentage read and time.","added":"2026-04-27T21:30:46+01:00","preset_url":"presets/elegant-minimal.lua"},
+{"slug":"enough-for-a-starry-night-v2","name":"Enough for a starry night","author":"Paulikid","description":"based on \"Enough For Me\" and \"Starry night\". Chapter progress in top area","added":"2026-08-31T15:50:05+01:00","preset_url":"presets/enough-for-a-starry-night-v2.lua"},
 {"slug":"enough-for-me","name":"Enough For Me","author":"trash","description":"A clean setup with enough info for me","added":"2026-04-30T07:42:35+01:00","preset_url":"presets/enough-for-me.lua"},
 {"slug":"essentially-minimal","name":"Essentially Minimal","author":"iElliie","description":"Your essentials at a glance.","added":"2026-04-20T21:53:31+01:00","preset_url":"presets/essentially-minimal.lua"},
 {"slug":"everyday","name":"Everyday","author":"Jack","description":"Simple — Gives you at a glance all the information you will need","added":"2026-05-02T18:22:54+01:00","preset_url":"presets/everyday.lua"},
@@ -92,6 +94,7 @@
 {"slug":"koreader-stock","name":"KOReader stock","author":"AndyHazz","description":"Mimics KOReader's built-in status bar — page, clock, chapter, battery, percent, time remaining","added":"2026-04-19T20:38:01+01:00","preset_url":"presets/koreader-stock.lua"},
 {"slug":"l00py-s-main","name":"l00py's main","author":"l00py","description":"tweaked minimal but detailed preset","added":"2026-06-28T15:32:45+01:00","preset_url":"presets/l00py-s-main.lua"},
 {"slug":"less-is-less","name":"Less is less","author":"trash","description":"A clean setup with enough info for me","added":"2026-06-10T08:35:03+01:00","preset_url":"presets/less-is-less.lua"},
+{"slug":"less-is-more","name":"Less is more","author":"FilmCarlos","description":"All you need <3","added":"2026-08-31T15:49:57+01:00","preset_url":"presets/less-is-more.lua"},
 {"slug":"live-laugh-love-the-layout","name":"live laugh love the layout","author":"klorka","description":"edited version of novel by kurokeita, adjusted to make it even more simple and yet still fancy","added":"2026-06-25T07:08:48+01:00","preset_url":"presets/live-laugh-love-the-layout.lua"},
 {"slug":"livros","name":"Livros","author":"Meirim","description":"Simple books","added":"2026-04-19T23:31:55+01:00","preset_url":"presets/livros.lua"},
 {"slug":"luddite-with-allowances","name":"Luddite with Allowances","author":"BozoGlizzy","description":"Simple and paper-like with barebones progress tracking and clock","added":"2026-08-17T10:37:48+01:00","preset_url":"presets/luddite-with-allowances.lua"},

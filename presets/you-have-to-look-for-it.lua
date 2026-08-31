@@ -11,7 +11,7 @@ return {
         overlap_gap = 50,
         truncation_priority = "center",
     },
-    description = "Alternating bottom page numbers and a book progress bar that you look for",
+    description = "Alternating bottom page numbers and a progress bar that you have to look for",
     name = "You have to look for it",
     positions = {
         bc = {
@@ -68,7 +68,7 @@ return {
             line_font_face = {
             },
             line_font_size = {
-                16,
+                14,
             },
             line_h_nudge = {
                 -30,
@@ -107,7 +107,7 @@ return {
             line_font_face = {
             },
             line_font_size = {
-                16,
+                14,
             },
             line_h_nudge = {
                 30,

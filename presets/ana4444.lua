@@ -11,7 +11,7 @@ return {
         overlap_gap = 50,
         truncation_priority = "center",
     },
-    description = "personal",
+    description = "Title, chapter and page position, with today's reading time and a full-width bar across the top",
     name = "ana4444",
     positions = {
         bc = {

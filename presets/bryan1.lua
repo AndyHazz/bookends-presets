@@ -11,7 +11,7 @@ return {
         overlap_gap = 50,
         truncation_priority = "sides",
     },
-    description = "Book detail, double progress bar (top = chapter, bottom = whole book) & basic device info - in a neat & minimal style",
+    description = "Book detail, chapter progress bar & basic device info - in a neat & minimal style",
     name = "Bryan1",
     positions = {
         bc = {

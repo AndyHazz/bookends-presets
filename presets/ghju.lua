@@ -11,7 +11,7 @@ return {
         overlap_gap = 50,
         truncation_priority = "sides",
     },
-    description = "gm",
+    description = "Clock and page count always; chapter title and progress on EPUBs; battery only when low or charging",
     name = "Ghju",
     positions = {
         bc = {

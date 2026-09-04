@@ -1,6 +1,6 @@
 -- Bookends preset: Patrapong Preset
 return {
-    author = "bookends",
+    author = "Patrapong",
     defaults = {
         font_scale = 100,
         font_size = 15,
@@ -11,7 +11,7 @@ return {
         overlap_gap = 50,
         truncation_priority = "center",
     },
-    description = "Minimal starter — clock, page number, and a slim progress bar",
+    description = "Author and title along the top, page number and clock at the foot, above a slim chapter-ticked bar",
     name = "Patrapong Preset",
     positions = {
         bc = {

@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-09-04T22:28:09.141Z","presets":[
+{"schema_version":1,"updated":"2026-09-06T06:07:50.073Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -10,6 +10,7 @@
 {"slug":"allin-condensed","name":"AllIn condensed","author":"Amo","description":"Double progress bar (book + chapter in dot), title, pages, ...","added":"2026-08-31T15:50:01+01:00","preset_url":"presets/allin-condensed.lua"},
 {"slug":"almost-invisible","name":"Almost invisible","author":"akrreh","description":"Top: Chapter, Bottom: Book. Battery warning if less than 20%.","added":"2026-05-03T15:40:29+01:00","preset_url":"presets/almost-invisible.lua"},
 {"slug":"ana4444","name":"ana4444","author":"ana","description":"Title, chapter and page position, with today's reading time and a full-width bar across the top","added":"2026-09-04T23:27:48+01:00","preset_url":"presets/ana4444.lua"},
+{"slug":"author-chapter-focus","name":"Author Chapter Focus","author":"Ranjith","description":"Focusing on author and chaptername","added":"2026-09-06T07:07:33+01:00","preset_url":"presets/author-chapter-focus.lua"},
 {"slug":"avalon-minimal","name":"Avalon [minimal]","author":"mrpops2ko","description":"minimal. chapter and chapter time remaining. progress bar.","added":"2026-09-04T23:27:32+01:00","preset_url":"presets/avalon-minimal.lua"},
 {"slug":"balanced-color","name":"Balanced Color+","author":"Zork","description":"Clean and informative.","added":"2026-07-16T08:05:21+01:00","preset_url":"presets/balanced-color.lua"},
 {"slug":"basic","name":"Basic+","author":"JayV","description":"basic info plus some extra","added":"2026-05-20T12:33:09+01:00","preset_url":"presets/basic.lua"},
@@ -144,6 +145,7 @@
 {"slug":"patrapong-preset","name":"Patrapong Preset","author":"Patrapong","description":"Author and title along the top, page number and clock at the foot, above a slim chapter-ticked bar","added":"2026-09-04T23:27:59+01:00","preset_url":"presets/patrapong-preset.lua"},
 {"slug":"pdf-preset","name":"PDF preset","author":"Anon","description":"Made for CBZ or PDF with background fill, white on black","added":"2026-05-13T11:33:45+01:00","preset_url":"presets/pdf-preset.lua"},
 {"slug":"perfectly-minimal","name":"perfectly minimal","author":"mbakes03","description":"title, time & battery, thin progress bar, bool info","added":"2026-08-17T10:37:41+01:00","preset_url":"presets/perfectly-minimal.lua"},
+{"slug":"perfeito","name":"Perfeito!","author":"Allan Wesley","description":"tempo capítulo + porcentagem livro + hora + bateria","added":"2026-09-06T07:07:36+01:00","preset_url":"presets/perfeito.lua"},
 {"slug":"personal-dawson","name":"Personal Dawson","author":"Personal DFI","description":"personal simple config","added":"2026-08-27T09:51:46+01:00","preset_url":"presets/personal-dawson.lua"},
 {"slug":"personal-minimal","name":"Personal minimal","author":"Cyborne","description":"As minima, as i can make it for me","added":"2026-08-17T10:37:27+01:00","preset_url":"presets/personal-minimal.lua"},
 {"slug":"phone-preset","name":"Phone preset","author":"Meg","description":"a simple preset for my phone reading","added":"2026-08-19T20:00:18+01:00","preset_url":"presets/phone-preset.lua"},

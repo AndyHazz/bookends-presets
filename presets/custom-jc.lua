@@ -11,7 +11,7 @@ return {
         overlap_gap = 50,
         truncation_priority = "center",
     },
-    description = "clean",
+    description = "Title and series up top, date and clock, with book percentage and chapter pages left plus finish time",
     name = "Custom jc",
     positions = {
         bc = {

@@ -11,7 +11,7 @@ return {
         overlap_gap = 50,
         truncation_priority = "center",
     },
-    description = "A simple status bar at the botom that shows device status, chapter progress, and book progress.",
+    description = "A simple status bar at the bottom that shows device status, chapter progress, and book progress.",
     name = "Simple Chap/Book Progress",
     positions = {
         bc = {

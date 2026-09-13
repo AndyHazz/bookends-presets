@@ -1,4 +1,4 @@
--- Bookends preset: manga compact pink
+-- Bookends preset: Manga Compact Pink
 return {
     author = "BitterTM",
     defaults = {
@@ -11,8 +11,8 @@ return {
         overlap_gap = 50,
         truncation_priority = "center",
     },
-    description = "comoact manga with pink bar and battery",
-    name = "manga compact pink",
+    description = "compact manga with pink bar and battery",
+    name = "Manga Compact Pink",
     positions = {
         bc = {
             line_bar_chapter_ticks = {

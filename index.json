@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-09-14T23:09:53.807Z","presets":[
+{"schema_version":1,"updated":"2026-09-18T21:37:59.460Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -160,6 +160,7 @@
 {"slug":"print-v-2","name":"Print v.2","author":"bmf","description":"Mimicking the classic novels print style. Added some new conditions.","added":"2026-04-22T08:36:05+01:00","preset_url":"presets/print-v-2.lua"},
 {"slug":"print","name":"Print","author":"bmf","description":"No progress bar. Alternating page number, odd/even title + author and chapter + series.","added":"2026-04-20T07:23:55+01:00","preset_url":"presets/print.lua"},
 {"slug":"raf","name":"Raf","author":"Rafik","description":"all you need","added":"2026-05-04T08:50:01+01:00","preset_url":"presets/raf.lua"},
+{"slug":"rb","name":"rb","author":"rb","description":"All I need, but small.","added":"2026-09-18T22:37:50+01:00","preset_url":"presets/rb.lua"},
 {"slug":"reach-for-the-stars","name":"Reach for the stars","author":"rillereads","description":"Stars in the header and footer","added":"2026-06-21T08:33:03+01:00","preset_url":"presets/reach-for-the-stars.lua"},
 {"slug":"refinement","name":"Refinement","author":"Rhelvorn","description":"Book & Chapter Title, Pages Read in Total","added":"2026-07-24T21:56:52+01:00","preset_url":"presets/refinement.lua"},
 {"slug":"reverie","name":"» Reverie «","author":"evieane","description":"a pretty setup with lots of fun [if] templates ","added":"2026-08-23T20:22:32+01:00","preset_url":"presets/reverie.lua"},

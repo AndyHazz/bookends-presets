@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-09-18T21:37:59.460Z","presets":[
+{"schema_version":1,"updated":"2026-09-24T21:05:00.653Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -13,6 +13,7 @@
 {"slug":"author-chapter-focus","name":"Author Chapter Focus","author":"Ranjith","description":"Focusing on author and chaptername","added":"2026-09-06T07:07:33+01:00","preset_url":"presets/author-chapter-focus.lua"},
 {"slug":"avalon-minimal","name":"Avalon [minimal]","author":"mrpops2ko","description":"minimal. chapter and chapter time remaining. progress bar.","added":"2026-09-04T23:27:32+01:00","preset_url":"presets/avalon-minimal.lua"},
 {"slug":"balanced-color","name":"Balanced Color+","author":"Zork","description":"Clean and informative.","added":"2026-07-16T08:05:21+01:00","preset_url":"presets/balanced-color.lua"},
+{"slug":"basic-catal","name":"Basic català","author":"izzy","description":"basic en català","added":"2026-09-24T22:04:37+01:00","preset_url":"presets/basic-catal.lua"},
 {"slug":"basic","name":"Basic+","author":"JayV","description":"basic info plus some extra","added":"2026-05-20T12:33:09+01:00","preset_url":"presets/basic.lua"},
 {"slug":"bknds-with-progress","name":"bknds with progress","author":"annomaly","description":"title, chapter, page number, clock, battery and progress bars","added":"2026-08-17T10:37:33+01:00","preset_url":"presets/bknds-with-progress.lua"},
 {"slug":"bknds","name":"bknds","author":"annomaly","description":"title, chapter, page number, clock, battery","added":"2026-08-17T10:37:30+01:00","preset_url":"presets/bknds.lua"},
@@ -63,6 +64,7 @@
 {"slug":"enough-for-a-starry-night-v2","name":"Enough for a starry night","author":"Paulikid","description":"based on \"Enough For Me\" and \"Starry night\". Chapter progress in top area","added":"2026-08-31T15:50:05+01:00","preset_url":"presets/enough-for-a-starry-night-v2.lua"},
 {"slug":"enough-for-me","name":"Enough For Me","author":"trash","description":"A clean setup with enough info for me","added":"2026-04-30T07:42:35+01:00","preset_url":"presets/enough-for-me.lua"},
 {"slug":"essentially-minimal","name":"Essentially Minimal","author":"iElliie","description":"Your essentials at a glance.","added":"2026-04-20T21:53:31+01:00","preset_url":"presets/essentially-minimal.lua"},
+{"slug":"essentials","name":"essentials","author":"meliy","description":"title, page number, session, time left, pages left, clock ","added":"2026-09-24T22:04:42+01:00","preset_url":"presets/essentials.lua"},
 {"slug":"everyday","name":"Everyday","author":"Jack","description":"Simple — Gives you at a glance all the information you will need","added":"2026-05-02T18:22:54+01:00","preset_url":"presets/everyday.lua"},
 {"slug":"fal-s-manga","name":"Fal’s Manga","author":"fal","description":"space on left and right","added":"2026-08-26T06:06:20+01:00","preset_url":"presets/fal-s-manga.lua"},
 {"slug":"fals-epub","name":"Fal's epub","author":"fal","description":"simple aja","added":"2026-06-10T08:34:20+01:00","preset_url":"presets/fals-epub.lua"},
@@ -161,6 +163,7 @@
 {"slug":"print","name":"Print","author":"bmf","description":"No progress bar. Alternating page number, odd/even title + author and chapter + series.","added":"2026-04-20T07:23:55+01:00","preset_url":"presets/print.lua"},
 {"slug":"raf","name":"Raf","author":"Rafik","description":"all you need","added":"2026-05-04T08:50:01+01:00","preset_url":"presets/raf.lua"},
 {"slug":"rb","name":"rb","author":"rb","description":"All I need, but small.","added":"2026-09-18T22:37:50+01:00","preset_url":"presets/rb.lua"},
+{"slug":"rb2","name":"rb2","author":"rb","description":"Essentials on top, details on session chapter and book on bottom","added":"2026-09-24T22:04:33+01:00","preset_url":"presets/rb2.lua"},
 {"slug":"reach-for-the-stars","name":"Reach for the stars","author":"rillereads","description":"Stars in the header and footer","added":"2026-06-21T08:33:03+01:00","preset_url":"presets/reach-for-the-stars.lua"},
 {"slug":"refinement","name":"Refinement","author":"Rhelvorn","description":"Book & Chapter Title, Pages Read in Total","added":"2026-07-24T21:56:52+01:00","preset_url":"presets/refinement.lua"},
 {"slug":"reverie","name":"» Reverie «","author":"evieane","description":"a pretty setup with lots of fun [if] templates ","added":"2026-08-23T20:22:32+01:00","preset_url":"presets/reverie.lua"},
@@ -174,6 +177,7 @@
 {"slug":"simple-chap-book-progress","name":"Simple Chap/Book Progress","author":"Karsyboy","description":"A simple status bar at the bottom that shows device status, chapter progress, and book progress.","added":"2026-09-07T17:54:00+01:00","preset_url":"presets/simple-chap-book-progress.lua"},
 {"slug":"simple-for-epub","name":"Simple for EPUB","author":"fal","description":"bettr with atkinson font","added":"2026-06-23T13:25:44+01:00","preset_url":"presets/simple-for-epub.lua"},
 {"slug":"simple-informative","name":"Simple Informative","author":"Nicki","description":"All the Informtion forvreading time in a simple preset.","added":"2026-06-30T23:49:11+01:00","preset_url":"presets/simple-informative.lua"},
+{"slug":"simple-jly","name":"simple jly","author":"Anon","description":"Title, chapter and clock on top; time left, page and battery below, with book and chapter bars","added":"2026-09-24T22:04:47+01:00","preset_url":"presets/simple-jly.lua"},
 {"slug":"simple-manga","name":"simple manga","author":"fal","description":"space on left and right","added":"2026-06-12T14:30:59+01:00","preset_url":"presets/simple-manga.lua"},
 {"slug":"simple-progress","name":"Simple Progress","author":"elda","description":"page #, progress bar, pages left in chapter ","added":"2026-06-11T23:59:20+01:00","preset_url":"presets/simple-progress.lua"},
 {"slug":"simple-ui-book-and-chapter","name":"Simple UI (book and chapter)","author":"Fedesempai","description":"Simple ui with remaining pages numbers for the book and chapter","added":"2026-04-20T17:12:07+01:00","preset_url":"presets/simple-ui-book-and-chapter.lua"},

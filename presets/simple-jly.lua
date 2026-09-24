@@ -11,7 +11,7 @@ return {
         overlap_gap = 50,
         truncation_priority = "center",
     },
-    description = "Minimal starter — clock, page number, and a slim progress bar (modified version to my taste)",
+    description = "Title, chapter and clock on top; time left, page and battery below, with book and chapter bars",
     name = "simple jly",
     positions = {
         bc = {

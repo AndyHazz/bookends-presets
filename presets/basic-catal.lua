@@ -48,7 +48,7 @@ return {
                 -5,
             },
             lines = {
-                "Page %page_num of %page_count",
+                "Pàgina %page_num de %page_count",
             },
         },
         bl = {
@@ -123,7 +123,7 @@ return {
                 -5,
             },
             lines = {
-                "Restant capitol %chap_time_left",
+                "Restant capítol %chap_time_left",
             },
         },
         tc = {

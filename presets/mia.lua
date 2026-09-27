@@ -11,7 +11,7 @@ return {
         overlap_gap = 50,
         truncation_priority = "center",
     },
-    description = "cute detai",
+    description = "Cute details",
     name = "Mia",
     positions = {
         bc = {

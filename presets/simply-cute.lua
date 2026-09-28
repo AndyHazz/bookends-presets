@@ -1,4 +1,4 @@
--- Bookends preset: simply cute
+-- Bookends preset: Simply cute
 return {
     author = "jayl",
     defaults = {
@@ -11,8 +11,8 @@ return {
         overlap_gap = 50,
         truncation_priority = "center",
     },
-    description = "cute kindle esq",
-    name = "simply cute",
+    description = "Cute, Kindle-esque",
+    name = "Simply cute",
     positions = {
         bc = {
             line_bar_chapter_ticks = {

@@ -1,4 +1,4 @@
--- Bookends preset: simply cute alt
+-- Bookends preset: Simply cute alt
 return {
     author = "jayl",
     defaults = {
@@ -11,8 +11,8 @@ return {
         overlap_gap = 50,
         truncation_priority = "center",
     },
-    description = "anotheparto simply cute",
-    name = "simply cute alt",
+    description = "Alternative layout of Simply cute",
+    name = "Simply cute alt",
     positions = {
         bc = {
             line_bar_chapter_ticks = {

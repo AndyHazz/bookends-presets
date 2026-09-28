@@ -134,20 +134,26 @@ jobs:
         env:
           NTFY_URL: ${{ secrets.NTFY_URL }}
           NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
-          PR_URL: ${{ github.event.pull_request.html_url || format('{0}/{1}/actions/runs/{2}', github.server_url, github.repository, github.run_id) }}
-          SUBJECT: ${{ github.event.pull_request.number && format('Preset PR #{0}', github.event.pull_request.number) || format('Manual check of {0}', inputs.preset) }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          PR: ${{ github.event.pull_request.number }}
+          PRESET: ${{ inputs.preset }}
           FAILED: ${{ steps.mech.outputs.failed }}
           PRIVATE_OUT: ${{ runner.temp }}/private
         run: |
+          if [ -n "$PR" ]; then
+            subject="Preset PR #$PR"; link="$PR_URL"
+          else
+            subject="Manual check of $PRESET"; link="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          fi
           {
             [ "$FAILED" = "1" ] && echo "Structural checks failed (see the job summary)."
             cat "$PRIVATE_OUT" 2>/dev/null
           } | head -c 3500 > "$RUNNER_TEMP/msg"
           curl -sS --fail-with-body \
             -H "Authorization: Bearer $NTFY_TOKEN" \
-            -H "Title: $SUBJECT needs review" \
+            -H "Title: $subject needs review" \
             -H "Tags: warning" \
-            -H "Click: $PR_URL" \
+            -H "Click: $link" \
             --data-binary "@$RUNNER_TEMP/msg" \
             "$NTFY_URL"
 

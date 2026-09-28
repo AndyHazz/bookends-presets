@@ -11,7 +11,7 @@ return {
         overlap_gap = 50,
         truncation_priority = "center",
     },
-    description = "Icins only when relevant. unobtrusive clean info",
+    description = "Icons only when relevant. unobtrusive clean info",
     name = "simple slimmer",
     positions = {
         bc = {

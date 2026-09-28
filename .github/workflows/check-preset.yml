@@ -1,0 +1,144 @@
+name: Check preset submission
+
+# First pass over a submitted preset. Nothing here merges or closes a PR:
+#   - structural problems (won't load, not plain data, blank, device fonts,
+#     unknown tokens) fail the check, with the details in the job summary
+#   - the name/author rules and the language check only label the PR
+#     "needs review"; their reasons go to the private ntfy topic and never
+#     into public logs, so reading this repo doesn't show how to dodge them.
+#
+# Secrets: PRESET_POLICY, MODERATION_PROMPT, CF_ACCOUNT_ID, CF_AI_TOKEN,
+# NTFY_URL, NTFY_TOKEN. See .github/scripts/check-preset.lua for the policy
+# format.
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'presets/**.lua'
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: check-preset-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/checkout@v4
+        with:
+          repository: AndyHazz/bookends.koplugin
+          path: .plugin
+          sparse-checkout: bookends_tokens.lua
+          sparse-checkout-cone-mode: false
+
+      - name: Install Lua
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq lua5.4 >/dev/null
+          sudo ln -sf "$(command -v lua5.4)" /usr/local/bin/lua
+
+      - name: Find changed presets
+        id: files
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          gh pr diff "$PR" --repo "$GITHUB_REPOSITORY" --name-only \
+            | grep -E '^presets/[a-z0-9-]+\.lua$' \
+            | while read -r f; do [ -f "$f" ] && echo "$f"; done > "$RUNNER_TEMP/files" || true
+          echo "count=$(wc -l < "$RUNNER_TEMP/files")" >> "$GITHUB_OUTPUT"
+
+      - name: Structural checks
+        id: mech
+        if: steps.files.outputs.count != '0'
+        env:
+          PLUGIN_DIR: ${{ github.workspace }}/.plugin
+        run: |
+          mapfile -t files < "$RUNNER_TEMP/files"
+          rc=0
+          {
+            echo "## Structural checks"
+            lua .github/scripts/check-preset.lua mechanical "${files[@]}" || rc=1
+            echo "## Tokens and conditions"
+            echo '```'
+            bash .github/scripts/validate_refs.sh "${files[@]}" || rc=1
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          echo "failed=$rc" >> "$GITHUB_OUTPUT"
+
+      - name: Name and language checks
+        id: review
+        if: steps.files.outputs.count != '0'
+        env:
+          PRESET_POLICY: ${{ secrets.PRESET_POLICY }}
+          MODERATION_PROMPT: ${{ secrets.MODERATION_PROMPT }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_AI_TOKEN: ${{ secrets.CF_AI_TOKEN }}
+          INDEX_JSON: index.json
+          PRIVATE_OUT: ${{ runner.temp }}/private
+        run: |
+          mapfile -t files < "$RUNNER_TEMP/files"
+          : > "$PRIVATE_OUT"
+          lua .github/scripts/check-preset.lua policy "${files[@]}" >/dev/null || true
+          bash .github/scripts/moderate.sh "${files[@]}" || true
+          if [ -s "$PRIVATE_OUT" ]; then
+            echo "flagged=1" >> "$GITHUB_OUTPUT"
+            echo "## Name and language checks"$'\n'"Flagged for manual review." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "flagged=0" >> "$GITHUB_OUTPUT"
+            echo "## Name and language checks"$'\n'"Nothing flagged." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Label the PR
+        if: steps.files.outputs.count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+          FAILED: ${{ steps.mech.outputs.failed }}
+          FLAGGED: ${{ steps.review.outputs.flagged }}
+        run: |
+          gh label create "checks passed" --repo "$GITHUB_REPOSITORY" --color 2da44e --force >/dev/null
+          gh label create "needs review" --repo "$GITHUB_REPOSITORY" --color d97706 --force >/dev/null
+          if [ "$FAILED" = "1" ] || [ "$FLAGGED" = "1" ]; then
+            add="needs review"; remove="checks passed"
+          else
+            add="checks passed"; remove="needs review"
+          fi
+          gh pr edit "$PR" --repo "$GITHUB_REPOSITORY" --add-label "$add" --remove-label "$remove"
+
+      - name: Send private details
+        if: steps.review.outputs.flagged == '1' || steps.mech.outputs.failed == '1'
+        env:
+          NTFY_URL: ${{ secrets.NTFY_URL }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          PR: ${{ github.event.pull_request.number }}
+          FAILED: ${{ steps.mech.outputs.failed }}
+          PRIVATE_OUT: ${{ runner.temp }}/private
+        run: |
+          {
+            [ "$FAILED" = "1" ] && echo "Structural checks failed (see the job summary)."
+            cat "$PRIVATE_OUT" 2>/dev/null
+          } | head -c 3500 > "$RUNNER_TEMP/msg"
+          curl -sS --fail-with-body \
+            -H "Authorization: Bearer $NTFY_TOKEN" \
+            -H "Title: Preset PR #$PR needs review" \
+            -H "Tags: warning" \
+            -H "Click: $PR_URL" \
+            --data-binary "@$RUNNER_TEMP/msg" \
+            "$NTFY_URL"
+
+      - name: Fail on structural problems
+        if: steps.mech.outputs.failed == '1'
+        run: |
+          echo "Structural checks failed - see the job summary."
+          exit 1

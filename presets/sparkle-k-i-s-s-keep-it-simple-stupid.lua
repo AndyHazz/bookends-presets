@@ -1,6 +1,6 @@
 -- Bookends preset: Sparkle K.I.S.S (keep it simple stupid)
 return {
-    author = "Rhelvorn",
+    author = "gabor_ghoul",
     defaults = {
         font_scale = 100,
         font_size = 14,

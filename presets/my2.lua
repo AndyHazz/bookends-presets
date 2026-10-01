@@ -1,4 +1,4 @@
--- Bookends preset: my2
+-- Bookends preset: Two bars on top
 return {
     author = "Seçkin",
     defaults = {
@@ -11,8 +11,8 @@ return {
         overlap_gap = 50,
         truncation_priority = "center",
     },
-    description = "two bars on top minimal",
-    name = "my2",
+    description = "Two progress bars and a clock on top, page number below",
+    name = "Two bars on top",
     positions = {
         bc = {
             line_bar_chapter_ticks = {

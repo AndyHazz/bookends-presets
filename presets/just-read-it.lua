@@ -1,6 +1,6 @@
 -- Bookends preset: Just Read it
 return {
-    author = "bookends",
+    author = "Anonymous",
     defaults = {
         font_scale = 100,
         font_size = 12,

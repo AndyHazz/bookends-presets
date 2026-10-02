@@ -1,11 +1,14 @@
 name: Check preset submission
 
-# First pass over a submitted preset. Nothing here merges or closes a PR:
+# First pass over a submitted preset:
 #   - structural problems (won't load, not plain data, blank, device fonts,
 #     unknown tokens) fail the check, with the details in the job summary
-#   - the name/author rules and the language check only label the PR
-#     "needs review"; their reasons go to the private ntfy topic and never
-#     into public logs, so reading this repo doesn't show how to dodge them.
+#   - the name/author rules and the language check label the PR "needs
+#     review"; their reasons go to the private ntfy topic and never into
+#     public logs, so reading this repo doesn't show how to dodge them
+#   - a submission that passes everything is merged straight away (the
+#     automerge job). Anything flagged waits for a human, and nothing here
+#     ever closes a PR.
 #
 # Secrets: PRESET_POLICY, MODERATION_PROMPT, CF_ACCOUNT_ID, CF_AI_TOKEN,
 # NTFY_URL, NTFY_TOKEN. See .github/scripts/check-preset.lua for the policy
@@ -37,6 +40,8 @@ jobs:
   check:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    outputs:
+      passed: ${{ steps.verdict.outputs.passed }}
     steps:
       - uses: actions/checkout@v4
 
@@ -157,8 +162,83 @@ jobs:
             --data-binary "@$RUNNER_TEMP/msg" \
             "$NTFY_URL"
 
+      - name: Verdict
+        id: verdict
+        if: steps.files.outputs.count != '0'
+        env:
+          FAILED: ${{ steps.mech.outputs.failed }}
+          FLAGGED: ${{ steps.review.outputs.flagged }}
+        run: |
+          if [ "$FAILED" = "0" ] && [ "$FLAGGED" = "0" ]; then
+            echo "passed=1" >> "$GITHUB_OUTPUT"
+          else
+            echo "passed=0" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Fail on structural problems
         if: steps.mech.outputs.failed == '1'
         run: |
           echo "Structural checks failed - see the job summary."
           exit 1
+
+  # Merge a submission that passed every check. A separate job so the write
+  # permissions never sit alongside the step that reads the submitted file,
+  # and so it checks out nothing. Only real gallery submissions qualify: a
+  # submit/ branch in this repo (the Worker's), adding exactly one new
+  # presets/<slug>.lua and touching nothing else. The merge is pinned to the
+  # commit that was checked, so a later push can't ride along.
+  automerge:
+    needs: check
+    if: >-
+      github.event_name == 'pull_request'
+      && needs.check.outputs.passed == '1'
+      && startsWith(github.event.pull_request.head.ref, 'submit/')
+      && github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+      pull-requests: write
+      actions: write
+    steps:
+      - name: Merge
+        id: merge
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          files=$(gh api "repos/$GITHUB_REPOSITORY/pulls/$PR/files" --jq '[.[] | "\(.status) \(.filename)"] | join("\n")')
+          if [ "$(printf '%s\n' "$files" | grep -c .)" != "1" ] \
+             || ! printf '%s\n' "$files" | grep -qE '^added presets/[a-z0-9-]+\.lua$'; then
+            echo "Not a single new preset file; leaving it for review."
+            exit 0
+          fi
+          gh pr merge "$PR" --repo "$GITHUB_REPOSITORY" --squash --delete-branch --match-head-commit "$HEAD_SHA"
+          echo "merged=1" >> "$GITHUB_OUTPUT"
+
+      # A merge made with this job's token doesn't fire push workflows, so
+      # start the index rebuild explicitly (workflow_dispatch is the exception
+      # GitHub allows).
+      - name: Rebuild the gallery index
+        if: steps.merge.outputs.merged == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run regenerate-index.yml --repo "$GITHUB_REPOSITORY" --ref main
+
+      - name: Notify
+        if: steps.merge.outputs.merged == '1'
+        env:
+          NTFY_URL: ${{ secrets.NTFY_URL }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+        run: |
+          printf '%s' "$PR_TITLE" | tr -d '\n' | cut -c1-200 > "$RUNNER_TEMP/msg"
+          curl -sS --fail-with-body \
+            -H "Authorization: Bearer $NTFY_TOKEN" \
+            -H "Title: Preset auto-merged" \
+            -H "Tags: white_check_mark" \
+            -H "Click: $PR_URL" \
+            --data-binary "@$RUNNER_TEMP/msg" \
+            "$NTFY_URL"

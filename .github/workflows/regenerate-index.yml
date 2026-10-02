@@ -19,8 +19,10 @@ concurrency:
 jobs:
   rebuild:
     runs-on: ubuntu-latest
-    # Avoid self-triggering when this workflow itself commits index.json
-    if: github.actor != 'github-actions[bot]'
+    # Avoid self-triggering when this workflow itself commits index.json, but
+    # do run when check-preset's automerge job dispatches it (that dispatch is
+    # also made as github-actions[bot]).
+    if: github.event_name == 'workflow_dispatch' || github.actor != 'github-actions[bot]'
     steps:
       - uses: actions/checkout@v4
         with:

@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-10-02T15:31:39.398Z","presets":[
+{"schema_version":1,"updated":"2026-10-05T01:51:13.200Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -132,6 +132,7 @@
 {"slug":"metro-border","name":"Metro border","author":"AndyHazz","description":"All aboard!","added":"2026-04-19T12:29:07+01:00","preset_url":"presets/metro-border.lua"},
 {"slug":"mia","name":"Mia","author":"Mia","description":"Cute details","added":"2026-09-27T09:57:14+01:00","preset_url":"presets/mia.lua"},
 {"slug":"mickey-s","name":"Mickey's","author":"Mickey","description":"clean minimal preset with all required details","added":"2026-08-17T10:37:17+01:00","preset_url":"presets/mickey-s.lua"},
+{"slug":"minimal-aesthetic","name":"minimal (aesthetic)","author":"rerejournal","description":"aesthetic time, battery, chapter progress per page","added":"2026-10-05T02:51:02+01:00","preset_url":"presets/minimal-aesthetic.lua"},
 {"slug":"minimal-bold","name":"minimal (bold)","author":"smsnrm","description":"minimal","added":"2026-06-27T07:34:27+01:00","preset_url":"presets/minimal-bold.lua"},
 {"slug":"minimal-bookend","name":"Minimal Bookend","author":"bobtran","description":"minimal","added":"2026-06-03T21:42:18+01:00","preset_url":"presets/minimal-bookend.lua"},
 {"slug":"minimal-border","name":"Minimal & Border","author":"Moon","description":"Give a border around the text with minimal infos athe bottom.","added":"2026-07-24T21:56:40+01:00","preset_url":"presets/minimal-border.lua"},

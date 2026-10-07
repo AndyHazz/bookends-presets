@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-10-05T01:51:13.200Z","presets":[
+{"schema_version":1,"updated":"2026-10-07T07:47:08.358Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -40,6 +40,7 @@
 {"slug":"classic","name":"Classic","author":"AndyHazz","description":"No progress bars, just alternating odd/even book title and chapter","added":"2026-04-19T19:55:33+01:00","preset_url":"presets/classic.lua"},
 {"slug":"clean-and-informative","name":"Clean and Informative","author":"Maywind","description":"Alternate-page title and author, percentage and time left in chapter and book, book and chapter progress bars.","added":"2026-05-02T16:13:02+01:00","preset_url":"presets/clean-and-informative.lua"},
 {"slug":"clean-complete","name":"Clean&complete","author":"Lycos","description":"A clean setup but with enough info","added":"2026-05-23T22:08:34+01:00","preset_url":"presets/clean-complete.lua"},
+{"slug":"clean-info-2-0","name":"Clean Info 2.0","author":"MrLiendre","description":"clock, title and author, dynamic wifi icon, percentage and time left and bar for chapter and book, pages.","added":"2026-10-07T08:46:53+01:00","preset_url":"presets/clean-info-2-0.lua"},
 {"slug":"clean-informative-v2","name":"Clean & Informative V2","author":"fatcats55","description":"Essential info with 2 progress trackers in a clean format.","added":"2026-06-23T13:25:50+01:00","preset_url":"presets/clean-informative-v2.lua"},
 {"slug":"clean-informative","name":"Clean & Informative","author":"fatcats55","description":"Essential info with 2 progress trackers in a clean format.","added":"2026-05-05T07:08:10+01:00","preset_url":"presets/clean-informative.lua"},
 {"slug":"clean-progress","name":"Clean Progress","author":"elda","description":"Clean progress bar with title below, with accompanying page number and paged left in chapter","added":"2026-06-25T15:01:01+01:00","preset_url":"presets/clean-progress.lua"},

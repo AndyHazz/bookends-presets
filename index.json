@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-10-09T16:49:57.947Z","presets":[
+{"schema_version":1,"updated":"2026-10-09T18:28:47.163Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -67,6 +67,7 @@
 {"slug":"elegant-minimal","name":"Elegant minimal","author":"u/meowdogpewpew","description":"An elegant setup with alternating title/chapter, pages left, percentage read and time.","added":"2026-04-27T21:30:46+01:00","preset_url":"presets/elegant-minimal.lua"},
 {"slug":"enough-for-a-starry-night-v2","name":"Enough for a starry night","author":"Paulikid","description":"based on \"Enough For Me\" and \"Starry night\". Chapter progress in top area","added":"2026-08-31T15:50:05+01:00","preset_url":"presets/enough-for-a-starry-night-v2.lua"},
 {"slug":"enough-for-me","name":"Enough For Me","author":"trash","description":"A clean setup with enough info for me","added":"2026-04-30T07:42:35+01:00","preset_url":"presets/enough-for-me.lua"},
+{"slug":"essentially-minimal-2-0","name":"Essentially Minimal 2.0","author":"iElliie","description":"Chapter/Book left time added to the pre-existing 1.0","added":"2026-10-09T19:28:36+01:00","preset_url":"presets/essentially-minimal-2-0.lua"},
 {"slug":"essentially-minimal","name":"Essentially Minimal","author":"iElliie","description":"Your essentials at a glance.","added":"2026-04-20T21:53:31+01:00","preset_url":"presets/essentially-minimal.lua"},
 {"slug":"essentials","name":"essentials","author":"meliy","description":"title, page number, session, time left, pages left, clock ","added":"2026-09-24T22:04:42+01:00","preset_url":"presets/essentials.lua"},
 {"slug":"everyday","name":"Everyday","author":"Jack","description":"Simple — Gives you at a glance all the information you will need","added":"2026-05-02T18:22:54+01:00","preset_url":"presets/everyday.lua"},

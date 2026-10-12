@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-10-12T01:36:22.078Z","presets":[
+{"schema_version":1,"updated":"2026-10-12T08:34:36.086Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -68,6 +68,7 @@
 {"slug":"donuts","name":"Donuts","author":"good-pm","description":"Chapter and book donut progress","added":"2026-04-26T09:10:52+01:00","preset_url":"presets/donuts.lua"},
 {"slug":"dots-n-diamonds","name":"Dots n diamonds","author":"cranberryjam","description":"Small design with some decorations","added":"2026-05-13T11:24:52+01:00","preset_url":"presets/dots-n-diamonds.lua"},
 {"slug":"elegant-minimal","name":"Elegant minimal","author":"u/meowdogpewpew","description":"An elegant setup with alternating title/chapter, pages left, percentage read and time.","added":"2026-04-27T21:30:46+01:00","preset_url":"presets/elegant-minimal.lua"},
+{"slug":"emma-p-reading-experience","name":"Emma.P ~ Reading Experience","author":"Emma.P","description":"Simple Reading Experience","added":"2026-10-12T09:34:21+01:00","preset_url":"presets/emma-p-reading-experience.lua"},
 {"slug":"enough-for-a-starry-night-v2","name":"Enough for a starry night","author":"Paulikid","description":"based on \"Enough For Me\" and \"Starry night\". Chapter progress in top area","added":"2026-08-31T15:50:05+01:00","preset_url":"presets/enough-for-a-starry-night-v2.lua"},
 {"slug":"enough-for-me","name":"Enough For Me","author":"trash","description":"A clean setup with enough info for me","added":"2026-04-30T07:42:35+01:00","preset_url":"presets/enough-for-me.lua"},
 {"slug":"essentially-minimal-2-0","name":"Essentially Minimal 2.0","author":"iElliie","description":"Chapter/Book left time added to the pre-existing 1.0","added":"2026-10-09T19:28:36+01:00","preset_url":"presets/essentially-minimal-2-0.lua"},

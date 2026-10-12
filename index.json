@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-10-12T19:37:07.662Z","presets":[
+{"schema_version":1,"updated":"2026-10-12T19:37:48.447Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -156,6 +156,8 @@
 {"slug":"minimalist-sparkles-focus","name":"minimalist sparkles - focus","author":"Anon","description":"Minimalist with sparkles. Clock, book percentage, pages, and a barely-there progress bar!","added":"2026-09-06T20:47:49+01:00","preset_url":"presets/minimalist-sparkles-focus.lua"},
 {"slug":"minimalist-sparkles","name":"minimalist sparkles","author":"Anon","description":"Minimalist with sparkles. Clock, book percentage, pages, and a barely-there progress bar!","added":"2026-09-06T20:47:23+01:00","preset_url":"presets/minimalist-sparkles.lua"},
 {"slug":"minimalista-a","name":"Minimalista A","author":"César B.","description":"Minimal starter — clock, time left on chapter and a slim progress bar","added":"2026-10-12T20:36:57+01:00","preset_url":"presets/minimalista-a.lua"},
+{"slug":"minimalista-b","name":"Minimalista B","author":"César B.","description":"Minimal starter — book title, book page number and a slim progress bar","added":"2026-10-12T20:37:23+01:00","preset_url":"presets/minimalista-b.lua"},
+{"slug":"minimalista-c","name":"Minimalista C","author":"César B.","description":"Minimal starter — chapter title, chapter page number and a slim progress bar","added":"2026-10-12T20:37:33+01:00","preset_url":"presets/minimalista-c.lua"},
 {"slug":"minimalistic-sancai","name":"Minimalistic Sancai","author":"pesxguin","description":"Blue green amber. Book progress, chapter progress, clock + battery + book percentage. Suitable for color ereaders.","added":"2026-07-01T20:17:42+01:00","preset_url":"presets/minimalistic-sancai.lua"},
 {"slug":"my-kindle-expanded","name":"my.kindle expanded","author":"Anon","description":"Minimal starter — clock, page number, and a slim progress bar (modified version to my taste)","added":"2026-07-08T15:04:55+01:00","preset_url":"presets/my-kindle-expanded.lua"},
 {"slug":"my-kindle-pageleft","name":"my.kindle (pageleft)","author":"chananya","description":"Minimal starter — clock, page number, and a slim progress bar","added":"2026-07-26T10:11:04+01:00","preset_url":"presets/my-kindle-pageleft.lua"},

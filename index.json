@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-10-14T14:43:31.160Z","presets":[
+{"schema_version":1,"updated":"2026-10-17T09:33:19.532Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -127,6 +127,7 @@
 {"slug":"livros","name":"Livros","author":"Meirim","description":"Simple books","added":"2026-04-19T23:31:55+01:00","preset_url":"presets/livros.lua"},
 {"slug":"luddite-with-allowances","name":"Luddite with Allowances","author":"BozoGlizzy","description":"Simple and paper-like with barebones progress tracking and clock","added":"2026-08-17T10:37:48+01:00","preset_url":"presets/luddite-with-allowances.lua"},
 {"slug":"main-mini-mini","name":"Main mini mini","author":"Koalafied Wombat","description":"Simple","added":"2026-07-24T21:56:34+01:00","preset_url":"presets/main-mini-mini.lua"},
+{"slug":"main-mini","name":"Main mini","author":"KoalafiedWombat","description":"Bit more info, still mini","added":"2026-10-17T10:33:09+01:00","preset_url":"presets/main-mini.lua"},
 {"slug":"main","name":"l00py's main","author":"l00py","description":"edited minimal yet detailed to suit my needs","added":"2026-05-07T19:31:55+01:00","preset_url":"presets/main.lua"},
 {"slug":"manga-compact-pink","name":"Manga Compact Pink","author":"BitterTM","description":"compact manga with pink bar and battery","added":"2026-09-13T12:13:30+01:00","preset_url":"presets/manga-compact-pink.lua"},
 {"slug":"manga-minimal","name":"Manga Minimal","author":"fatcats55","description":"Minimal settings for manga reading. Includes pages, time left in book, mini progress bar, clock, wifi, and battery %.","added":"2026-05-13T11:24:25+01:00","preset_url":"presets/manga-minimal.lua"},

@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-10-17T19:01:49.274Z","presets":[
+{"schema_version":1,"updated":"2026-10-18T05:19:19.779Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -196,6 +196,7 @@
 {"slug":"rich-detail","name":"Rich detail","author":"AndyHazz","description":"Clock, battery, Wi-Fi, brightness, highlights — the full kitchen sink","added":"2026-04-19T19:51:36+01:00","preset_url":"presets/rich-detail.lua"},
 {"slug":"ringkas-komik","name":"ringkas (komik)","author":"ichiex","description":"time,wifi,battery,page count","added":"2026-09-13T12:13:33+01:00","preset_url":"presets/ringkas-komik.lua"},
 {"slug":"ringkas","name":"ringkas","author":"ichiex","description":"book title, chapter, time, progress & battery","added":"2026-08-23T20:22:43+01:00","preset_url":"presets/ringkas.lua"},
+{"slug":"ritq","name":"Ritq","author":"ritq","description":"My changes based on Placid","added":"2026-10-18T06:19:07+01:00","preset_url":"presets/ritq.lua"},
 {"slug":"rtl-bars","name":"RTL Bars","author":"mimorienne","description":"Very basic with RTL progress bars. Based on a physical Japanese book I own.","added":"2026-05-07T07:01:17+01:00","preset_url":"presets/rtl-bars.lua"},
 {"slug":"sessions","name":"sessions","author":"Flor","description":"info de minutos leídos","added":"2026-06-30T23:49:14+01:00","preset_url":"presets/sessions.lua"},
 {"slug":"side-bars","name":"Side Bars","author":"good-pm","description":"Read and fill them up!","added":"2026-04-30T07:42:31+01:00","preset_url":"presets/side-bars.lua"},

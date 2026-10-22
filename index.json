@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-10-22T07:06:45.471Z","presets":[
+{"schema_version":1,"updated":"2026-10-22T16:26:23.312Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -170,6 +170,7 @@
 {"slug":"my2","name":"Two bars on top","author":"Seçkin","description":"Two progress bars and a clock on top, page number below","added":"2026-10-02T07:10:30+01:00","preset_url":"presets/my2.lua"},
 {"slug":"nat-s-kindle-kobo-inspired-bookends","name":"Nat’s Kindle+Kobo Inspired Bookends","author":"nyataliefyi","description":"A mix of Kindle and Kobo UI in my own take.","added":"2026-07-12T22:04:35+01:00","preset_url":"presets/nat-s-kindle-kobo-inspired-bookends.lua"},
 {"slug":"neat-and-simple","name":"Neat and Simple","author":"Nonautomaton","description":"Just the information you need.","added":"2026-10-02T07:10:34+01:00","preset_url":"presets/neat-and-simple.lua"},
+{"slug":"nobars","name":"NoBars","author":"rafaeljc12","description":"no bars, compact","added":"2026-10-22T17:26:11+01:00","preset_url":"presets/nobars.lua"},
 {"slug":"nom","name":"nom","author":"LadyBnome","description":"pacman progress, pages read in chapter","added":"2026-08-17T10:37:44+01:00","preset_url":"presets/nom.lua"},
 {"slug":"novel","name":"Novel","author":"kurokeita","description":"simple bars for novel","added":"2026-05-26T16:25:09+01:00","preset_url":"presets/novel.lua"},
 {"slug":"one-line-minimalism","name":"One Line Minimalism","author":"Campanolo","description":"All the basics, in an unintrusive, elegant design.","added":"2026-08-17T10:37:24+01:00","preset_url":"presets/one-line-minimalism.lua"},

@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-10-30T10:55:59.307Z","presets":[
+{"schema_version":1,"updated":"2026-10-31T00:00:34.665Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -263,5 +263,6 @@
 {"slug":"wow","name":"Wow","author":"DougAlvarenga","description":"Title/Author @ up. Pages, book % and time reading down. Language PT_Br","added":"2026-04-20T07:23:50+01:00","preset_url":"presets/wow.lua"},
 {"slug":"yassified-booklike","name":"Yassified Booklike","author":"usagipriii","description":"Based on Booklike by apock, with more info and bit of decoration.","added":"2026-10-23T16:11:50+01:00","preset_url":"presets/yassified-booklike.lua"},
 {"slug":"you-have-to-look-for-it","name":"You have to look for it","author":"Rami","description":"Alternating bottom page numbers and a progress bar that you have to look for","added":"2026-08-31T15:50:33+01:00","preset_url":"presets/you-have-to-look-for-it.lua"},
+{"slug":"zen","name":"zen+","author":"meggurl08","description":"My personal preset based on the ZenOS status bars, only somewhat nicer looking.","added":"2026-10-31T00:00:13Z","preset_url":"presets/zen.lua"},
 {"slug":"zrz","name":"zrz","author":"zrz.404","description":"Desparklefied version of spark K.I.S.S.","added":"2026-10-26T15:44:27Z","preset_url":"presets/zrz.lua"}
 ]}

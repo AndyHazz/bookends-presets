@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-11-03T19:33:21.136Z","presets":[
+{"schema_version":1,"updated":"2026-11-03T23:53:15.645Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -31,6 +31,7 @@
 {"slug":"bookshelf","name":"Bookshelf","author":"hope breekon","description":"styled after Bookshelf plugin","added":"2026-07-07T12:20:37+01:00","preset_url":"presets/bookshelf.lua"},
 {"slug":"borders-the-preset","name":"Borders The Preset","author":"zee76","description":"Created at 3 am","added":"2026-08-17T10:37:11+01:00","preset_url":"presets/borders-the-preset.lua"},
 {"slug":"bottomstatus","name":"BottomStatus","author":"Nobody","description":"Full bottom status","added":"2026-08-17T10:37:51+01:00","preset_url":"presets/bottomstatus.lua"},
+{"slug":"brooklyn","name":"Brooklyn","author":"brookke","description":"Minimal look with chapter progress","added":"2026-11-03T23:53:05Z","preset_url":"presets/brooklyn.lua"},
 {"slug":"bryan1","name":"Bryan1","author":"BryanNguyen","description":"Book detail, chapter progress bar & basic device info - in a neat & minimal style","added":"2026-09-04T23:27:41+01:00","preset_url":"presets/bryan1.lua"},
 {"slug":"bryan2","name":"Bryan2","author":"BryanNguyen","description":"my minimalist bookend top and bottom","added":"2026-09-04T23:27:44+01:00","preset_url":"presets/bryan2.lua"},
 {"slug":"chapter-and-book-default","name":"Chapter and Book Default","author":"SH4DOWSIX","description":"Chapter and Book Progress Bars","added":"2026-04-23T23:52:39+01:00","preset_url":"presets/chapter-and-book-default.lua"},

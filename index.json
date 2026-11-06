@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-11-06T03:37:33.416Z","presets":[
+{"schema_version":1,"updated":"2026-11-06T07:45:00.384Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -268,6 +268,7 @@
 {"slug":"wave-ka","name":"Wave Ka","author":"Kim Anh","description":"cute,wave,detail","added":"2026-10-21T09:00:41+01:00","preset_url":"presets/wave-ka.lua"},
 {"slug":"whimsy-01","name":"whimsy 01","author":"flighty","description":"chap title, book name, time, battery, page  no, chap time until finish,total time left and progress bar","added":"2026-08-17T10:37:37+01:00","preset_url":"presets/whimsy-01.lua"},
 {"slug":"whimsy2","name":"Whimsy2","author":"BitterTM","description":"\"a little whimsy\" with stars","added":"2026-09-13T12:13:27+01:00","preset_url":"presets/whimsy2.lua"},
+{"slug":"with-chapters-boox-go","name":"with chapters # - boox go","author":"smsnrm","description":"with progress bar","added":"2026-11-06T07:44:48Z","preset_url":"presets/with-chapters-boox-go.lua"},
 {"slug":"works-for-me","name":"Works for Me!","author":"Dragonweaver","description":"book progress bar at top, chapter bar at bottom","added":"2026-05-04T17:39:05+01:00","preset_url":"presets/works-for-me.lua"},
 {"slug":"wow","name":"Wow","author":"DougAlvarenga","description":"Title/Author @ up. Pages, book % and time reading down. Language PT_Br","added":"2026-04-20T07:23:50+01:00","preset_url":"presets/wow.lua"},
 {"slug":"yassified-booklike","name":"Yassified Booklike","author":"usagipriii","description":"Based on Booklike by apock, with more info and bit of decoration.","added":"2026-10-23T16:11:50+01:00","preset_url":"presets/yassified-booklike.lua"},

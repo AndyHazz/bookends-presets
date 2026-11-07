@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-11-07T00:45:40.203Z","presets":[
+{"schema_version":1,"updated":"2026-11-07T03:56:33.455Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -24,6 +24,7 @@
 {"slug":"blu-memori","name":"blu memori","author":"azul","description":"a clean dreamy setup with some even/odd and [if] templates.","added":"2026-06-30T23:50:13+01:00","preset_url":"presets/blu-memori.lua"},
 {"slug":"book-chapter-info","name":"Book & Chapter Info","author":"rot-and-read","description":"See book & chapter information at a glance. Includes two progress bars and misc book/chap info.","added":"2026-06-03T21:42:14+01:00","preset_url":"presets/book-chapter-info.lua"},
 {"slug":"book-info-and-progress","name":"Book info and progress","author":"Ade07","description":"Book chapters, page progress, bars and time","added":"2026-08-25T22:54:10+01:00","preset_url":"presets/book-info-and-progress.lua"},
+{"slug":"book-like-metro-color-fixed","name":"Book-like — Metro Color (fixed)","author":"coffee","description":"v2 of Metro Color, with fixed icon placement","added":"2026-11-07T03:56:21Z","preset_url":"presets/book-like-metro-color-fixed.lua"},
 {"slug":"book-like-metro-color","name":"Book-like — Metro Color","author":"coffee","description":"A tweaked book-like preset with cleaner headings, a teal metro progress bar & chapter/book progress info.","added":"2026-11-07T00:45:28Z","preset_url":"presets/book-like-metro-color.lua"},
 {"slug":"book-page-framed-with-progress-bars","name":"Book Page framed with Progress Bars","author":"Hille","description":"Mimics book pages framed with book/chapter progress bars.","added":"2026-04-23T22:39:52+01:00","preset_url":"presets/book-page-framed-with-progress-bars.lua"},
 {"slug":"booklike-plus-percent-progress-bar","name":"booklike plus percent/progress bar","author":"mothsphere","description":"low profile, book/chap titles alternate except blank on first page of chap. ","added":"2026-06-30T23:49:22+01:00","preset_url":"presets/booklike-plus-percent-progress-bar.lua"},

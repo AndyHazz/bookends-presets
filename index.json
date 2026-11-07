@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-11-07T03:56:33.455Z","presets":[
+{"schema_version":1,"updated":"2026-11-07T09:37:32.446Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -7,6 +7,7 @@
 {"slug":"a-little-whimsy-my-version","name":"a little whimsy (my version)","author":"diya","description":"my take on a little whimsy: reading session, time left in chap, and tweaked progress bar","added":"2026-09-04T23:27:52+01:00","preset_url":"presets/a-little-whimsy-my-version.lua"},
 {"slug":"a-little-whimsy","name":"a little whimsy","author":"rillereads","description":"added emoticons, numerical value of reading progress (base design is from existing Minimal yet detailed preset)","added":"2026-06-12T07:12:02+01:00","preset_url":"presets/a-little-whimsy.lua"},
 {"slug":"a-nice-one-don-t-you-think","name":"A Nice One, don't you think?","author":"ayatotoro","description":"My page margins are rather small though, don't know how it's going to fare on yours","added":"2026-08-27T10:14:18+01:00","preset_url":"presets/a-nice-one-don-t-you-think.lua"},
+{"slug":"aesthetic-essentials-2","name":"Aesthetic Essentials (2)","author":"Twst","description":"Aesthetic and gives you the essentials for reading ~ ","added":"2026-11-07T09:37:22Z","preset_url":"presets/aesthetic-essentials-2.lua"},
 {"slug":"aesthetic-essentials","name":"Aesthetic Essentials","author":"Twst","description":"Aesthetic and gives you the essentials for reading ~ ","added":"2026-10-02T07:10:21+01:00","preset_url":"presets/aesthetic-essentials.lua"},
 {"slug":"all-i-need","name":"All I need","author":"Alx","description":"All U need while reading","added":"2026-04-26T15:00:28+01:00","preset_url":"presets/all-i-need.lua"},
 {"slug":"allin-condensed","name":"AllIn condensed","author":"Amo","description":"Double progress bar (book + chapter in dot), title, pages, ...","added":"2026-08-31T15:50:01+01:00","preset_url":"presets/allin-condensed.lua"},

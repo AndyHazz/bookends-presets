@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-11-07T09:37:32.446Z","presets":[
+{"schema_version":1,"updated":"2026-11-08T02:21:22.227Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -126,6 +126,7 @@
 {"slug":"kobo-like-stats","name":"kobo like stats","author":"meli","description":"kobo reading stats. You can read along as if you were using the kobo's interface","added":"2026-08-18T23:29:30+01:00","preset_url":"presets/kobo-like-stats.lua"},
 {"slug":"kobo-like-with-time-progress","name":"Kobo like with time progress","author":"Koitma","description":"Kobo inspired with progress bars and time left tokens","added":"2026-07-06T12:59:25+01:00","preset_url":"presets/kobo-like-with-time-progress.lua"},
 {"slug":"kobo-like","name":"Kobo Like","author":"Orange","description":"Stock Kobo inspired with time display and other hidden tokens.","added":"2026-04-20T07:23:44+01:00","preset_url":"presets/kobo-like.lua"},
+{"slug":"kobo-preset-es","name":"Kobo preset ES","author":"Anuk","description":"Preset de Kobo de español.","added":"2026-11-08T02:21:12Z","preset_url":"presets/kobo-preset-es.lua"},
 {"slug":"kobo","name":"Kobo","author":"ReadinGadgets","description":"As close to Kobo","added":"2026-04-24T13:59:34+01:00","preset_url":"presets/kobo.lua"},
 {"slug":"koboish","name":"Koboish","author":"jules","description":"kobo native theme, purple color ;)","added":"2026-08-25T22:54:06+01:00","preset_url":"presets/koboish.lua"},
 {"slug":"koreader-stock","name":"KOReader stock","author":"AndyHazz","description":"Mimics KOReader's built-in status bar — page, clock, chapter, battery, percent, time remaining","added":"2026-04-19T20:38:01+01:00","preset_url":"presets/koreader-stock.lua"},

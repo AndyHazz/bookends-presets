@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-11-09T04:28:44.263Z","presets":[
+{"schema_version":1,"updated":"2026-11-10T17:57:22.157Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -185,6 +185,7 @@
 {"slug":"novel","name":"Novel","author":"kurokeita","description":"simple bars for novel","added":"2026-05-26T16:25:09+01:00","preset_url":"presets/novel.lua"},
 {"slug":"one-line-minimalism","name":"One Line Minimalism","author":"Campanolo","description":"All the basics, in an unintrusive, elegant design.","added":"2026-08-17T10:37:24+01:00","preset_url":"presets/one-line-minimalism.lua"},
 {"slug":"packman-book-chapter-progress","name":"Packman: book&chapter progress","author":"asimoff","description":"Packman style bottom book&chapter progress","added":"2026-06-25T19:05:02+01:00","preset_url":"presets/packman-book-chapter-progress.lua"},
+{"slug":"pacman-eats-your-chapters","name":"pacman eats your chapters","author":"rideeeka","description":"custom text with pacman eating your chapter progress, need i say more?","added":"2026-11-10T17:57:12Z","preset_url":"presets/pacman-eats-your-chapters.lua"},
 {"slug":"pacman","name":"Jotaro's Pacman Bars","author":"jotaro","description":"formal with names","added":"2026-07-12T22:05:16+01:00","preset_url":"presets/pacman.lua"},
 {"slug":"paper","name":"Paper","author":"AndyHazz","description":"Uses borders to give a feel of real book","added":"2026-04-19T12:44:42+01:00","preset_url":"presets/paper.lua"},
 {"slug":"patrapong-preset","name":"Patrapong Preset","author":"Patrapong","description":"Author and title along the top, page number and clock at the foot, above a slim chapter-ticked bar","added":"2026-09-04T23:27:59+01:00","preset_url":"presets/patrapong-preset.lua"},

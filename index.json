@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-11-11T03:21:46.606Z","presets":[
+{"schema_version":1,"updated":"2026-11-11T18:09:11.869Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -22,6 +22,7 @@
 {"slug":"basics","name":"basics","author":"nusya","description":"Minimal design with all the reading info","added":"2026-10-11T18:59:14+01:00","preset_url":"presets/basics.lua"},
 {"slug":"bknds-with-progress","name":"bknds with progress","author":"annomaly","description":"title, chapter, page number, clock, battery and progress bars","added":"2026-08-17T10:37:33+01:00","preset_url":"presets/bknds-with-progress.lua"},
 {"slug":"bknds","name":"bknds","author":"annomaly","description":"title, chapter, page number, clock, battery","added":"2026-08-17T10:37:30+01:00","preset_url":"presets/bknds.lua"},
+{"slug":"black-cat","name":"Black Cat","author":"EizaliciousNoir","description":"The icon may look a little small because its size follows the font size you've selected.","added":"2026-11-11T18:09:00Z","preset_url":"presets/black-cat.lua"},
 {"slug":"blu-memori","name":"blu memori","author":"azul","description":"a clean dreamy setup with some even/odd and [if] templates.","added":"2026-06-30T23:50:13+01:00","preset_url":"presets/blu-memori.lua"},
 {"slug":"book-chapter-info","name":"Book & Chapter Info","author":"rot-and-read","description":"See book & chapter information at a glance. Includes two progress bars and misc book/chap info.","added":"2026-06-03T21:42:14+01:00","preset_url":"presets/book-chapter-info.lua"},
 {"slug":"book-info-and-progress","name":"Book info and progress","author":"Ade07","description":"Book chapters, page progress, bars and time","added":"2026-08-25T22:54:10+01:00","preset_url":"presets/book-info-and-progress.lua"},

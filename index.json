@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-11-11T18:09:11.869Z","presets":[
+{"schema_version":1,"updated":"2026-11-13T11:16:18.138Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -43,6 +43,7 @@
 {"slug":"chapter-new-style","name":"Chapter New Style","author":"Lautikin","description":"Minimalistic preset.","added":"2026-04-25T21:31:11+01:00","preset_url":"presets/chapter-new-style.lua"},
 {"slug":"chapter-progression","name":"Chapter progression","author":"Anwen","description":"A minimal preset with detailed chapter progression","added":"2026-10-02T07:10:17+01:00","preset_url":"presets/chapter-progression.lua"},
 {"slug":"chapter-style","name":"Chapter Style","author":"Lautikin","description":"Modern and simple design.","added":"2026-04-25T03:49:57+01:00","preset_url":"presets/chapter-style.lua"},
+{"slug":"chekhov","name":"Chekhov","author":"imanubdesigner","description":"Every chapter ends. This one tells you when. (Based on zrz.404 preset)","added":"2026-11-13T11:16:06Z","preset_url":"presets/chekhov.lua"},
 {"slug":"clarity","name":"Clarity","author":"DB","description":"Final version. Dynamic, non-intrusive, all-encompassing. KLC optimised","added":"2026-06-12T07:13:07+01:00","preset_url":"presets/clarity.lua"},
 {"slug":"classic-clean","name":"Classic Clean","author":"Pheanyl","description":"Alternate book title-author and chapter title - Bottom bar with minimal book information","added":"2026-05-02T23:53:40+01:00","preset_url":"presets/classic-clean.lua"},
 {"slug":"classic","name":"Classic","author":"AndyHazz","description":"No progress bars, just alternating odd/even book title and chapter","added":"2026-04-19T19:55:33+01:00","preset_url":"presets/classic.lua"},

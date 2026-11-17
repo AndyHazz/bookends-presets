@@ -1,0 +1,301 @@
+-- Bookends preset: SimpleUI Plus
+return {
+    author = "RdrSeraphim",
+    defaults = {
+        font_scale = 90,
+        font_size = 14,
+        margin_bottom = 10,
+        margin_left = 35,
+        margin_right = 35,
+        margin_top = 12,
+        overlap_gap = 50,
+        truncation_priority = "center",
+    },
+    description = "An amalgamation of the work of AndyHazz, ayatotoro, and Lime, with some little adjustments in between.",
+    name = "SimpleUI Plus",
+    positions = {
+        bc = {
+            disabled = true,
+            line_bar_chapter_ticks = {
+            },
+            line_bar_colors = {
+            },
+            line_bar_direction = {
+            },
+            line_bar_height = {
+            },
+            line_bar_markers = {
+            },
+            line_bar_style = {
+            },
+            line_bar_type = {
+            },
+            line_bar_unread_height = {
+            },
+            line_font_face = {
+            },
+            line_font_size = {
+            },
+            line_h_nudge = {
+            },
+            line_page_filter = {
+            },
+            line_style = {
+            },
+            line_uppercase = {
+            },
+            line_v_nudge = {
+            },
+            lines = {
+            },
+        },
+        bl = {
+            line_bar_chapter_ticks = {
+            },
+            line_bar_colors = {
+            },
+            line_bar_direction = {
+            },
+            line_bar_height = {
+            },
+            line_bar_markers = {
+            },
+            line_bar_style = {
+            },
+            line_bar_type = {
+            },
+            line_bar_unread_height = {
+            },
+            line_font_face = {
+            },
+            line_font_size = {
+            },
+            line_h_nudge = {
+            },
+            line_page_filter = {
+            },
+            line_style = {
+            },
+            line_uppercase = {
+            },
+            line_v_nudge = {
+            },
+            lines = {
+                "%chap_title_1 %chap_title_2| %chap_read of %chap_pages",
+            },
+        },
+        br = {
+            line_bar_chapter_ticks = {
+            },
+            line_bar_colors = {
+            },
+            line_bar_direction = {
+            },
+            line_bar_height = {
+            },
+            line_bar_markers = {
+            },
+            line_bar_style = {
+            },
+            line_bar_type = {
+            },
+            line_bar_unread_height = {
+            },
+            line_font_face = {
+            },
+            line_font_size = {
+            },
+            line_h_nudge = {
+            },
+            line_page_filter = {
+            },
+            line_style = {
+            },
+            line_uppercase = {
+            },
+            line_v_nudge = {
+            },
+            lines = {
+                "%page_num of %page_count | %book_pct",
+            },
+        },
+        tc = {
+            lines = {
+            },
+        },
+        tl = {
+            h_offset = 5,
+            line_bar_chapter_ticks = {
+            },
+            line_bar_colors = {
+            },
+            line_bar_direction = {
+            },
+            line_bar_height = {
+            },
+            line_bar_markers = {
+            },
+            line_bar_style = {
+            },
+            line_bar_type = {
+            },
+            line_bar_unread_height = {
+            },
+            line_font_face = {
+            },
+            line_font_size = {
+                20,
+            },
+            line_h_nudge = {
+            },
+            line_page_filter = {
+            },
+            line_style = {
+            },
+            line_uppercase = {
+            },
+            line_v_nudge = {
+            },
+            lines = {
+                "%time_12h",
+            },
+        },
+        tr = {
+            h_offset = 5,
+            line_bar_chapter_ticks = {
+            },
+            line_bar_colors = {
+            },
+            line_bar_direction = {
+            },
+            line_bar_height = {
+            },
+            line_bar_markers = {
+            },
+            line_bar_style = {
+            },
+            line_bar_type = {
+            },
+            line_bar_unread_height = {
+            },
+            line_font_face = {
+            },
+            line_font_size = {
+                20,
+            },
+            line_h_nudge = {
+            },
+            line_page_filter = {
+            },
+            line_style = {
+            },
+            line_uppercase = {
+            },
+            line_v_nudge = {
+            },
+            lines = {
+                "%wifi  %batt_icon%batt",
+            },
+        },
+    },
+    progress_bars = {
+        {
+            chapter_ticks = "all",
+            colors = {
+                invert = {
+                    grey = 255,
+                },
+                tick_width_multiplier = 2,
+            },
+            enabled = true,
+            height = 5,
+            margin_left = 0,
+            margin_right = 0,
+            margin_v = 55,
+            style = "solid",
+            type = "book",
+            v_anchor = "bottom",
+        },
+        {
+            chapter_ticks = "off",
+            enabled = false,
+            height = 20,
+            margin_left = 0,
+            margin_right = 0,
+            margin_v = 0,
+            style = "solid",
+            type = "book",
+            v_anchor = "bottom",
+        },
+        {
+            chapter_ticks = "off",
+            enabled = false,
+            height = 20,
+            margin_left = 0,
+            margin_right = 0,
+            margin_v = 0,
+            style = "solid",
+            type = "book",
+            v_anchor = "bottom",
+        },
+        {
+            chapter_ticks = "off",
+            enabled = false,
+            height = 20,
+            margin_left = 0,
+            margin_right = 0,
+            margin_v = 0,
+            style = "solid",
+            type = "book",
+            v_anchor = "bottom",
+        },
+        {
+            chapter_ticks = "off",
+            enabled = false,
+            height = 20,
+            margin_left = 0,
+            margin_right = 0,
+            margin_v = 0,
+            style = "solid",
+            type = "book",
+            v_anchor = "bottom",
+        },
+        {
+            chapter_ticks = "off",
+            enabled = false,
+            height = 20,
+            margin_left = 0,
+            margin_right = 0,
+            margin_v = 0,
+            style = "solid",
+            type = "book",
+            v_anchor = "bottom",
+        },
+        {
+            chapter_ticks = "off",
+            enabled = false,
+            height = 20,
+            margin_left = 0,
+            margin_right = 0,
+            margin_v = 0,
+            style = "solid",
+            type = "book",
+            v_anchor = "bottom",
+        },
+        {
+            chapter_ticks = "off",
+            enabled = false,
+            height = 20,
+            margin_left = 0,
+            margin_right = 0,
+            margin_v = 0,
+            style = "solid",
+            type = "book",
+            v_anchor = "bottom",
+        },
+    },
+    schema_version = 5,
+    text_color = {
+        grey = 64,
+    },
+}

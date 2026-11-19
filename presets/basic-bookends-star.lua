@@ -1,4 +1,4 @@
--- Bookends preset: basic bookends star
+-- Bookends preset: Basic Star
 return {
     author = "paradisegirl97",
     defaults = {
@@ -12,7 +12,7 @@ return {
         truncation_priority = "center",
     },
     description = "cutesy take on basic bookends preset - more info, less noise, still aesthetic :)",
-    name = "basic bookends star",
+    name = "Basic Star",
     positions = {
         bc = {
             line_bar_chapter_ticks = {

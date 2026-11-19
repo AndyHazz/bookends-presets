@@ -49,8 +49,8 @@ return {
                 16,
             },
             lines = {
-                "[if:%chap_read=1]%time_24h ⁃ %batt[/if]",
-                "[if:%chap_pct=0%]%page_num[/if]",
+                "[if:chap_read=1]%time_24h ⁃ %batt[/if]",
+                "[if:chap_pct=0]%page_num[/if]",
             },
         },
         bl = {
@@ -115,8 +115,8 @@ return {
             line_v_nudge = {
             },
             lines = {
-                "[if:%chap_read=1][else][if:not 1]%author - %title[else]%series: %title[/if][/if]",
-                "[if:%chap_read=1][else]%chap_title[/if]",
+                "[if:chap_read=1][else][if:not series]%author - %title[else]%series: %title[/if][/if]",
+                "[if:chap_read=1][else]%chap_title[/if]",
             },
         },
         tl = {
@@ -153,7 +153,7 @@ return {
             line_v_nudge = {
             },
             lines = {
-                "[if:%chap_read=1][else]%page_num[/if]",
+                "[if:chap_read=1][else]%page_num[/if]",
             },
         },
         tr = {
@@ -189,7 +189,7 @@ return {
             line_v_nudge = {
             },
             lines = {
-                "[if:%chap_read=1][else]%page_num[/if]",
+                "[if:chap_read=1][else]%page_num[/if]",
             },
         },
     },

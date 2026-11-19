@@ -1,6 +1,6 @@
 -- Bookends preset: Cat Ziin
 return {
-    author = "bookends",
+    author = "Ziin",
     defaults = {
         font_scale = 100,
         font_size = 14,
@@ -11,7 +11,7 @@ return {
         overlap_gap = 50,
         truncation_priority = "center",
     },
-    description = "Minimal starter — clock, page number, and a slim progress bar",
+    description = "Clock, battery, chapter title with a wavy chapter bar, and a reading line in Vietnamese",
     name = "Cat Ziin",
     positions = {
         bc = {

@@ -11,7 +11,7 @@ return {
         overlap_gap = 50,
         truncation_priority = "center",
     },
-    description = "Cutesy way to ke up th reading progress and time",
+    description = "Cutesy way to keep up with reading progress and time",
     name = "Paige’s Bookends",
     positions = {
         bc = {
@@ -86,7 +86,7 @@ return {
                 5,
             },
             lines = {
-                "[icon=simpleui_sui_tab_filebrowser]Keyia’s Kindle⋮",
+                "",
             },
         },
         br = {

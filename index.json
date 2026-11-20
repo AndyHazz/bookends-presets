@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-11-19T20:31:07.129Z","presets":[
+{"schema_version":1,"updated":"2026-11-20T09:22:00.254Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -21,6 +21,7 @@
 {"slug":"basic-favorite","name":"basic favorite","author":"sasyuke","description":"sleek but all is there","added":"2026-10-14T15:43:15+01:00","preset_url":"presets/basic-favorite.lua"},
 {"slug":"basic","name":"Basic+","author":"JayV","description":"basic info plus some extra","added":"2026-05-20T12:33:09+01:00","preset_url":"presets/basic.lua"},
 {"slug":"basics","name":"basics","author":"nusya","description":"Minimal design with all the reading info","added":"2026-10-11T18:59:14+01:00","preset_url":"presets/basics.lua"},
+{"slug":"best-classy","name":"Best Classy","author":"Prof It","description":"Classy minimal paper book feel","added":"2026-11-20T09:21:48Z","preset_url":"presets/best-classy.lua"},
 {"slug":"bknds-with-progress","name":"bknds with progress","author":"annomaly","description":"title, chapter, page number, clock, battery and progress bars","added":"2026-08-17T10:37:33+01:00","preset_url":"presets/bknds-with-progress.lua"},
 {"slug":"bknds","name":"bknds","author":"annomaly","description":"title, chapter, page number, clock, battery","added":"2026-08-17T10:37:30+01:00","preset_url":"presets/bknds.lua"},
 {"slug":"black-cat","name":"Black Cat","author":"EizaliciousNoir","description":"The icon may look a little small because its size follows the font size you've selected.","added":"2026-11-11T18:09:00Z","preset_url":"presets/black-cat.lua"},

@@ -1,4 +1,4 @@
-{"schema_version":1,"updated":"2026-11-20T09:22:00.254Z","presets":[
+{"schema_version":1,"updated":"2026-11-22T04:12:06.619Z","presets":[
 {"slug":"2-column-blackberry","name":"2 column blackberry","author":"cobdequiapo","description":"symbols","added":"2026-05-22T08:03:36+01:00","preset_url":"presets/2-column-blackberry.lua"},
 {"slug":"2-row-header","name":"2-row~header","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-28T08:40:53+01:00","preset_url":"presets/2-row-header.lua"},
 {"slug":"2-row-titlebar","name":"2-row~titlebar","author":"phyvealive","description":"Header 1~Time, Title, Author, battery. Header 2~Day, 3 layer chapter display, pages, WiFi.","added":"2026-06-25T12:51:07+01:00","preset_url":"presets/2-row-titlebar.lua"},
@@ -26,6 +26,7 @@
 {"slug":"bknds","name":"bknds","author":"annomaly","description":"title, chapter, page number, clock, battery","added":"2026-08-17T10:37:30+01:00","preset_url":"presets/bknds.lua"},
 {"slug":"black-cat","name":"Black Cat","author":"EizaliciousNoir","description":"The icon may look a little small because its size follows the font size you've selected.","added":"2026-11-11T18:09:00Z","preset_url":"presets/black-cat.lua"},
 {"slug":"blu-memori","name":"blu memori","author":"azul","description":"a clean dreamy setup with some even/odd and [if] templates.","added":"2026-06-30T23:50:13+01:00","preset_url":"presets/blu-memori.lua"},
+{"slug":"book-and-device-info","name":"book and device info","author":"qadrilateral","description":"book title and series + device info + progress +session (light% fixed)","added":"2026-11-22T04:11:53Z","preset_url":"presets/book-and-device-info.lua"},
 {"slug":"book-chapter-info","name":"Book & Chapter Info","author":"rot-and-read","description":"See book & chapter information at a glance. Includes two progress bars and misc book/chap info.","added":"2026-06-03T21:42:14+01:00","preset_url":"presets/book-chapter-info.lua"},
 {"slug":"book-info-and-progress","name":"Book info and progress","author":"Ade07","description":"Book chapters, page progress, bars and time","added":"2026-08-25T22:54:10+01:00","preset_url":"presets/book-info-and-progress.lua"},
 {"slug":"book-like-metro-color-fixed","name":"Book-like — Metro Color (fixed)","author":"coffee","description":"v2 of Metro Color, with fixed icon placement","added":"2026-11-07T03:56:21Z","preset_url":"presets/book-like-metro-color-fixed.lua"},
